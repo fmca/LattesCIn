@@ -22,29 +22,24 @@ public class Artigo {
 	private List<AreaConhecimento> areasConhecimento;
 	
 	
-	public Artigo(String titulo, int ano, String pais, String idioma,
-			String meioDeDivulgacao, String tituloPeriodicoRevista,
-			String issn, int volume, String fasciculo, String serie,
-			int pagInicial, int pagFinal, String localPublicacao,
-			List<Autor> autores, PalavrasChave palavrasChave,
-			List<AreaConhecimento> areasConhecimento) {
+	public Artigo() {
 		super();
-		this.titulo = titulo;
-		this.ano = ano;
-		this.pais = pais;
-		this.idioma = idioma;
-		this.meioDeDivulgacao = meioDeDivulgacao;
-		this.tituloPeriodicoRevista = tituloPeriodicoRevista;
-		this.issn = issn;
-		this.volume = volume;
-		this.fasciculo = fasciculo;
-		this.serie = serie;
-		this.pagInicial = pagInicial;
-		this.pagFinal = pagFinal;
-		this.localPublicacao = localPublicacao;
-		this.autores = autores;
-		this.palavrasChave = palavrasChave;
-		this.areasConhecimento = areasConhecimento;
+		this.titulo = "";
+		this.ano = 0;
+		this.pais = "";
+		this.idioma = "";
+		this.meioDeDivulgacao = "";
+		this.tituloPeriodicoRevista = "";
+		this.issn = "";
+		this.volume = 0;
+		this.fasciculo = "";
+		this.serie = "";
+		this.pagInicial = 0;
+		this.pagFinal = 0;
+		this.localPublicacao = "";
+		this.autores = null;
+		this.palavrasChave = null;
+		this.areasConhecimento = null;
 	}
 	
 	public String getTitulo() {

@@ -2,6 +2,7 @@ package br.ufpe.cin.leitor;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -10,12 +11,17 @@ import org.jdom2.Element;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
 
+import br.ufpe.cin.entidades.Artigo;
+import br.ufpe.cin.entidades.Autor;
+
 public class LeitorXML {
 
 
 	public static void lerXML(File f)
 			throws IOException, JDOMException{
 
+		List<Artigo> listaArtigos = new ArrayList<Artigo>(); //lista com os artigos
+		
 		SAXBuilder sb = new SAXBuilder();
 
 		Document doc = sb.build(f);
@@ -52,6 +58,11 @@ public class LeitorXML {
 								
 								Iterator iArtigo = artigos.iterator();
 								
+								//Cria lista de Autores
+								List<Autor> autores = new ArrayList<Autor>();
+								Artigo novoArtigo = new Artigo();
+								
+								//enqaunto houver atributos dentro de artigo
 								while(iArtigo.hasNext()){
 									Element artigo = (Element) iArtigo.next();
 									
@@ -60,6 +71,13 @@ public class LeitorXML {
 										System.out.println("País: " + artigo.getAttributeValue("PAIS-DE-PUBLICACAO"));
 										System.out.println("Idioma: " + artigo.getAttributeValue("IDIOMA"));
 										System.out.println("Meio de Divulgação: " + artigo.getAttributeValue("MEIO-DE-DIVULGACAO"));
+										
+										//colocando no objeto Artigo
+										novoArtigo.setTitulo(artigo.getAttributeValue("TITULO-DO-ARTIGO"));
+										novoArtigo.setPais(artigo.getAttributeValue("PAIS-DE-PUBLICACAO"));
+										novoArtigo.setIdioma(artigo.getAttributeValue("IDIOMA"));
+										novoArtigo.setMeioDeDivulgacao(artigo.getAttributeValue("MEIO-DE-DIVULGACAO"));
+										
 									}else if(artigo.getName().equals("DETALHAMENTO-DO-ARTIGO")){
 										System.out.println("Periódico ou Revista: " + artigo.getAttributeValue("TITULO-DO-PERIODICO-OU-REVISTA"));
 										System.out.println("ISSN: " + artigo.getAttributeValue("ISSN"));
@@ -68,9 +86,20 @@ public class LeitorXML {
 										System.out.println("Pagina Inicial: " + artigo.getAttributeValue("PAGINA-INICIAL"));
 										System.out.println("Página Final: " + artigo.getAttributeValue("PAGINA-FINAL"));
 										System.out.println("Local de Publicação: " + artigo.getAttributeValue("LOCAL-DE-PUBLICACAO"));
+									}else if(artigo.getName().equals("AUTORES")){
+										System.out.println("Nome Completo: " + artigo.getAttributeValue("NOME-COMPLETO-DO-AUTOR"));
+										System.out.println("Nome para citação: " + artigo.getAttributeValue("NOME-PARA-CITACAO"));
+									}else if(artigo.getName().equals("PALAVRAS-CHAVE")){
+										System.out.println("Palavra Chave 1: " + artigo.getAttributeValue("PALAVRA-CHAVE-1"));
+										System.out.println("Palavra Chave 2: " + artigo.getAttributeValue("PALAVRA-CHAVE-2"));
+										System.out.println("Palavra Chave 3: " + artigo.getAttributeValue("PALAVRA-CHAVE-3"));
+										System.out.println("Palavra Chave 4: " + artigo.getAttributeValue("PALAVRA-CHAVE-4"));
+										System.out.println("Palavra Chave 5: " + artigo.getAttributeValue("PALAVRA-CHAVE-5"));
+										System.out.println("Palavra Chave 6: " + artigo.getAttributeValue("PALAVRA-CHAVE-6"));
 									}
-									//System.out.println(artigo.getName());
+									
 								}
+								listaArtigos.add(novoArtigo);
 							}
 						}
 					}
