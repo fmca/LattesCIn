@@ -11,7 +11,7 @@ public class Artigo {
 	private String meioDeDivulgacao;
 	private String tituloPeriodicoRevista;
 	private String issn;
-	private int volume;
+	private String volume;
 	private String fasciculo;
 	private String serie;
 	private int pagInicial;
@@ -31,7 +31,7 @@ public class Artigo {
 		this.meioDeDivulgacao = "";
 		this.tituloPeriodicoRevista = "";
 		this.issn = "";
-		this.volume = 0;
+		this.volume = "";
 		this.fasciculo = "";
 		this.serie = "";
 		this.pagInicial = 0;
@@ -84,10 +84,10 @@ public class Artigo {
 	public void setIssn(String issn) {
 		this.issn = issn;
 	}
-	public int getVolume() {
+	public String getVolume() {
 		return volume;
 	}
-	public void setVolume(int volume) {
+	public void setVolume(String volume) {
 		this.volume = volume;
 	}
 	public String getFasciculo() {

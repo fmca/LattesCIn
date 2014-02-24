@@ -5,6 +5,8 @@ import java.io.IOException;
 
 import org.jdom2.JDOMException;
 
+import br.ufpe.cin.escritor.JSON;
+
 public class Main {
 
 	/**
@@ -14,8 +16,11 @@ public class Main {
 	 */
 	public static void main(String[] args) throws IOException, JDOMException {
 		// TODO Auto-generated method stub
-		//LeitorXML leitor = new LeitorXML();
-		LeitorXML.lerXML(new File("curriculo.xml"));
+		
+		
+		JSON.transformarJSON(LeitorXML.lerXML(new File("bernadette farias.xml")));
+		
+		
 
 	}
 

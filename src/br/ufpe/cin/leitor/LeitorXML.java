@@ -19,12 +19,12 @@ import br.ufpe.cin.entidades.Professor;
 public class LeitorXML {
 
 
-	public static void lerXML(File f)
+	public static Professor lerXML(File f)
 			throws IOException, JDOMException{
 
 		List<Artigo> listaArtigos = new ArrayList<Artigo>(); //lista com os artigos
 		Professor professor = new Professor();
-		
+
 		SAXBuilder sb = new SAXBuilder();
 
 		Document doc = sb.build(f);
@@ -38,10 +38,10 @@ public class LeitorXML {
 			Element partes = (Element) i.next();
 
 			if(partes.getName().equals("DADOS-GERAIS")){
-				
+
 				professor = new Professor(partes.getAttributeValue("NOME-COMPLETO"), partes.getAttributeValue("NOME-EM-CITACOES-BIBLIOGRAFICAS"), partes.getAttributeValue("NACIONALIDADE"), 
 						partes.getAttributeValue("PAIS-DE-NASCIMENTO"), partes.getAttributeValue("UF-NASCIMENTO"), partes.getAttributeValue("CIDADE-NASCIMENTO"));
-				
+
 			}
 
 
@@ -95,11 +95,7 @@ public class LeitorXML {
 
 										novoArtigo.setTituloPeriodicoRevista(artigo.getAttributeValue("TITULO-DO-PERIODICO-OU-REVISTA"));
 										novoArtigo.setIssn(artigo.getAttributeValue("ISSN"));
-										if(artigo.getAttributeValue("VOLUME").equals("")){
-											novoArtigo.setVolume(0);
-										}else{
-											novoArtigo.setVolume(Integer.parseInt(artigo.getAttributeValue("VOLUME")));
-										}
+										novoArtigo.setVolume(artigo.getAttributeValue("VOLUME"));
 										novoArtigo.setFasciculo(artigo.getAttributeValue("FASCICULO"));
 										if(artigo.getAttributeValue("PAGINA-INICIAL").equals("")){
 											novoArtigo.setPagInicial(0);
@@ -154,7 +150,7 @@ public class LeitorXML {
 			}
 
 		}
-		
+
 		//Finaliza professor com artigos
 		professor.setArtigos(listaArtigos);
 		/*
@@ -163,7 +159,8 @@ public class LeitorXML {
 		System.out.println(professor.getArtigos().get(0).getTituloPeriodicoRevista());
 		System.out.println(professor.getArtigos().get(1).getTitulo());
 		System.out.println(professor.getArtigos().get(1).getTituloPeriodicoRevista());
-		*/
+		 */
+		return professor;
 
 	}
 
