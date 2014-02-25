@@ -11,8 +11,19 @@ public class Professor {
 	private String UFNascimento;
 	private String cidadeNascimento;
 	private List<Artigo> artigos;
+	private List<Livro> livros;
 	
 	
+	public List<Livro> getLivros() {
+		return livros;
+	}
+
+
+	public void setLivros(List<Livro> livros) {
+		this.livros = livros;
+	}
+
+
 	public List<Artigo> getArtigos() {
 		return artigos;
 	}

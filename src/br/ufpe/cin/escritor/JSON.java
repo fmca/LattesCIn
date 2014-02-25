@@ -21,7 +21,7 @@ public static void transformarJSON(Professor professor){
 		mapper.writeValue(new File("bernadette farias.json"), professor);
  
 		// display to console
-		System.out.println(mapper.writeValueAsString(professor));
+		//System.out.println(mapper.writeValueAsString(professor));
  
 	} catch (JsonGenerationException e) {
  
