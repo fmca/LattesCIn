@@ -12,8 +12,19 @@ public class Professor {
 	private String cidadeNascimento;
 	private List<Artigo> artigos;
 	private List<Livro> livros;
+	private List<Capitulo> capitulos;
 	
 	
+	public List<Capitulo> getCapitulos() {
+		return capitulos;
+	}
+
+
+	public void setCapitulos(List<Capitulo> capitulos) {
+		this.capitulos = capitulos;
+	}
+
+
 	public List<Livro> getLivros() {
 		return livros;
 	}
@@ -34,7 +45,9 @@ public class Professor {
 	}
 
 	public Professor(){
-		
+		this.artigos = null;
+		this.capitulos = null;
+		this.livros = null;
 	}
 	
 	public Professor(String nomeCompleto, String nomeCitacoes,
@@ -47,6 +60,9 @@ public class Professor {
 		this.paisNascimento = paisNascimento;
 		UFNascimento = uFNascimento;
 		this.cidadeNascimento = cidadeNascimento;
+		this.artigos = null;
+		this.capitulos = null;
+		this.livros = null;
 	}
 	
 	

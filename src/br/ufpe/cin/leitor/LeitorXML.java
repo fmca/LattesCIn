@@ -13,6 +13,7 @@ import org.jdom2.input.SAXBuilder;
 
 import br.ufpe.cin.entidades.Artigo;
 import br.ufpe.cin.entidades.Autor;
+import br.ufpe.cin.entidades.Capitulo;
 import br.ufpe.cin.entidades.Livro;
 import br.ufpe.cin.entidades.PalavrasChave;
 import br.ufpe.cin.entidades.Professor;
@@ -23,6 +24,7 @@ public class LeitorXML {
 	public static Professor lerXML(File f)
 			throws IOException, JDOMException{
 		
+		List<Capitulo> listaCapitulos = new ArrayList<Capitulo>();
 		List<Livro> listaLivros = new ArrayList<Livro>(); //Lista com livros
 		List<Artigo> listaArtigos = new ArrayList<Artigo>(); //lista com os artigos
 		Professor professor = new Professor();
@@ -134,9 +136,50 @@ public class LeitorXML {
 								List capitulosPublicados = livroCapitulo.getChildren();
 								Iterator iCP = capitulosPublicados.iterator();
 								
+								
 								while(iCP.hasNext()){
-									Element capitulo = (Element) iCP.next();
-									System.out.println(capitulo.getName());
+									Element capitulos = (Element) iCP.next();
+									if(capitulos.getName().equals("CAPITULO-DE-LIVRO-PUBLICADO")){
+										List capitulosLista = capitulos.getChildren();
+										Iterator iCapitulo = capitulosLista.iterator();
+										
+										Capitulo novoCapitulo = new Capitulo();
+										List<Autor> autores = new ArrayList<Autor>();
+										
+										while(iCapitulo.hasNext()){
+											
+											Element capitulo = (Element) iCapitulo.next();
+											
+											if(capitulo.getName().equals("DADOS-BASICOS-DO-CAPITULO")){
+												
+												novoCapitulo.setTipo(capitulo.getAttributeValue("TIPO"));
+												novoCapitulo.setTituloCapitulo(capitulo.getAttributeValue("TITULO-DO-CAPITULO-DO-LIVRO"));
+												novoCapitulo.setAno(capitulo.getAttributeValue("ANO"));
+												novoCapitulo.setPais(capitulo.getAttributeValue("PAIS-DE-PUBLICACAO"));
+												novoCapitulo.setIdioma(capitulo.getAttributeValue("IDIOMA"));
+												
+											}else if(capitulo.getName().equals("DETALHAMENTO-DO-CAPITULO")){
+												
+												novoCapitulo.setTituloLivro(capitulo.getAttributeValue("TITULO-DO-LIVRO"));
+												novoCapitulo.setPagInicial(capitulo.getAttributeValue("PAGINA-INICIAL"));
+												novoCapitulo.setPagFinal(capitulo.getAttributeValue("PAGINA-FINAL"));
+												novoCapitulo.setIsbn(capitulo.getAttributeValue("ISBN"));
+												novoCapitulo.setOrganizadores(capitulo.getAttributeValue("ORGANIZADORES"));
+												novoCapitulo.setNomeEditora(capitulo.getAttributeValue("NOME-DA-EDITORA"));
+													
+											}else if(capitulo.getName().equals("AUTORES")){
+												
+												autores.add(new Autor(capitulo.getAttributeValue("NOME-COMPLETO-DO-AUTOR"),capitulo.getAttributeValue("NOME-PARA-CITACAO")));
+												
+											}
+											
+										}
+										
+										novoCapitulo.setAutores(autores);
+										listaCapitulos.add(novoCapitulo);
+										
+									}
+									
 									
 								}
 							}
@@ -247,6 +290,7 @@ public class LeitorXML {
 		//Finaliza professor com artigos
 		professor.setArtigos(listaArtigos);
 		professor.setLivros(listaLivros);
+		professor.setCapitulos(listaCapitulos);
 		/*
 		System.out.println(professor.getNomeCompleto());
 		System.out.println(professor.getArtigos().get(0).getTitulo());
