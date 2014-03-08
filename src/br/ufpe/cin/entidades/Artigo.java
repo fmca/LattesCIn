@@ -14,8 +14,8 @@ public class Artigo {
 	private String volume;
 	private String fasciculo;
 	private String serie;
-	private int pagInicial;
-	private int pagFinal;
+	private String pagInicial;
+	private String pagFinal;
 	private String localPublicacao;
 	private List<Autor> autores;
 	private PalavrasChave palavrasChave;
@@ -34,8 +34,8 @@ public class Artigo {
 		this.volume = "";
 		this.fasciculo = "";
 		this.serie = "";
-		this.pagInicial = 0;
-		this.pagFinal = 0;
+		this.pagInicial = "";
+		this.pagFinal = "";
 		this.localPublicacao = "";
 		this.autores = null;
 		this.palavrasChave = null;
@@ -102,16 +102,16 @@ public class Artigo {
 	public void setSerie(String serie) {
 		this.serie = serie;
 	}
-	public int getPagInicial() {
+	public String getPagInicial() {
 		return pagInicial;
 	}
-	public void setPagInicial(int pagInicial) {
+	public void setPagInicial(String pagInicial) {
 		this.pagInicial = pagInicial;
 	}
-	public int getPagFinal() {
+	public String getPagFinal() {
 		return pagFinal;
 	}
-	public void setPagFinal(int pagFinal) {
+	public void setPagFinal(String pagFinal) {
 		this.pagFinal = pagFinal;
 	}
 	public String getLocalPublicacao() {

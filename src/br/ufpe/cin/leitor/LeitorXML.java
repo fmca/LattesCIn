@@ -23,7 +23,7 @@ public class LeitorXML {
 
 	public static Professor lerXML(File f)
 			throws IOException, JDOMException{
-		
+
 		List<Capitulo> listaCapitulos = new ArrayList<Capitulo>();
 		List<Livro> listaLivros = new ArrayList<Livro>(); //Lista com livros
 		List<Artigo> listaArtigos = new ArrayList<Artigo>(); //lista com os artigos
@@ -47,8 +47,8 @@ public class LeitorXML {
 						partes.getAttributeValue("PAIS-DE-NASCIMENTO"), partes.getAttributeValue("UF-NASCIMENTO"), partes.getAttributeValue("CIDADE-NASCIMENTO"));
 
 			}
-			
-			
+
+
 
 			//Pega as producoes bibliograficas
 			if(partes.getName().equals("PRODUCAO-BIBLIOGRAFICA")){
@@ -58,42 +58,42 @@ public class LeitorXML {
 
 				while(iPB.hasNext()){
 					Element producaoBibliografica = (Element) iPB.next();
-					
-					
+
+
 					if(producaoBibliografica.getName().equals("LIVROS-E-CAPITULOS")){
 						List livrosCapitulos = producaoBibliografica.getChildren();
-						
+
 						Iterator iLC = livrosCapitulos.iterator();
-						
+
 						while(iLC.hasNext()){
 							Element livroCapitulo = (Element) iLC.next();
-							
+
 							if(livroCapitulo.getName().equals("LIVROS-PUBLICADOS-OU-ORGANIZADOS")){
 								List livrosPublicados = livroCapitulo.getChildren();
 								Iterator iLP = livrosPublicados.iterator();
-								
+
 								while(iLP.hasNext()){
 									Element livroPublicado = (Element) iLP.next();
-									
+
 									if(livroPublicado.getName().equals("LIVRO-PUBLICADO-OU-ORGANIZADO")){
 										List livros = livroPublicado.getChildren();
 										Iterator iLivro = livros.iterator();
-										
+
 										Livro novoLivro = new Livro();
 										List<Autor> autores = new ArrayList<Autor>();
-										
+
 										while(iLivro.hasNext()){
 											Element livro = (Element) iLivro.next();
-											
+
 											if(livro.getName().equals("DADOS-BASICOS-DO-LIVRO")){
-												
+
 												novoLivro.setTipo(livro.getAttributeValue("TIPO"));
 												novoLivro.setNatureza(livro.getAttributeValue("NATUREZA"));
 												novoLivro.setTitulo(livro.getAttributeValue("TITULO-DO-LIVRO"));
 												novoLivro.setAno(livro.getAttributeValue("ANO"));
 												novoLivro.setPais(livro.getAttributeValue("PAIS-DE-PUBLICACAO"));
 												novoLivro.setIdioma(livro.getAttributeValue("IDIOMA"));
-												
+
 												/*
 												System.out.println(livro.getAttributeValue("TIPO"));
 												System.out.println(livro.getAttributeValue("NATUREZA"));
@@ -101,94 +101,94 @@ public class LeitorXML {
 												System.out.println(livro.getAttributeValue("ANO"));
 												System.out.println(livro.getAttributeValue("PAIS-DE-PUBLICACAO"));
 												System.out.println(livro.getAttributeValue("IDIOMA"));
-												*/
-												
+												 */
+
 											}else if(livro.getName().equals("DETALHAMENTO-DO-LIVRO")){
-												
+
 												novoLivro.setNumeroPaginas(livro.getAttributeValue("NUMERO-DE-PAGINAS"));
 												novoLivro.setIsbn(livro.getAttributeValue("ISBN"));
 												novoLivro.setNomeEditora(livro.getAttributeValue("NOME-DA-EDITORA"));
-												
+
 												/*
 												System.out.println(livro.getAttributeValue("NUMERO-DE-PAGINAS"));
 												System.out.println(livro.getAttributeValue("ISBN"));
 												System.out.println(livro.getAttributeValue("NOME-DA-EDITORA"));
-												*/
-												
+												 */
+
 											}else if(livro.getName().equals("AUTORES")){
-												
+
 												autores.add(new Autor(livro.getAttributeValue("NOME-COMPLETO-DO-AUTOR"),livro.getAttributeValue("NOME-PARA-CITACAO")));
 												/*
 												System.out.println(livro.getAttributeValue("NOME-COMPLETO-DO-AUTOR"));
 												System.out.println(livro.getAttributeValue("NOME-PARA-CITACAO"));
-												*/
+												 */
 											}
-											
+
 										}
 										novoLivro.setAutores(autores);
 										listaLivros.add(novoLivro);
-										
+
 									}
 								}
-								
-								
+
+
 							}else if(livroCapitulo.getName().equals("CAPITULOS-DE-LIVROS-PUBLICADOS")){
 								List capitulosPublicados = livroCapitulo.getChildren();
 								Iterator iCP = capitulosPublicados.iterator();
-								
-								
+
+
 								while(iCP.hasNext()){
 									Element capitulos = (Element) iCP.next();
 									if(capitulos.getName().equals("CAPITULO-DE-LIVRO-PUBLICADO")){
 										List capitulosLista = capitulos.getChildren();
 										Iterator iCapitulo = capitulosLista.iterator();
-										
+
 										Capitulo novoCapitulo = new Capitulo();
 										List<Autor> autores = new ArrayList<Autor>();
-										
+
 										while(iCapitulo.hasNext()){
-											
+
 											Element capitulo = (Element) iCapitulo.next();
-											
+
 											if(capitulo.getName().equals("DADOS-BASICOS-DO-CAPITULO")){
-												
+
 												novoCapitulo.setTipo(capitulo.getAttributeValue("TIPO"));
 												novoCapitulo.setTituloCapitulo(capitulo.getAttributeValue("TITULO-DO-CAPITULO-DO-LIVRO"));
 												novoCapitulo.setAno(capitulo.getAttributeValue("ANO"));
 												novoCapitulo.setPais(capitulo.getAttributeValue("PAIS-DE-PUBLICACAO"));
 												novoCapitulo.setIdioma(capitulo.getAttributeValue("IDIOMA"));
-												
+
 											}else if(capitulo.getName().equals("DETALHAMENTO-DO-CAPITULO")){
-												
+
 												novoCapitulo.setTituloLivro(capitulo.getAttributeValue("TITULO-DO-LIVRO"));
 												novoCapitulo.setPagInicial(capitulo.getAttributeValue("PAGINA-INICIAL"));
 												novoCapitulo.setPagFinal(capitulo.getAttributeValue("PAGINA-FINAL"));
 												novoCapitulo.setIsbn(capitulo.getAttributeValue("ISBN"));
 												novoCapitulo.setOrganizadores(capitulo.getAttributeValue("ORGANIZADORES"));
 												novoCapitulo.setNomeEditora(capitulo.getAttributeValue("NOME-DA-EDITORA"));
-													
+
 											}else if(capitulo.getName().equals("AUTORES")){
-												
+
 												autores.add(new Autor(capitulo.getAttributeValue("NOME-COMPLETO-DO-AUTOR"),capitulo.getAttributeValue("NOME-PARA-CITACAO")));
-												
+
 											}
-											
+
 										}
-										
+
 										novoCapitulo.setAutores(autores);
 										listaCapitulos.add(novoCapitulo);
-										
+
 									}
-									
-									
+
+
 								}
 							}
-							
+
 						}
-						
-						
+
+
 					}
-					
+
 
 					//Pega a parte de artigos publicados
 					if(producaoBibliografica.getName().equals("ARTIGOS-PUBLICADOS")){
@@ -233,16 +233,8 @@ public class LeitorXML {
 										novoArtigo.setIssn(artigo.getAttributeValue("ISSN"));
 										novoArtigo.setVolume(artigo.getAttributeValue("VOLUME"));
 										novoArtigo.setFasciculo(artigo.getAttributeValue("FASCICULO"));
-										if(artigo.getAttributeValue("PAGINA-INICIAL").equals("")){
-											novoArtigo.setPagInicial(0);
-										}else{
-											novoArtigo.setPagInicial(Integer.parseInt(artigo.getAttributeValue("PAGINA-INICIAL")));
-										}
-										if(artigo.getAttributeValue("PAGINA-FINAL").equals("")){
-											novoArtigo.setPagFinal(0);
-										}else{
-											novoArtigo.setPagFinal(Integer.parseInt(artigo.getAttributeValue("PAGINA-FINAL")));
-										}
+										novoArtigo.setPagInicial(artigo.getAttributeValue("PAGINA-INICIAL"));
+										novoArtigo.setPagFinal(artigo.getAttributeValue("PAGINA-FINAL"));
 										novoArtigo.setLocalPublicacao(artigo.getAttributeValue("LOCAL-DE-PUBLICACAO"));
 
 										/*
