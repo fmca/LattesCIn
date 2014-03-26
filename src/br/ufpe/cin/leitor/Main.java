@@ -22,7 +22,7 @@ public class Main {
 		
 		List<Professor> professores = new ArrayList<Professor>();
 		
-		for(int i = 0; i < 73; i++){
+		for(int i = 0; i < 78; i++){
 			professores.add(LeitorXML.lerXML(new File("curriculo-"+i+".xml")));
 		}
 		JSON.transformarJSON(professores);

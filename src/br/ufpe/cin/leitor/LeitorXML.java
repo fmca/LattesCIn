@@ -1,7 +1,10 @@
 package br.ufpe.cin.leitor;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -30,8 +33,8 @@ public class LeitorXML {
 		Professor professor = new Professor();
 
 		SAXBuilder sb = new SAXBuilder();
-
-		Document doc = sb.build(f);
+		FileInputStream fs = new FileInputStream(f);
+		Document doc = sb.build(new InputStreamReader(fs, "UTF8"));
 
 		Element root = (Element) doc.getRootElement();
 		List lattes = root.getChildren();
@@ -42,7 +45,7 @@ public class LeitorXML {
 			Element partes = (Element) i.next();
 
 			if(partes.getName().equals("DADOS-GERAIS")){
-
+				//System.out.println(new String(partes.getAttributeValue("NOME-COMPLETO").getBytes(), "ISO-8859-1"));
 				professor = new Professor(partes.getAttributeValue("NOME-COMPLETO"), partes.getAttributeValue("NOME-EM-CITACOES-BIBLIOGRAFICAS"), partes.getAttributeValue("NACIONALIDADE"), 
 						partes.getAttributeValue("PAIS-DE-NASCIMENTO"), partes.getAttributeValue("UF-NASCIMENTO"), partes.getAttributeValue("CIDADE-NASCIMENTO"));
 
@@ -216,9 +219,9 @@ public class LeitorXML {
 									if(artigo.getName().equals("DADOS-BASICOS-DO-ARTIGO")){
 										/*
 										System.out.println("Titulo: " + artigo.getAttributeValue("TITULO-DO-ARTIGO"));
-										System.out.println("País: " + artigo.getAttributeValue("PAIS-DE-PUBLICACAO"));
+										System.out.println("PaÔøΩs: " + artigo.getAttributeValue("PAIS-DE-PUBLICACAO"));
 										System.out.println("Idioma: " + artigo.getAttributeValue("IDIOMA"));
-										System.out.println("Meio de Divulgação: " + artigo.getAttributeValue("MEIO-DE-DIVULGACAO"));
+										System.out.println("Meio de DivulgaÔøΩÔøΩo: " + artigo.getAttributeValue("MEIO-DE-DIVULGACAO"));
 										 */
 
 										//colocando no objeto Artigo
@@ -238,18 +241,18 @@ public class LeitorXML {
 										novoArtigo.setLocalPublicacao(artigo.getAttributeValue("LOCAL-DE-PUBLICACAO"));
 
 										/*
-										System.out.println("Periódico ou Revista: " + artigo.getAttributeValue("TITULO-DO-PERIODICO-OU-REVISTA"));
+										System.out.println("PeriÔøΩdico ou Revista: " + artigo.getAttributeValue("TITULO-DO-PERIODICO-OU-REVISTA"));
 										System.out.println("ISSN: " + artigo.getAttributeValue("ISSN"));
 										System.out.println("Volume: " + artigo.getAttributeValue("VOLUME"));
 										System.out.println("Fasciculo: " + artigo.getAttributeValue("FASCICULO"));
 										System.out.println("Pagina Inicial: " + artigo.getAttributeValue("PAGINA-INICIAL"));
-										System.out.println("Página Final: " + artigo.getAttributeValue("PAGINA-FINAL"));
-										System.out.println("Local de Publicação: " + artigo.getAttributeValue("LOCAL-DE-PUBLICACAO"));
+										System.out.println("PÔøΩgina Final: " + artigo.getAttributeValue("PAGINA-FINAL"));
+										System.out.println("Local de PublicaÔøΩÔøΩo: " + artigo.getAttributeValue("LOCAL-DE-PUBLICACAO"));
 										 */
 									}else if(artigo.getName().equals("AUTORES")){
 										autores.add(new Autor(artigo.getAttributeValue("NOME-COMPLETO-DO-AUTOR"),artigo.getAttributeValue("NOME-PARA-CITACAO")));
 										//System.out.println("Nome Completo: " + artigo.getAttributeValue("NOME-COMPLETO-DO-AUTOR"));
-										//System.out.println("Nome para citação: " + artigo.getAttributeValue("NOME-PARA-CITACAO"));
+										//System.out.println("Nome para citaÔøΩÔøΩo: " + artigo.getAttributeValue("NOME-PARA-CITACAO"));
 									}else if(artigo.getName().equals("PALAVRAS-CHAVE")){
 
 										novoArtigo.setPalavrasChave(new PalavrasChave(artigo.getAttributeValue("PALAVRA-CHAVE-1"), artigo.getAttributeValue("PALAVRA-CHAVE-2"), 
