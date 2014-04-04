@@ -45,7 +45,7 @@ public class LeitorXML {
 			Element partes = (Element) i.next();
 
 			if(partes.getName().equals("DADOS-GERAIS")){
-				//System.out.println(new String(partes.getAttributeValue("NOME-COMPLETO").getBytes(), "ISO-8859-1"));
+				
 				professor = new Professor(partes.getAttributeValue("NOME-COMPLETO"), partes.getAttributeValue("NOME-EM-CITACOES-BIBLIOGRAFICAS"), partes.getAttributeValue("NACIONALIDADE"), 
 						partes.getAttributeValue("PAIS-DE-NASCIMENTO"), partes.getAttributeValue("UF-NASCIMENTO"), partes.getAttributeValue("CIDADE-NASCIMENTO"));
 

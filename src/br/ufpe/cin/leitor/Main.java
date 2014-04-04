@@ -8,7 +8,9 @@ import java.util.List;
 import org.jdom2.JDOMException;
 
 import br.ufpe.cin.escritor.JSON;
+import br.ufpe.cin.escritor.RDF;
 import br.ufpe.cin.entidades.Professor;
+
 
 public class Main {
 
@@ -25,8 +27,11 @@ public class Main {
 		for(int i = 0; i < 78; i++){
 			professores.add(LeitorXML.lerXML(new File("curriculo-"+i+".xml")));
 		}
-		JSON.transformarJSON(professores);
+		//gerar JSON
+		//JSON.transformarJSON(professores);
 		
+		//gerar RDF
+		RDF.transformarRDF(professores);
 		
 
 	}

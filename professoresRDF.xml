@@ -1,0 +1,620 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cin="http://www.cin.ufpe.br/propriedades/" > 
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Cristiano Coêlho de Araújo">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>C. ARAÚJO.;Araújo, Cristiano C.</cin:nomeCitacao>
+    <cin:name>Cristiano Coêlho de Araújo</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Daniel Carvalho da Cunha">
+    <cin:cidadeNascimento>PASSO FUNDO</cin:cidadeNascimento>
+    <cin:UFNascimento>RS</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>CUNHA, D. C.;CUNHA, DANIEL C</cin:nomeCitacao>
+    <cin:name>Daniel Carvalho da Cunha</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Silvio Romero de Lemos Meira">
+    <cin:cidadeNascimento>Campina Grande</cin:cidadeNascimento>
+    <cin:UFNascimento>PB</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>MEIRA, S. R. L.;de Lemos Meira, Silvio Romero;Meira, Silvio L.;MEIRA, SILVIO;Meira, S.R.L.</cin:nomeCitacao>
+    <cin:name>Silvio Romero de Lemos Meira</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Nelson Souto Rosa">
+    <cin:cidadeNascimento>Jacaré dos Homens</cin:cidadeNascimento>
+    <cin:UFNascimento>AL</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>ROSA, N. S.;Rosa, Nelson Souto;ROSA, N;Rosa, Nelson;Rosa, Nelson S.;Rosa, N. S.;ROSA, N.</cin:nomeCitacao>
+    <cin:name>Nelson Souto Rosa</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Carlos André Guimarães Ferraz">
+    <cin:cidadeNascimento>Arcoverde</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>FERRAZ, C. A. G.;FERRAZ, CARLOS ANDRÉ GUIMARÃES</cin:nomeCitacao>
+    <cin:name>Carlos André Guimarães Ferraz</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Francisco de Assis Tenorio de Carvalho">
+    <cin:cidadeNascimento>Garanhuns</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>DE CARVALHO, F. A. T.;DECARVALHO, F;de Carvalho, F.A.T.;Carvalho, Francisco de A. T. de;CARVALHO, F;Carvalho, Francisco de A. T.;De Carvalho, Francisco de A.T.;de Carvalho, Francisco de A. T.;de Carvalho, Francisco de AT;Tenorio de Carvalho, FA;TENORIO DE CARVALHO, FRANCISCO DE ASSIS;DE A.T. DE CARVALHO, FRANCISCO;DE A. T. DE CARVALHO, FRANCISCO;A.T. de Carvalho, Francisco;Carvalho, Francisco;CARVALHO, FRANCISCO DE A.T. DE</cin:nomeCitacao>
+    <cin:name>Francisco de Assis Tenorio de Carvalho</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Roberto Souto Maior de Barros">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>BARROS, R. S. M.;BARROS R.;De Barros, R.;De Barros, R.S.M.;Roberto S. M. Barros;Barros, Roberto S. M.;Barros, Roberto Souto Maior;Barros, Roberto Souto Maior de</cin:nomeCitacao>
+    <cin:name>Roberto Souto Maior de Barros</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Judith Kelner">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>KELNER, J.;Kelner, Judith</cin:nomeCitacao>
+    <cin:name>Judith Kelner</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Frederico Luiz Gonçalves de Freitas">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>FREITAS, F.;Freitas, Fred;Freitas, Frederico</cin:nomeCitacao>
+    <cin:name>Frederico Luiz Gonçalves de Freitas</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Ricardo Martins de Abreu Silva">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>SILVA, R. M. A.;Silva, Ricardo M. A.;Silva, R.M.A.</cin:nomeCitacao>
+    <cin:name>Ricardo Martins de Abreu Silva</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Jaelson Freire Brelaz de Castro">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>CASTRO, Jaelson;Castro, J;Castro, Jaelson B;Castro, Jaelson F. B.</cin:nomeCitacao>
+    <cin:name>Jaelson Freire Brelaz de Castro</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Paulo André da Silva Gonçalves">
+    <cin:cidadeNascimento>Rio de Janeiro</cin:cidadeNascimento>
+    <cin:UFNascimento>RJ</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>GONÇALVES, P. A. S.;DA SILVA GONÇALVES, P.A.</cin:nomeCitacao>
+    <cin:name>Paulo André da Silva Gonçalves</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Stênio Flávio de Lacerda Fernandes">
+    <cin:cidadeNascimento>Palmeira dos Índios</cin:cidadeNascimento>
+    <cin:UFNascimento>AL</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>FERNANDES, S.;FERNANDES, S. F. L.;FERNANDES, S;Fernandes, Stênio;Fernandes, Stenio;Fernandes, Stênio F. L.</cin:nomeCitacao>
+    <cin:name>Stênio Flávio de Lacerda Fernandes</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Sergio Castelo Branco Soares">
+    <cin:cidadeNascimento>TERESINA</cin:cidadeNascimento>
+    <cin:UFNascimento>PI</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>Sérgio Soares;Soares, Sérgio;S. C. B Soares;SOARES S. C. B.;Sérgio C. B. Soares;Sergio Soares;Soares, Sergio</cin:nomeCitacao>
+    <cin:name>Sergio Castelo Branco Soares</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Jose Antonio Monteiro de Queiroz">
+    <cin:cidadeNascimento>Bezerros</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>QUEIROZ, J. A. M.</cin:nomeCitacao>
+    <cin:name>Jose Antonio Monteiro de Queiroz</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Ivan Gesteira Costa Filho">
+    <cin:cidadeNascimento>Rio de Janeiro</cin:cidadeNascimento>
+    <cin:UFNascimento>RJ</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>Costa , I. G.;Costa, I. G.;Costa, I.G.;Costa, Ivan G;Costa, Ivan G.</cin:nomeCitacao>
+    <cin:name>Ivan Gesteira Costa Filho</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Ana Carolina Brandao Salgado">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>SALGADO, A. C.;Salgado, Ana Carolina</cin:nomeCitacao>
+    <cin:name>Ana Carolina Brandao Salgado</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Abel Guilhermino da Silva Filho">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>SILVA-FILHO, A. G.;Silva-Filho, Abel Guilhermino;Silva-Filho, Abel G.;Silva-Filho, Abel;Abel Silva-Filho;Filho, Abel Silva</cin:nomeCitacao>
+    <cin:name>Abel Guilhermino da Silva Filho</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Andre Luís de Medeiros Santos">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>SANTOS, A. L. M.;SANTOS, A;Santos, André L.M.;Santos, Andre L.M.;SANTOS, ANDRE;Santos, André M. L.;SANTOS, ANDRE L. M.;SANTOS, A.L.M.;Santos,André L.M.</cin:nomeCitacao>
+    <cin:name>Andre Luís de Medeiros Santos</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Tsang Ing Ren">
+    <cin:cidadeNascimento>Taiwan</cin:cidadeNascimento>
+    <cin:UFNascimento></cin:UFNascimento>
+    <cin:paisNascimento>Formosa</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>I. R. Tsang;Ren, Tsang;Ren, Tsang Ing;Tsang Ing Ren;Ing Ren Tsang;Tsang, Ing Ren</cin:nomeCitacao>
+    <cin:name>Tsang Ing Ren</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Sílvio de Barros Melo">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>MELO, S. B.;MELO, S;Melo, Sílvio;Silvio de Barros Melo;MELO, S.B.;MELO, SILVIO;DANTAS, CARLOS COSTA</cin:nomeCitacao>
+    <cin:name>Sílvio de Barros Melo</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Paulo Gustavo Soares da Fonseca">
+    <cin:cidadeNascimento>Goiana</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>FONSECA, P. G. S.;da Fonseca, PGS;da Fonseca, Paulo G. S.;Paulo GS da Fonseca;Fonseca, P. G.;da Fonseca P. G.;da Fonseca, Paulo GS;Fonseca, Paulo GS</cin:nomeCitacao>
+    <cin:name>Paulo Gustavo Soares da Fonseca</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Edson Costa de Barros Carvalho Filho">
+    <cin:cidadeNascimento>RECIFE</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>CARVALHO FILHO, E. C. B.</cin:nomeCitacao>
+    <cin:name>Edson Costa de Barros Carvalho Filho</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Paulo Romero Martins Maciel">
+    <cin:cidadeNascimento>Olinda</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>MACIEL, P. R. M.;Maciel, Paulo;Maciel, P.;Maciel, Paulo Romero Martins</cin:nomeCitacao>
+    <cin:name>Paulo Romero Martins Maciel</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Edna Natividade da Silva Barros">
+    <cin:cidadeNascimento>São Caetano do Sul</cin:cidadeNascimento>
+    <cin:UFNascimento>SP</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>BARROS, E.;Natividade, E;Natividade, Edna;da S. Barros, Edna N.</cin:nomeCitacao>
+    <cin:name>Edna Natividade da Silva Barros</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Teresa Bernarda Ludermir">
+    <cin:cidadeNascimento>Rio de Janeiro</cin:cidadeNascimento>
+    <cin:UFNascimento>RJ</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>Ludermir, Tersea;Tersea Ludermir;Teresa B. Ludermir;LUDERMIR, T. B.;LUDERMIR, TERESA B.;LUDERMIR, TERESA BERNARDA;TERESA B. LUDERMIR;T. B. LUDERMIR;Ludermir, Teresa B.;Teresa Bernarda Ludermir;Teresa B Ludermir;LUDERMIR, TERESA B</cin:nomeCitacao>
+    <cin:name>Teresa Bernarda Ludermir</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Katia Silva Guimarães">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>GUIMARÃES, K. S.;Guimarães, Katia Silva;GUIMARÃES, KATIA S.;GUIMARAES, KATIA S.</cin:nomeCitacao>
+    <cin:name>Katia Silva Guimarães</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Divanilson Rodrigo de Sousa Campelo">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>CAMPELO, D. R.;CAMPELO, DIVANILSON;CAMPELO, DIVANILSON R.</cin:nomeCitacao>
+    <cin:name>Divanilson Rodrigo de Sousa Campelo</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Marcilia Andrade Campos">
+    <cin:cidadeNascimento>Pentecostes</cin:cidadeNascimento>
+    <cin:UFNascimento>CE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>CAMPOS, M. A.;CAMPOS, MARCILIA ANDRADE</cin:nomeCitacao>
+    <cin:name>Marcilia Andrade Campos</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Germano Crispim Vasconcelos">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>VASCONCELOS, G. C.;Vasconcelos, Germano C.;Vasconcelos, Germano Crispim</cin:nomeCitacao>
+    <cin:name>Germano Crispim Vasconcelos</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Liliane Rose Benning Salgado">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>SALGADO, L. R. B.</cin:nomeCitacao>
+    <cin:name>Liliane Rose Benning Salgado</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Carlos Alexandre Barros de Mello">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>MELLO, C. A. B.;Mello, Carlos A.B.;Mello, Carlos AB;MELLO, C.A.B.;Carlos A. B. Mello;B. MELLO, CARLOS A.;MELLO, CARLOS ALEXANDRE BARROS</cin:nomeCitacao>
+    <cin:name>Carlos Alexandre Barros de Mello</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Ricardo Massa Ferreira Lima">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>LIMA, R. M. F.;Lima, Ricardo M.F.</cin:nomeCitacao>
+    <cin:name>Ricardo Massa Ferreira Lima</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Fabio Queda Bueno da Silva">
+    <cin:cidadeNascimento>Taquaritinga</cin:cidadeNascimento>
+    <cin:UFNascimento>SP</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>Fabio Q. B. da Silva;da Silva, Fabio Q.B.;Silva, Fabio Q. B.;Da Silva, Fabio Q. B.;SILVA, FABIO Q.B. DA;Fabio Q.B. da Silva;SILVA, FABIO Q.B.;SILVA, F.Q.B.;SILVA, FABIO Q B;SILVA, FABIO Q. B. DA;Q. B. DA SILVA, FABIO;Q.B. DA SILVA, FABIO;DA SILVA, F.Q.B.</cin:nomeCitacao>
+    <cin:name>Fabio Queda Bueno da Silva</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Alexandre Marcos Lins de Vasconcelos">
+    <cin:cidadeNascimento>Arcoverde</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>VASCONCELOS, A. M. L.</cin:nomeCitacao>
+    <cin:name>Alexandre Marcos Lins de Vasconcelos</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Marcelo Bezerra d&apos;Amorim">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>Marcelo d'Amorim;d'Amorim, Marcelo;DAMORIM, M;d'Amorim, M.</cin:nomeCitacao>
+    <cin:name>Marcelo Bezerra d'Amorim</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Aluizio Fausto Ribeiro Araújo">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>ARAÚJO, A. F. R.;Rego, Renata Lúcia Mendonça Ernesto;Araujo, Aluizio F. R.;Araújo, Aluizio Fausto Ribeiro;Araújo, Aluízio F.R.;ARAJO, A. F. R.</cin:nomeCitacao>
+    <cin:name>Aluizio Fausto Ribeiro Araújo</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Gurvan Nicolas Huiban">
+    <cin:cidadeNascimento>Auray</cin:cidadeNascimento>
+    <cin:UFNascimento></cin:UFNascimento>
+    <cin:paisNascimento>França</cin:paisNascimento>
+    <cin:nacionalidade>E</cin:nacionalidade>
+    <cin:nomeCitacao>HUIBAN, G.</cin:nomeCitacao>
+    <cin:name>Gurvan Nicolas Huiban</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Renata Maria Cardoso Rodrigues de Souza">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>SOUZA,  R. M. C. R.</cin:nomeCitacao>
+    <cin:name>Renata Maria Cardoso Rodrigues de Souza</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Flávia de Almeida Barros">
+    <cin:cidadeNascimento>São Paulo</cin:cidadeNascimento>
+    <cin:UFNascimento>SP</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>BARROS, F. A.;BARROS, FLÁVIA A.;BARROS, FLAVIA DE A.;BARROS, FLAVIA A.;BARROS, FLAVIA;BARROS, FLÁVIA;Barros, Flávia de A.</cin:nomeCitacao>
+    <cin:name>Flávia de Almeida Barros</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Valeria Cesario Times">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>TIMES, V. C.;Times, Valéria Cesário</cin:nomeCitacao>
+    <cin:name>Valeria Cesario Times</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Alexandre Cabral Mota">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>MOTA, A.;Mota, A;Mota, Alexandre</cin:nomeCitacao>
+    <cin:name>Alexandre Cabral Mota</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Adriano Augusto de Moraes Sarmento">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>SARMENTO, A;Sarmento, Adriano</cin:nomeCitacao>
+    <cin:name>Adriano Augusto de Moraes Sarmento</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Kiev Santos da Gama">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>GAMA, K.;KS da GAMA;Gama, Kiev</cin:nomeCitacao>
+    <cin:name>Kiev Santos da Gama</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Vinicius Cardoso Garcia">
+    <cin:cidadeNascimento>Rio de Janeiro</cin:cidadeNascimento>
+    <cin:UFNascimento>RJ</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>GARCIA, Vinicius Cardoso;Garcia, Vinicius Cardoso;Garcia, Vinicius C.;Garcia, Vinicius</cin:nomeCitacao>
+    <cin:name>Vinicius Cardoso Garcia</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Anjolina Grisi de Oliveira">
+    <cin:cidadeNascimento>Salvador</cin:cidadeNascimento>
+    <cin:UFNascimento>BA</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>OLIVEIRA, A. G.</cin:nomeCitacao>
+    <cin:name>Anjolina Grisi de Oliveira</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Ricardo Bastos Cavalcante Prudencio">
+    <cin:cidadeNascimento>Pedra Branca</cin:cidadeNascimento>
+    <cin:UFNascimento>CE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>PRUDENCIO, R. B. C.;PRUDENCIO, R;PRUDÊNCIO, RICARDO B. C.;PRUDENCIO, RICARDO B.C.;PRUDÊNCIO, RICARDO B.C.</cin:nomeCitacao>
+    <cin:name>Ricardo Bastos Cavalcante Prudencio</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Kelvin Lopes Dias">
+    <cin:cidadeNascimento>Macapá</cin:cidadeNascimento>
+    <cin:UFNascimento>AP</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>DIAS, K. L.;Dias, K. L.;Dias, K.L.;Kelvin Dias;Dias, Kelvin;Dias, K.</cin:nomeCitacao>
+    <cin:name>Kelvin Lopes Dias</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/George Darmiton da Cunha Cavalcanti">
+    <cin:cidadeNascimento>Macaparana</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>George D. C. Cavalcanti;CAVALCANTI, GEORGE D.C.;CAVALCANTI, G. D. C.;CAVALCANTI, G.D.C.;Cavalcanti, George D. C.;Cavalcanti, G. D. C.;Calvalcanti, G. D. C.;Calvalcanti, George D. C.</cin:nomeCitacao>
+    <cin:name>George Darmiton da Cunha Cavalcanti</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Odilon Maroja da Costa Pereira Filho">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>PEREIRA FILHO, O. M. C.;C. Pereira-Filho, O. M.;Pereira-Filho, O.M.C.;Pereira-Filho, Odilon M. C.;Pereira Filho, Odilon M. C.;Filho, O.M.C.P.;Pereira, O.</cin:nomeCitacao>
+    <cin:name>Odilon Maroja da Costa Pereira Filho</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Patricia Cabral de Azevedo Restelli Tedesco">
+    <cin:cidadeNascimento>Rio de Janeiro</cin:cidadeNascimento>
+    <cin:UFNascimento>RJ</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>TEDESCO, P. C. A. R.;Tedesco, Patricia</cin:nomeCitacao>
+    <cin:name>Patricia Cabral de Azevedo Restelli Tedesco</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Carina Frota Alves">
+    <cin:cidadeNascimento>Fortaleza</cin:cidadeNascimento>
+    <cin:UFNascimento>CE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>ALVES, C.;Alves, Carina</cin:nomeCitacao>
+    <cin:name>Carina Frota Alves</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Fernando da Fonseca de Souza">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>SOUZA, F. F.;Da Fonseca de Souza, Fernando</cin:nomeCitacao>
+    <cin:name>Fernando da Fonseca de Souza</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Pedro Machado Manhaes de Castro">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>de CASTRO, P. M. M.;de Castro, Pedro M.M.;Manhães de Castro, Pedro Machado;MACHADO MANHÃES DE CASTRO, PEDRO</cin:nomeCitacao>
+    <cin:name>Pedro Machado Manhaes de Castro</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Hermano Perrelli de Moura">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>MOURA, H. P.</cin:nomeCitacao>
+    <cin:name>Hermano Perrelli de Moura</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/José Augusto Suruagy Monteiro">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>MONTEIRO, J. A. S.;SURUAGY, J. A.;SURUAGY MONTEIRO, J. A.</cin:nomeCitacao>
+    <cin:name>José Augusto Suruagy Monteiro</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Augusto Cezar Alves Sampaio">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>SAMPAIO, A. C. A.;Sampaio, Augusto;Sampaio, Augusto C. A.;SAMPAIO, A;Sampaio, A.</cin:nomeCitacao>
+    <cin:name>Augusto Cezar Alves Sampaio</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Cleber Zanchettin">
+    <cin:cidadeNascimento>São Lourenço D´ Oeste</cin:cidadeNascimento>
+    <cin:UFNascimento>SC</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>ZANCHETTIN, C.;ZANCHETTIN, C;Zanchettin, Cleber;C. Zanchettin</cin:nomeCitacao>
+    <cin:name>Cleber Zanchettin</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Manoel Eusebio de Lima">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>LIMA, Manoel Eusebio de;LIMA, MANOEL EUSEBIO DE;LIMA, MANOEL</cin:nomeCitacao>
+    <cin:name>Manoel Eusebio de Lima</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Paulo Jorge Leitao Adeodato">
+    <cin:cidadeNascimento>Olinda</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>ADEODATO, P. J. L.;ADEODATO, Paulo J. L.;ADEODATO, Paulo J.L.;ADEODATO, PAULO JORGE LEITAO;PAULO JORGE LEITAO ADEODATO;ADEODATOZ, Paulo J.L.;ADEODATOZ, PAULO J. L.;ADEODATO, PAULO</cin:nomeCitacao>
+    <cin:name>Paulo Jorge Leitao Adeodato</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Djamel Fawzi Hadj Sadok">
+    <cin:cidadeNascimento>El Attaf</cin:cidadeNascimento>
+    <cin:UFNascimento></cin:UFNascimento>
+    <cin:paisNascimento>Argélia</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>SADOK, D. F. H.;Sadok, Djamel;SADOK, Djamel Fawzi Hadj</cin:nomeCitacao>
+    <cin:name>Djamel Fawzi Hadj Sadok</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Carla Taciana Lima Lourenco Silva Schuenemann">
+    <cin:cidadeNascimento>Campina Grande</cin:cidadeNascimento>
+    <cin:UFNascimento>PB</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>SILVA, C.;Silva, Carla</cin:nomeCitacao>
+    <cin:name>Carla Taciana Lima Lourenco Silva Schuenemann</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Bernadette Farias Lóscio">
+    <cin:cidadeNascimento>Fortaleza</cin:cidadeNascimento>
+    <cin:UFNascimento>CE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>LÓSCIO, B. F.</cin:nomeCitacao>
+    <cin:name>Bernadette Farias Lóscio</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Geber Lisboa Ramalho">
+    <cin:cidadeNascimento>Joao Pessoa</cin:cidadeNascimento>
+    <cin:UFNascimento>PB</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>RAMALHO, G. L.;Ramalho, Geber;Ramalho, G.;Ramalho, Geber L.</cin:nomeCitacao>
+    <cin:name>Geber Lisboa Ramalho</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Adriano Lorena Inacio de Oliveira">
+    <cin:cidadeNascimento>Petrolina</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>OLIVEIRA, Adriano Lorena In�cio de;Oliveira, A.L.I.;Oliveira, Adriano L. I.;de Oliveira, Adriano Lorena In�cio;Oliveira, Adriano L.I.;L.I. Oliveira, Adriano</cin:nomeCitacao>
+    <cin:name>Adriano Lorena Inacio de Oliveira</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Ruy José Guerra Barretto de Queiroz">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>de QUEIROZ, R. J. G. B.;de Queiroz, Ruy J. G. B.;de Queiroz, Ruy;de Queiroz, Ruy J.G.B.;de Queiroz, Ruy José Guerra Barretto</cin:nomeCitacao>
+    <cin:name>Ruy José Guerra Barretto de Queiroz</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Eduardo Antonio Guimaraes Tavares">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>TAVARES, E. A. G.</cin:nomeCitacao>
+    <cin:name>Eduardo Antonio Guimaraes Tavares</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Paulo Roberto Freire Cunha">
+    <cin:cidadeNascimento>Olinda</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>CUNHA, P. R. F.;CUNHA, P.R.F.;CUNHA, P.</cin:nomeCitacao>
+    <cin:name>Paulo Roberto Freire Cunha</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Sérgio Ricardo de Melo Queiroz">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>QUEIROZ, S. R. M.;QUEIROZ, S.;Sergio Queiroz;Queiroz, Sergio</cin:nomeCitacao>
+    <cin:name>Sérgio Ricardo de Melo Queiroz</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Alex Sandro Gomes">
+    <cin:cidadeNascimento>Arcoverde</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>GOMES, A. S.;Gomes, Alex S;GOMES, ALEX SANDRO</cin:nomeCitacao>
+    <cin:name>Alex Sandro Gomes</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Sergio Vanderlei Cavalcante">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>CAVALCANTE, S.</cin:nomeCitacao>
+    <cin:name>Sergio Vanderlei Cavalcante</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Rafael Dueire Lins">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>LINS, Rafael Dueire;Lins, Rafael Dueire;R. D. Lins;Rafael D. Lins;Rafael Dueire Lins;Rafael Lins;Lins, Rafael D.;Lins, R.;Dueire Lins, Rafael</cin:nomeCitacao>
+    <cin:name>Rafael Dueire Lins</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Robson do Nascimento Fidalgo">
+    <cin:cidadeNascimento>Belém</cin:cidadeNascimento>
+    <cin:UFNascimento>PA</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>FIDALGO, R. N.;Fidalgo, Robson N.</cin:nomeCitacao>
+    <cin:name>Robson do Nascimento Fidalgo</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Márcio Lopes Cornélio">
+    <cin:cidadeNascimento>Santa Rita</cin:cidadeNascimento>
+    <cin:UFNascimento>PB</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>CORNÉLIO, M. L.;Cornélio, Márcio L.</cin:nomeCitacao>
+    <cin:name>Márcio Lopes Cornélio</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Simone Cristiane dos Santos Lima">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>SANTOS, S. C.;DOS SANTOS, SIMONE CRISTIANE;DOS SANTOS, S.C.;DOS SANTOS, SIMONE C.</cin:nomeCitacao>
+    <cin:name>Simone Cristiane dos Santos Lima</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Paulo Henrique Monteiro Borba">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>BORBA, Paulo;BORBA, PAULO;Paulo H. M. Borba;Borba, Paulo H.M.;Paulo Borba</cin:nomeCitacao>
+    <cin:name>Paulo Henrique Monteiro Borba</cin:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/Fernando José Castor de Lima Filho">
+    <cin:cidadeNascimento>Recife</cin:cidadeNascimento>
+    <cin:UFNascimento>PE</cin:UFNascimento>
+    <cin:paisNascimento>Brasil</cin:paisNascimento>
+    <cin:nacionalidade>B</cin:nacionalidade>
+    <cin:nomeCitacao>CASTOR FILHO, Fernando;CASTOR, Fernando;CASTORFILHO, F;Castor Filho, F.;Filho, Fernando Castor</cin:nomeCitacao>
+    <cin:name>Fernando José Castor de Lima Filho</cin:name>
+  </rdf:Description>
+</rdf:RDF>
