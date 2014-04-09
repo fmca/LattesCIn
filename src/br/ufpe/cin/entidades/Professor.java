@@ -2,10 +2,19 @@ package br.ufpe.cin.entidades;
 
 import java.util.List;
 
+
 public class Professor {
 	
 	private String nomeCompleto;
-	private String nomeCitacoes;
+	private String nameCitation;
+	private String academicDegree;
+	private String birthDate; 
+	private String email;
+	private String gender;
+	private String homepage;
+	private String lattes;
+	private String office;
+	private String phone;
 	private String nacionalidade;
 	private String paisNascimento;
 	private String UFNascimento;
@@ -13,6 +22,95 @@ public class Professor {
 	private List<Artigo> artigos;
 	private List<Livro> livros;
 	private List<Capitulo> capitulos;
+	
+	public String getNameCitation() {
+		return nameCitation;
+	}
+
+
+	public void setNameCitation(String nameCitation) {
+		this.nameCitation = nameCitation;
+	}
+
+
+	public String getAcademicDegree() {
+		return academicDegree;
+	}
+
+
+	public void setAcademicDegree(String academicDegree) {
+		this.academicDegree = academicDegree;
+	}
+
+
+	public String getBirthDate() {
+		return birthDate;
+	}
+
+
+	public void setBirthDate(String birthDate) {
+		this.birthDate = birthDate;
+	}
+
+
+	public String getEmail() {
+		return email;
+	}
+
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+
+	public String getGender() {
+		return gender;
+	}
+
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+
+	public String getHomepage() {
+		return homepage;
+	}
+
+
+	public void setHomepage(String homepage) {
+		this.homepage = homepage;
+	}
+
+
+	public String getLattes() {
+		return lattes;
+	}
+
+
+	public void setLattes(String lattes) {
+		this.lattes = lattes;
+	}
+
+
+	public String getOffice() {
+		return office;
+	}
+
+
+	public void setOffice(String office) {
+		this.office = office;
+	}
+
+
+	public String getPhone() {
+		return phone;
+	}
+
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
 	
 	
 	public List<Capitulo> getCapitulos() {
@@ -55,7 +153,7 @@ public class Professor {
 			String cidadeNascimento) {
 		super();
 		this.nomeCompleto = nomeCompleto;
-		this.nomeCitacoes = nomeCitacoes;
+		this.nameCitation = nomeCitacoes;
 		this.nacionalidade = nacionalidade;
 		this.paisNascimento = paisNascimento;
 		UFNascimento = uFNascimento;
@@ -73,10 +171,10 @@ public class Professor {
 		this.nomeCompleto = nomeCompleto;
 	}
 	public String getNomeCitacoes() {
-		return nomeCitacoes;
+		return nameCitation;
 	}
 	public void setNomeCitacoes(String nomeCitacoes) {
-		this.nomeCitacoes = nomeCitacoes;
+		this.nameCitation = nomeCitacoes;
 	}
 	public String getNacionalidade() {
 		return nacionalidade;
