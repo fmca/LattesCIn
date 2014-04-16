@@ -38,7 +38,7 @@ public class Artigo {
 		this.pagFinal = "";
 		this.localPublicacao = "";
 		this.autores = null;
-		this.palavrasChave = null;
+		this.palavrasChave = new PalavrasChave("", "", "", "", "", "");
 		this.areasConhecimento = null;
 	}
 	

@@ -30,9 +30,11 @@ public class Main {
 		//gerar JSON
 		//JSON.transformarJSON(professores);
 		
-		//gerar RDF
-		RDF.transformarRDF(professores);
+		//gerar RDF Professor
+		//RDF.transformarRDFProfessor(professores);
 		
+		//Gerar RDF publicacao
+		RDF.transformarRDFPublicacao(professores);
 
 	}
 
