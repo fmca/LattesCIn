@@ -40,7 +40,10 @@ public class Main {
 		//RDFPublicacao.transformarRDFPublicacao(professores);
 		
 		//Pegar lista de professor e respectivo login
-		ListaProfessor.lerXML(new File("professoresRDF.xml"));
+		//ListaProfessor.lerXML(new File("professoresRDF.xml"));
+		
+		//Transaformar RDF de Thais
+		ListaProfessor.thaisParaJonatas(new File("thais.xml"));
 
 	}
 
