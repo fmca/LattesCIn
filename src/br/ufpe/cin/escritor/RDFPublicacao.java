@@ -11,7 +11,7 @@ import br.ufpe.cin.entidades.Professor;
 import com.hp.hpl.jena.rdf.model.*;
 import com.hp.hpl.jena.vocabulary.*;
 
-public class RDF {
+public class RDFPublicacao {
 
 	public static void transformarRDFProfessor(List<Professor> professores) throws FileNotFoundException{
 

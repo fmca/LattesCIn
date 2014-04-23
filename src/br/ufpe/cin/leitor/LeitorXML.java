@@ -52,7 +52,6 @@ public class LeitorXML {
 			}
 
 
-
 			//Pega as producoes bibliograficas
 			if(partes.getName().equals("PRODUCAO-BIBLIOGRAFICA")){
 				List producoesBibliograficas = partes.getChildren();
