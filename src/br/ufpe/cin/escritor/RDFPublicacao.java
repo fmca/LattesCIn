@@ -59,39 +59,60 @@ public class RDFPublicacao {
 	}
 
 	public static void transformarRDFPublicacao(List<Professor> professores) throws FileNotFoundException{
-
+		
+		
+		
 		Model model = ModelFactory.createDefaultModel();
 
-		String dcterms = "http://purl.org/dc/terms/";
-		String bibo = "http://purl.org/ontology/bibo/";
+		//String dcterms = "http://purl.org/dc/terms/";
+		//String bibo = "http://purl.org/ontology/bibo/";
 		String rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 		String cin = "http://www.cin.ufpe.br/publicacao/";
 
 		Property rdfType = model.createProperty(rdf,"type");
-		Property title = model.createProperty(dcterms,"title");
-		Property language = model.createProperty(dcterms,"language");
-		Property issued = model.createProperty(dcterms,"issued");
-		Property uri = model.createProperty(bibo,"uri");
+		Property title = model.createProperty(cin,"title");
+		Property language = model.createProperty(cin,"language");
+		Property issued = model.createProperty(cin,"issued");
+		Property uri = model.createProperty(cin,"uri");
+		//Property title = model.createProperty(dcterms,"title");
+		//Property language = model.createProperty(dcterms,"language");
+		//Property issued = model.createProperty(dcterms,"issued");
+		//Property uri = model.createProperty(bibo,"uri");
 		Property subject = model.createProperty(cin,"subject");
-		Property areasDoConhecimento = model.createProperty(cin,"areasDoConhecimento");
-		Property meioDeDivulgacao = model.createProperty(cin,"meioDeDivulgacao");
-		Property natureza = model.createProperty(cin,"natureza");
-		Property palavraChave = model.createProperty(cin,"palavraChave");
+		Property areasDoConhecimento = model.createProperty(cin,"knowledgeArea");
+		Property meioDeDivulgacao = model.createProperty(cin,"release");
+		Property natureza = model.createProperty(cin,"nature");
+		Property palavraChave = model.createProperty(cin,"keyWord");
+		Property nomeProfessor = model.createProperty(cin, "name");
+		Property idprofessor = model.createProperty(cin, "idProfessor");
 
 		//Article
+		Property pageStart = model.createProperty(cin,"pageStart");
+		Property pageEnd = model.createProperty(cin,"pageEnd");
+		Property volume = model.createProperty(cin,"volume");
+		Property issue = model.createProperty(cin,"issue");
+		Property status = model.createProperty(cin,"status");
+		/*
 		Property pageStart = model.createProperty(bibo,"pageStart");
 		Property pageEnd = model.createProperty(bibo,"pageEnd");
 		Property volume = model.createProperty(bibo,"volume");
 		Property issue = model.createProperty(bibo,"issue");
 		Property status = model.createProperty(bibo,"status");
+		 */
 
 		//Chapter - só pageStart e pagEnd (já criados anteriormente)
 
 		//Book
+		Property isbn = model.createProperty(cin,"isbn");
+		Property numPages = model.createProperty(cin,"numPages");
+		Property numVolumes = model.createProperty(cin,"numVolumes");
+		Property edition = model.createProperty(cin,"edition");
+		/*
 		Property isbn = model.createProperty(bibo,"isbn");
 		Property numPages = model.createProperty(bibo,"numPages");
 		Property numVolumes = model.createProperty(bibo,"numVolumes");
 		Property edition = model.createProperty(bibo,"edition");
+		 */
 
 		int doc = professores.size()-1;
 		while(doc > 0){
@@ -102,7 +123,8 @@ public class RDFPublicacao {
 			for (int i = 0; i < p.getArtigos().size(); i++) {
 				//System.out.println(p.getArtigos().get(i).getTitulo());
 				Resource publicacao = model.createResource(cin+"artigo/"+p.getArtigos().get(i).getIssn())
-						//.addProperty(rdfType, "rdf:resource='http://www.cin.ufpe.br/publicacao/Artigo'")
+						.addProperty(nomeProfessor, p.getNomeCompleto())
+						.addProperty(idprofessor, p.getHomepage())
 						.addProperty(title, p.getArtigos().get(i).getTitulo())
 						.addProperty(language, p.getArtigos().get(i).getIdioma())
 						.addProperty(issued, String.valueOf(p.getArtigos().get(i).getAno()))
@@ -128,6 +150,8 @@ public class RDFPublicacao {
 				//System.out.println(p.getArtigos().get(i).getTitulo());
 				Resource publicacao = model.createResource(cin+"livro/"+p.getLivros().get(i).getIsbn())
 						//.addProperty(rdfType, "rdf:resource='http://www.cin.ufpe.br/publicacao/Artigo'")
+						.addProperty(nomeProfessor, p.getNomeCompleto())
+						.addProperty(idprofessor, p.getHomepage())
 						.addProperty(title, p.getLivros().get(i).getTitulo())
 						.addProperty(language, p.getLivros().get(i).getIdioma())
 						.addProperty(issued, String.valueOf(p.getLivros().get(i).getAno()))
@@ -148,6 +172,8 @@ public class RDFPublicacao {
 				//System.out.println(p.getArtigos().get(i).getTitulo());
 				Resource publicacao = model.createResource(cin+"capitulo/"+p.getCapitulos().get(i).getIsbn())
 						//.addProperty(rdfType, "rdf:resource='http://www.cin.ufpe.br/publicacao/Artigo'")
+						.addProperty(nomeProfessor, p.getNomeCompleto())
+						.addProperty(idprofessor, p.getHomepage())
 						.addProperty(title, p.getCapitulos().get(i).getTituloCapitulo())
 						.addProperty(language, p.getCapitulos().get(i).getIdioma())
 						.addProperty(issued, String.valueOf(p.getCapitulos().get(i).getAno()))
@@ -168,8 +194,8 @@ public class RDFPublicacao {
 		}
 
 		model.setNsPrefix("cin", cin);
-		model.setNsPrefix("dcterms", dcterms);
-		model.setNsPrefix("bibo", bibo);
+		//model.setNsPrefix("dcterms", dcterms);
+		//model.setNsPrefix("bibo", bibo);
 		model.setNsPrefix("rdf", rdf);
 		OutputStream output = new FileOutputStream("publicacoesRDF.xml");
 		model.write(output);
@@ -177,5 +203,5 @@ public class RDFPublicacao {
 
 
 	}
-
+	
 }

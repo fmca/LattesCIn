@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:aiiso="http://purl.org/vocab/aiiso/schema#" xmlns:db="file:///Users/thaismota/Downloads/d2rq-0.8.1/dump_tms2-2.xml" xmlns:foaf="http://xmlns.com/foaf/0.1#" xmlns:map="file:///Users/thaismota/Downloads/d2rq-0.8.1/dump_tms2-2.xml#" xmlns:opCIn="file:///Users/thaismota/Downloads/d2rq-0.8.1/vocab/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:portal="http://www.portalors.org/ontology/portal#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xml:base="file:///Users/thaismota/Downloads/d2rq-0.8.1/dump_tms2-2.xml#">
-  <rdf:Description rdf:about="#Course/355">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF473">
     <aiiso:code>IF473</aiiso:code>
     <aiiso:name>compiladores</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -49,7 +49,7 @@
     <portal:name>qualidade de software</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/354">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/LE028">
     <aiiso:code>LE028</aiiso:code>
     <aiiso:name>ingles instrumental 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -102,17 +102,17 @@
     <portal:name>trabalho colaborativo apoiado por computador</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/357">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF135">
     <aiiso:code>IF135</aiiso:code>
     <aiiso:name>automacao de projeto vlsi</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/271">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF763">
     <aiiso:code>IF763</aiiso:code>
     <aiiso:name>algebra linear avanc. computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/232">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF715">
     <aiiso:code>IF715</aiiso:code>
     <aiiso:name>calculo de programas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -153,7 +153,7 @@
     <portal:name>trabalho cooperativo apoiado por computador</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/356">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF138">
     <aiiso:code>IF138</aiiso:code>
     <aiiso:name>inteligencia artificial simbolica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -194,7 +194,7 @@
     <portal:name>modelagem formal e estocástica</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/21">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF674">
     <aiiso:code>IF674</aiiso:code>
     <aiiso:name>infra-estrutura de hardware</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -207,7 +207,7 @@
     <portal:name>informática na educação</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/351">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF240">
     <aiiso:code>IF240</aiiso:code>
     <aiiso:name>algebra aplicada a computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -216,7 +216,7 @@
     <portal:name>desenvolvimento de sistemas orientado a objetos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/168">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF097">
     <aiiso:code>IF097</aiiso:code>
     <aiiso:name>linguagens de programacao 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -249,12 +249,12 @@
     <portal:name>recomendações para grupos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/233">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF719">
     <aiiso:code>IF719</aiiso:code>
     <aiiso:name>desenvolvimento de sistemas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/20">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF678">
     <aiiso:code>IF678</aiiso:code>
     <aiiso:name>infra-estrutura de comunicacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -271,7 +271,7 @@
     <portal:name>extração de informação</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/350">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF286">
     <aiiso:code>IF286</aiiso:code>
     <aiiso:name>programacao 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -280,7 +280,7 @@
     <portal:name>ubiquidade</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/169">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF101">
     <aiiso:code>IF101</aiiso:code>
     <aiiso:name>linguagens de programacao 3</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -289,7 +289,7 @@
     <portal:name>implementação de linguagens funcionais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/274">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF764">
     <aiiso:code>IF764</aiiso:code>
     <aiiso:name>calculo avancado para computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -322,12 +322,12 @@
     <portal:name>qualidade/fidelidade de imagens</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/23">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/LE530">
     <aiiso:code>LE530</aiiso:code>
     <aiiso:name>ingles para computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/353">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF371">
     <aiiso:code>IF371</aiiso:code>
     <aiiso:name>transmissao de dados</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -344,7 +344,7 @@
     <portal:name>qualidade de processo de software (cmmi, mps)</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/275">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF774">
     <aiiso:code>IF774</aiiso:code>
     <aiiso:name>complexidade descritiva</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -397,7 +397,7 @@
     <portal:name>realidade virtual</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/22">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF677">
     <aiiso:code>IF677</aiiso:code>
     <aiiso:name>infra-estrutura de software</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -406,7 +406,7 @@
     <portal:name>televisão digital</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/352">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF111">
     <aiiso:code>IF111</aiiso:code>
     <aiiso:name>circuitos digitais</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -415,7 +415,7 @@
     <portal:name>trabalho cooperativo</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/276">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF772">
     <aiiso:code>IF772</aiiso:code>
     <aiiso:name>lambda calculo teoria tipos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -456,7 +456,7 @@
     <portal:name>biologia computacional</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/26">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES232">
     <aiiso:code>ES232</aiiso:code>
     <aiiso:name>introducao dispos semicondutores</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -465,7 +465,7 @@
     <portal:name>ambientes de projeto de sistemas embarcados</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/277">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF773">
     <aiiso:code>IF773</aiiso:code>
     <aiiso:name>logicas nao classicas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -478,12 +478,12 @@
     <portal:name>orientação a aspectos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/164">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF707">
     <aiiso:code>IF707</aiiso:code>
     <aiiso:name>semin. em inteligencia artificial</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/64">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES349">
     <aiiso:code>ES349</aiiso:code>
     <aiiso:name>propagacao eletromagnetica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -496,12 +496,12 @@
     <portal:name>web semântica</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/125">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES285">
     <aiiso:code>ES285</aiiso:code>
     <aiiso:name>circuitos integrados digitais 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/25">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF669">
     <aiiso:code>IF669</aiiso:code>
     <aiiso:name>introducao a programacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -538,12 +538,12 @@
     <portal:name>orientação a objetos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/278">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF109">
     <aiiso:code>IF109</aiiso:code>
     <aiiso:name>metodos numericos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/65">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES266">
     <aiiso:code>ES266</aiiso:code>
     <aiiso:name>telefonia basica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -552,7 +552,7 @@
     <portal:name>aplicações de visualização à área médica</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/165">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF825">
     <aiiso:code>IF825</aiiso:code>
     <aiiso:name>sist.suporte decisao miner. dados</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -569,12 +569,12 @@
     <portal:name>representação de conhecimento</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/124">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF863">
     <aiiso:code>IF863</aiiso:code>
     <aiiso:name>top. avancados em biotecnologia</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/24">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF817">
     <aiiso:code>IF817</aiiso:code>
     <aiiso:name>interface hardware</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -587,7 +587,7 @@
     <portal:name>hardware reconfigurável em processamento de alto desempenho</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/28">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF670">
     <aiiso:code>IF670</aiiso:code>
     <aiiso:name>matemat discreta p/computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -608,7 +608,7 @@
     <portal:name>classificação supervisionada e não supervisionada de dados simbólicos e numéricos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/166">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF826">
     <aiiso:code>IF826</aiiso:code>
     <aiiso:name>top.avanc. sist. intelig.robotica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -617,12 +617,12 @@
     <portal:name>gestão da ti</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/66">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES348">
     <aiiso:code>ES348</aiiso:code>
     <aiiso:name>teoria da informacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/279">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF767">
     <aiiso:code>IF767</aiiso:code>
     <aiiso:name>processamento cadeia caracteres</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -635,7 +635,7 @@
     <portal:name>virtualização de redes</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/127">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES204">
     <aiiso:code>ES204</aiiso:code>
     <aiiso:name>eletromagnetismo 2</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -660,7 +660,7 @@
     <portal:name>reconhecimento de imagens</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/27">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF673">
     <aiiso:code>IF673</aiiso:code>
     <aiiso:name>logica para computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -681,7 +681,7 @@
     <portal:name>gestão de projetos de software</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/167">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/MA046">
     <aiiso:code>MA046</aiiso:code>
     <aiiso:name>algebra linear 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -694,7 +694,7 @@
     <portal:name>gerenciamento de mobilidade</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/67">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES288">
     <aiiso:code>ES288</aiiso:code>
     <aiiso:name>topicos espec em comunicacoes 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -732,7 +732,7 @@
     <portal:name>teoria da complexidade</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/126">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES286">
     <aiiso:code>ES286</aiiso:code>
     <aiiso:name>circuitos integrados digitais 2</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -741,7 +741,7 @@
     <portal:name>inovação, teoria e prática</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/68">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES289">
     <aiiso:code>ES289</aiiso:code>
     <aiiso:name>topicos espec em comunicacoes 2</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -758,18 +758,6 @@
     <portal:name>classificação supervisionada e não supervisionada</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="oiii">
-    <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/4" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1359" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1360" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1361" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1362" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1363" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1364" />
-    <portal:name>leandro maciel almeida</portal:name>
-    <opCIn:siape>9999999</opCIn:siape>
-    <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
-  </rdf:Description>
   <rdf:Description rdf:about="#Area-of-interest/1481">
     <portal:name>ram-based neural networks</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
@@ -782,7 +770,7 @@
     <portal:name>computação ubíqua</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/121">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF859">
     <aiiso:code>IF859</aiiso:code>
     <aiiso:name>robotica p/ engenharia computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -800,7 +788,7 @@
     <opCIn:siape>1134013</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/160">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF705">
     <aiiso:code>IF705</aiiso:code>
     <aiiso:name>automacao inteligente</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -809,7 +797,7 @@
     <portal:name>otimização in water reservoir systems</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/69">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF718">
     <aiiso:code>IF718</aiiso:code>
     <aiiso:name>analise e projetos de sistemas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -851,7 +839,7 @@
     <portal:name>algoritmos evolucionários para redução de consumo de energia</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/29">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF816">
     <aiiso:code>IF816</aiiso:code>
     <aiiso:name>met. numericos computacionais</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -860,7 +848,7 @@
     <portal:name>middleware</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/120">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF860">
     <aiiso:code>IF860</aiiso:code>
     <aiiso:name>projeto mecatronica e robotica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -886,7 +874,7 @@
     <opCIn:siape>1670569</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/161">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF701">
     <aiiso:code>IF701</aiiso:code>
     <aiiso:name>eng.conhec.sistemas especialistas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -977,7 +965,7 @@
     <portal:name>lógica</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/123">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/MC252">
     <aiiso:code>MC252</aiiso:code>
     <aiiso:name>telesaude</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -986,7 +974,7 @@
     <portal:name>recuperação inteligente de informação na web</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/162">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF824">
     <aiiso:code>IF824</aiiso:code>
     <aiiso:name>otimizacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -995,7 +983,7 @@
     <portal:name>otimização na indústria de serviços financeiros</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/163">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF700">
     <aiiso:code>IF700</aiiso:code>
     <aiiso:name>percep. computac.e reconh. padrao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1061,7 +1049,7 @@
     <portal:name>análise multi-critério</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/122">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF864">
     <aiiso:code>IF864</aiiso:code>
     <aiiso:name>seminarios multidisciplinar</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1144,7 +1132,7 @@
     <portal:name>layout de circuitos integrados</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="oiii">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/gdcc">
     <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/4" />
     <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/33" />
     <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/34" />
@@ -1157,32 +1145,10 @@
     <opCIn:siape>1512321</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/396">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF128">
     <aiiso:code>IF128</aiiso:code>
     <aiiso:name>teoria dos grafos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
-  </rdf:Description>
-  <rdf:Description rdf:about="oiii">
-    <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/10" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1786" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1787" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1788" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1789" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1790" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1791" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1792" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1793" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1794" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1795" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1796" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1797" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1798" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1799" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1800" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1801" />
-    <portal:name>veronica teichrieb</portal:name>
-    <opCIn:siape>9999999</opCIn:siape>
-    <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
   <rdf:Description rdf:about="#Area-of-interest/68">
     <portal:name>engenharia de requisitos</portal:name>
@@ -1200,7 +1166,7 @@
     <portal:name>internet das coisas</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/315">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF801">
     <aiiso:code>IF801</aiiso:code>
     <aiiso:name>tecnologias educacionais</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1312,7 +1278,7 @@
     <portal:name>comunicação sem fio</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/397">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF141">
     <aiiso:code>IF141</aiiso:code>
     <aiiso:name>arquiteturas avancadas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1369,7 +1335,7 @@
     <portal:name>microondas</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/314">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF795">
     <aiiso:code>IF795</aiiso:code>
     <aiiso:name>sistemas suporte decis.min.dados</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1377,19 +1343,6 @@
   <rdf:Description rdf:about="#Area-of-interest/644">
     <portal:name>otimização no projeto vlsi</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
-  </rdf:Description>
-  <rdf:Description rdf:about="oiii">
-    <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/2" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1308" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1309" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1310" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1311" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1312" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1313" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1314" />
-    <portal:name>juliano manabu iyoda</portal:name>
-    <opCIn:siape>9999999</opCIn:siape>
-    <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
   <rdf:Description rdf:about="#Area-of-interest/1485">
     <portal:name>previsão de séries temporais</portal:name>
@@ -1407,7 +1360,7 @@
     <opCIn:siape>1285608</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/171">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/MA027">
     <aiiso:code>MA027</aiiso:code>
     <aiiso:name>calculo diferencial e integral 2</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1459,7 +1412,7 @@
     <opCIn:siape>9999999</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/71">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF717">
     <aiiso:code>IF717</aiiso:code>
     <aiiso:name>planej. gerenciamento de projetos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1472,7 +1425,7 @@
     <portal:name>qualidade de serviço</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/394">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF662">
     <aiiso:code>IF662</aiiso:code>
     <aiiso:name>sistemas distribuidos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1539,7 +1492,7 @@
     <portal:name>otimização dos intervalos de teste em engenharia nuclear</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/317">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF811">
     <aiiso:code>IF811</aiiso:code>
     <aiiso:name>top.avanc.administ.sist.seguranca</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1552,7 +1505,7 @@
     <portal:name>projeto de sistemas de middleware</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/170">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF096">
     <aiiso:code>IF096</aiiso:code>
     <aiiso:name>algoritmos e estrutura de dados</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1650,7 +1603,7 @@
     <portal:name>computação ubíqua</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/70">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF716">
     <aiiso:code>IF716</aiiso:code>
     <aiiso:name>especif.requis.validacao sistemas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1663,7 +1616,7 @@
     <portal:name>modelagem e verificação de sistemas embarcados</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/395">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF142">
     <aiiso:code>IF142</aiiso:code>
     <aiiso:name>teoria da prova</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1696,7 +1649,7 @@
     <portal:name>projeto de plataformas de distribuição</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/316">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF807">
     <aiiso:code>IF807</aiiso:code>
     <aiiso:name>top. avanc.sist.sup.decis.min.web</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1713,7 +1666,7 @@
     <portal:name>matemática discreta e combinatória</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/392">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF116">
     <aiiso:code>IF116</aiiso:code>
     <aiiso:name>metodos formais</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1722,7 +1675,7 @@
     <portal:name>desenvolvimento de software orientado a agentes</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/128">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES415">
     <aiiso:code>ES415</aiiso:code>
     <aiiso:name>microcontroladores</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1768,7 +1721,7 @@
     <opCIn:siape>2766820</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/73">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF710">
     <aiiso:code>IF710</aiiso:code>
     <aiiso:name>programacao com componentes</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1801,12 +1754,12 @@
     <portal:name>redes neurais artificiais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/311">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF793">
     <aiiso:code>IF793</aiiso:code>
     <aiiso:name>projeto implementacao de jogos 2d</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/393">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF660">
     <aiiso:code>IF660</aiiso:code>
     <aiiso:name>sistemas de informacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1827,7 +1780,7 @@
     <portal:name>engenharia de requesitos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/129">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES287">
     <aiiso:code>ES287</aiiso:code>
     <aiiso:name>projeto log disposit programaveis</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1865,7 +1818,7 @@
     <portal:name>meta-aprendizado</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/72">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF711">
     <aiiso:code>IF711</aiiso:code>
     <aiiso:name>program. concorrente distribuida</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1891,7 +1844,7 @@
     <portal:name>redes peer-to-peer</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/310">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF805">
     <aiiso:code>IF805</aiiso:code>
     <aiiso:name>projeto em bio informatica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1900,7 +1853,7 @@
     <portal:name>prototipação de sistemas digitais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/390">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF139">
     <aiiso:code>IF139</aiiso:code>
     <aiiso:name>redes neurais</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1941,7 +1894,7 @@
     <portal:name>gestão de tecnologia da informação</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/75">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF723">
     <aiiso:code>IF723</aiiso:code>
     <aiiso:name>sem.eng. soft ling. computacional</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1950,7 +1903,7 @@
     <portal:name>sistemas inteligentes híbridos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/313">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF798">
     <aiiso:code>IF798</aiiso:code>
     <aiiso:name>robotica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -1971,7 +1924,7 @@
     <portal:name>arquiteturas de computadores híbridos para computação de alto desempenho</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/391">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF562">
     <aiiso:code>IF562</aiiso:code>
     <aiiso:name>banco de dados 2</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2012,12 +1965,12 @@
     <portal:name>comércio eletrônico</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/74">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF827">
     <aiiso:code>IF827</aiiso:code>
     <aiiso:name>projetos de compiladores</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/312">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF962">
     <aiiso:code>IF962</aiiso:code>
     <aiiso:name>recuperação de informação</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2186,7 +2139,7 @@
     <portal:name>mineração de processos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/239">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF708">
     <aiiso:code>IF708</aiiso:code>
     <aiiso:name>programacao funcional</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2300,7 +2253,7 @@
     <portal:name>engenheria de requisitos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/319">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF812">
     <aiiso:code>IF812</aiiso:code>
     <aiiso:name>top.avanc.entretenimento digital</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2321,7 +2274,7 @@
     <portal:name>hardware reconfigurável em processamento de alto desempenho</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/358">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF125">
     <aiiso:code>IF125</aiiso:code>
     <aiiso:name>metodos e projetos de sistemas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2358,7 +2311,7 @@
     <portal:name>integração e dados e sistemas</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/318">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF810">
     <aiiso:code>IF810</aiiso:code>
     <aiiso:name>top.avanc.em negócios online e</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2366,25 +2319,6 @@
   <rdf:Description rdf:about="#Area-of-interest/986">
     <portal:name>metodologia de desenvolvimento de software</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
-  </rdf:Description>
-  <rdf:Description rdf:about="oiii">
-    <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/5" />
-    <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/8" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/41" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/42" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/450" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/666" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/822" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/823" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/824" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/825" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/827" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/828" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/829" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/830" />
-    <portal:name>sóstenes luiz soares lins</portal:name>
-    <opCIn:siape>2130240</opCIn:siape>
-    <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
   <rdf:Description rdf:about="#Area-of-interest/946">
     <portal:name>arquitetura de sistemas de computação</portal:name>
@@ -2394,7 +2328,7 @@
     <portal:name>engenharia de documentos (aquisição, filtragem, transcrição, indexação, compressão, etc)</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/359">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF143">
     <aiiso:code>IF143</aiiso:code>
     <aiiso:name>computacao visual</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2439,7 +2373,7 @@
     <portal:name>compiladores</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/398">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF146">
     <aiiso:code>IF146</aiiso:code>
     <aiiso:name>trabalho de graduacao em es</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2531,7 +2465,7 @@
     <portal:name>engenharia de requisitos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/399">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF147">
     <aiiso:code>IF147</aiiso:code>
     <aiiso:name>trabalho de graduacao em rc</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2576,33 +2510,6 @@
     <portal:name>medição</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="oiii">
-    <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/2" />
-    <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/10" />
-    <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/11" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/47" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/65" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/162" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/340" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/563" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/784" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/785" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/786" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/787" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/788" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/789" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/790" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/791" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/792" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/793" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/799" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/801" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/803" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/804" />
-    <portal:name>simone cristiane dos santos</portal:name>
-    <opCIn:siape>1808687</opCIn:siape>
-    <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
-  </rdf:Description>
   <rdf:Description rdf:about="#Area-of-interest/989">
     <portal:name>redes neurais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
@@ -2611,12 +2518,12 @@
     <portal:name>linguagens formais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/131">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES284">
     <aiiso:code>ES284</aiiso:code>
     <aiiso:name>topicos esp em eng computadores 2</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/31">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF686">
     <aiiso:code>IF686</aiiso:code>
     <aiiso:name>paradigmas ling.computacionais</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2625,7 +2532,7 @@
     <portal:name>análise multi-critério</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/244">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF721">
     <aiiso:code>IF721</aiiso:code>
     <aiiso:name>sistemas criticos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2638,7 +2545,7 @@
     <portal:name>códigos turbo, ldpc e decodificação iterativa (códigos corretores de erros)</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/345">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/MA530">
     <aiiso:code>MA530</aiiso:code>
     <aiiso:name>calculo para computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2675,7 +2582,7 @@
     <portal:name>reconhecimento de padrões</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/30">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF676">
     <aiiso:code>IF676</aiiso:code>
     <aiiso:name>metodol expressao tec-cientifica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2684,12 +2591,12 @@
     <portal:name>autômatos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/243">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF713">
     <aiiso:code>IF713</aiiso:code>
     <aiiso:name>semantica linguagens programacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/130">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES283">
     <aiiso:code>ES283</aiiso:code>
     <aiiso:name>topicos esp em eng computadores 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2702,7 +2609,7 @@
     <portal:name>processamento de cadeias</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/344">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF706">
     <aiiso:code>IF706</aiiso:code>
     <aiiso:name>topicos avanc.inteleg.artificial</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2715,7 +2622,7 @@
     <portal:name>realidade virtual (modelagem e simulação gráfica e física)</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/284">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF770">
     <aiiso:code>IF770</aiiso:code>
     <aiiso:name>teoria dos modelos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2728,7 +2635,7 @@
     <portal:name>sistemas híbridos inteligentes</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/195">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/FI582">
     <aiiso:code>FI582</aiiso:code>
     <aiiso:name>fisica para computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2753,7 +2660,7 @@
     <portal:name>interação com sistemas através de gestos rastreando mãos, face e corpo</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/281">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF771">
     <aiiso:code>IF771</aiiso:code>
     <aiiso:name>teoria da prova</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2793,7 +2700,7 @@
     <portal:name>otimização combinatória</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/204">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF681">
     <aiiso:code>IF681</aiiso:code>
     <aiiso:name>interfaces usuario-maquina</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2802,7 +2709,7 @@
     <portal:name>técnicas de modulação digital</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/241">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF720">
     <aiiso:code>IF720</aiiso:code>
     <aiiso:name>qualidade de software</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2819,7 +2726,7 @@
     <portal:name>teoria da decisão</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/282">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF769">
     <aiiso:code>IF769</aiiso:code>
     <aiiso:name>teoria da recursao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2836,7 +2743,7 @@
     <portal:name>tratamento de exceções</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/342">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF702">
     <aiiso:code>IF702</aiiso:code>
     <aiiso:name>redes neurais</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2853,7 +2760,7 @@
     <portal:name>processamentos com ferramentas de ci em voz e imagens</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/193">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF421">
     <aiiso:code>IF421</aiiso:code>
     <aiiso:name>estagio 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2874,12 +2781,12 @@
     <portal:name>programação orientada a aspectos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/341">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF704">
     <aiiso:code>IF704</aiiso:code>
     <aiiso:name>processamento linguagem natural</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/248">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF784">
     <aiiso:code>IF784</aiiso:code>
     <aiiso:name>contabilidade financ. e gerencial</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2896,7 +2803,7 @@
     <portal:name>comunicações ópticas</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/35">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES413">
     <aiiso:code>ES413</aiiso:code>
     <aiiso:name>sinais sistemas p/eng. computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2905,7 +2812,7 @@
     <portal:name>engenharia de linhas de produtos de software</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/206">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF687">
     <aiiso:code>IF687</aiiso:code>
     <aiiso:name>introdução a multimidia</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2918,7 +2825,7 @@
     <portal:name>teoria do significado</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/287">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF776">
     <aiiso:code>IF776</aiiso:code>
     <aiiso:name>topicos avancados inf. teorica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2965,7 +2872,7 @@
     <portal:name>computação na nuvem</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/34">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES414">
     <aiiso:code>ES414</aiiso:code>
     <aiiso:name>servomecanismo p/ eng. computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -2974,7 +2881,7 @@
     <portal:name>transmissão digital</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/247">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF724">
     <aiiso:code>IF724</aiiso:code>
     <aiiso:name>topicos avan½.ling.computacionais</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3019,7 +2926,7 @@
     <portal:name>comunicações ópticas</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/33">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF822">
     <aiiso:code>IF822</aiiso:code>
     <aiiso:name>projeto co</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3083,7 +2990,7 @@
     <portal:name>transmissão digital</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/245">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF714">
     <aiiso:code>IF714</aiiso:code>
     <aiiso:name>sistemas de informacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3100,7 +3007,7 @@
     <portal:name>algoritmos (aplicações diversas em transporte, localização, gerenciamento de itens / recursos)</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/32">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES344">
     <aiiso:code>ES344</aiiso:code>
     <aiiso:name>principios de comunicacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3137,7 +3044,7 @@
     <portal:name>modelagem de sistemas dinâmicos por ferramentas de circuito integrado</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/78">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF780">
     <aiiso:code>IF780</aiiso:code>
     <aiiso:name>economia para empreendedor</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3150,7 +3057,7 @@
     <portal:name>tolerância a falhas de software para sistemas distribuído</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/178">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF559">
     <aiiso:code>IF559</aiiso:code>
     <aiiso:name>banco de dados 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3179,7 +3086,7 @@
     <portal:name>lógica matemática</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/139">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF831">
     <aiiso:code>IF831</aiiso:code>
     <aiiso:name>arquiteturas avanc. de computadores</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3208,12 +3115,12 @@
     <portal:name>programação concorrente</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/179">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/MA129">
     <aiiso:code>MA129</aiiso:code>
     <aiiso:name>calculo diferencial e integral 4</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/79">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF781">
     <aiiso:code>IF781</aiiso:code>
     <aiiso:name>empreendimentos em informatica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3222,7 +3129,7 @@
     <portal:name>mobilidade</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/39">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF813">
     <aiiso:code>IF813</aiiso:code>
     <aiiso:name>trabalho de graduacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3251,7 +3158,7 @@
     <portal:name>arquitetura de sistemas de computação</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/138">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF836">
     <aiiso:code>IF836</aiiso:code>
     <aiiso:name>transmissao de dados</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3272,7 +3179,7 @@
     <portal:name>aplicações sensíveis ao contexto</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/289">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF756">
     <aiiso:code>IF756</aiiso:code>
     <aiiso:name>autoria multimidia</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3289,12 +3196,12 @@
     <portal:name>tolerância a falhas</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/176">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF117">
     <aiiso:code>IF117</aiiso:code>
     <aiiso:name>sistemas operacionais</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/76">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF722">
     <aiiso:code>IF722</aiiso:code>
     <aiiso:name>topicos avancados eng. software</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3315,7 +3222,7 @@
     <portal:name>engenharia de software orientada a agente</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/38">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF688">
     <aiiso:code>IF688</aiiso:code>
     <aiiso:name>teo.implemen.ling. computacionais</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3324,7 +3231,7 @@
     <portal:name>simulação em física</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/137">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF840">
     <aiiso:code>IF840</aiiso:code>
     <aiiso:name>redes moveis 2</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3353,7 +3260,7 @@
     <portal:name>redes neurais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/77">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/CT784">
     <aiiso:code>CT784</aiiso:code>
     <aiiso:name>contabilidade financ. e gerencial</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3370,7 +3277,7 @@
     <portal:name>middleware</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/177">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ET317">
     <aiiso:code>ET317</aiiso:code>
     <aiiso:name>probabilidade e estatistica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3391,12 +3298,12 @@
     <portal:name>engenharia de documentos (aquisição, filtragem, transcrição, indexação, compressão, etc)</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/37">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF684">
     <aiiso:code>IF684</aiiso:code>
     <aiiso:name>sistemas inteligentes</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/36">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF675">
     <aiiso:code>IF675</aiiso:code>
     <aiiso:name>sistemas digitais</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3405,7 +3312,7 @@
     <portal:name>constraint solving</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/136">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF738">
     <aiiso:code>IF738</aiiso:code>
     <aiiso:name>redes de computadores</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3471,7 +3378,7 @@
     <portal:name>capacidade de adaptação e emprego em sistemas robóticos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/174">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/MA128">
     <aiiso:code>MA128</aiiso:code>
     <aiiso:name>calculo diferencial e integral 3</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3520,7 +3427,7 @@
     <portal:name>multimídia</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/240">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF712">
     <aiiso:code>IF712</aiiso:code>
     <aiiso:name>programacao para internet</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3548,7 +3455,7 @@
     <opCIn:siape>2133288</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/135">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF838">
     <aiiso:code>IF838</aiiso:code>
     <aiiso:name>redes de acesso</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3565,7 +3472,7 @@
     <portal:name>airline otimização</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/175">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF118">
     <aiiso:code>IF118</aiiso:code>
     <aiiso:name>organizacao de computadores</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3616,7 +3523,7 @@
     <portal:name>computação móvel</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/134">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF837">
     <aiiso:code>IF837</aiiso:code>
     <aiiso:name>protocolos de comunicacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3650,7 +3557,7 @@
     <portal:name>otimização de sistemas variantes no tempo e com objetivos múltiplos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/172">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF312">
     <aiiso:code>IF312</aiiso:code>
     <aiiso:name>logica aplicada a computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3663,7 +3570,7 @@
     <portal:name>comunicação de grupo</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/133">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF842">
     <aiiso:code>IF842</aiiso:code>
     <aiiso:name>gerenciamento de servicos 2</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3716,7 +3623,7 @@
     <portal:name>planejamento de produção e controle</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/173">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES271">
     <aiiso:code>ES271</aiiso:code>
     <aiiso:name>tecnicas digitais 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3752,7 +3659,7 @@
     <portal:name>decisão multi-critério</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/132">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF841">
     <aiiso:code>IF841</aiiso:code>
     <aiiso:name>gerenciamento de servicos 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3761,7 +3668,7 @@
     <portal:name>software verificação de modelos e testes</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/382">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF129">
     <aiiso:code>IF129</aiiso:code>
     <aiiso:name>projeto de banco de dados</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3778,7 +3685,7 @@
     <portal:name>controle inteligente</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/183">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF525">
     <aiiso:code>IF525</aiiso:code>
     <aiiso:name>teoria da computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3869,7 +3776,7 @@
     <portal:name>bibliotecas digitais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/305">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF800">
     <aiiso:code>IF800</aiiso:code>
     <aiiso:name>engenharia software educativos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3886,7 +3793,7 @@
     <portal:name>middleware</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/83">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF788">
     <aiiso:code>IF788</aiiso:code>
     <aiiso:name>iniciacao cientifica 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -3975,7 +3882,7 @@
     <opCIn:siape>1699034</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/182">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF570">
     <aiiso:code>IF570</aiiso:code>
     <aiiso:name>engenharia de software</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -4066,7 +3973,7 @@
     <portal:name>avaliação de desempenho e confiabilidade de sistemas</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/304">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF802">
     <aiiso:code>IF802</aiiso:code>
     <aiiso:name>convergencia digital</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -4075,7 +3982,7 @@
     <portal:name>teoria da prova</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/82">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/AD783">
     <aiiso:code>AD783</aiiso:code>
     <aiiso:name>gestao de negocios</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -4092,7 +3999,7 @@
     <portal:name>análise e desenvolvimento de algoritmos de aprendizagem de máquina</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/383">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF293">
     <aiiso:code>IF293</aiiso:code>
     <aiiso:name>projeto de compiladores</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -4178,7 +4085,7 @@
     <opCIn:siape>9999999</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/181">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/MA327">
     <aiiso:code>MA327</aiiso:code>
     <aiiso:name>sistemas lineares</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -4191,7 +4098,7 @@
     <portal:name>lógica e computação</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/303">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF835">
     <aiiso:code>IF835</aiiso:code>
     <aiiso:name>controle e manipulacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -4226,7 +4133,7 @@
     <portal:name>avaliação de qos de sistemas</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/384">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF115">
     <aiiso:code>IF115</aiiso:code>
     <aiiso:name>arquitetura de computadores</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -4239,7 +4146,7 @@
     <portal:name>projetos de sistemas críticos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/81">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/FI109">
     <aiiso:code>FI109</aiiso:code>
     <aiiso:name>fisica geral 4</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -4260,7 +4167,7 @@
     <portal:name>ensino à distância</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="oiii">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/lma3">
     <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/4" />
     <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/33" />
     <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/34" />
@@ -4294,7 +4201,7 @@
     <opCIn:siape>9999999</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/180">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF122">
     <aiiso:code>IF122</aiiso:code>
     <aiiso:name>redes de computadores 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -4384,7 +4291,7 @@
     <portal:name>análise de expressão gênica</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/385">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF667">
     <aiiso:code>IF667</aiiso:code>
     <aiiso:name>projeto e implementacao de jogos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -4393,12 +4300,12 @@
     <portal:name>avaliação de consumo de energia de sistemas computacionais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/302">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF804">
     <aiiso:code>IF804</aiiso:code>
     <aiiso:name>comparacao analise sequencias dna</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/80">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/FI131">
     <aiiso:code>FI131</aiiso:code>
     <aiiso:name>fisica experimental l 2</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -4525,7 +4432,7 @@
     <portal:name>sistemas de recuperação</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/301">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF792">
     <aiiso:code>IF792</aiiso:code>
     <aiiso:name>comercio eletronico</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -4550,7 +4457,7 @@
     <portal:name>algoritmos de agrupamento</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/87">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF786">
     <aiiso:code>IF786</aiiso:code>
     <aiiso:name>proficiencia em ingles 2</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -4634,7 +4541,7 @@
     <portal:name>nuvens computacionais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/300">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF760">
     <aiiso:code>IF760</aiiso:code>
     <aiiso:name>topicos avancados em midias</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -4673,7 +4580,7 @@
     <portal:name>modelos de misturas</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/86">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF785">
     <aiiso:code>IF785</aiiso:code>
     <aiiso:name>proficiencia em ingles 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -4782,7 +4689,7 @@
     <portal:name>redes de sensores</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/380">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF113">
     <aiiso:code>IF113</aiiso:code>
     <aiiso:name>concorrencia</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -4821,7 +4728,7 @@
     <portal:name>redes em malha sem fio</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/85">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/EC779">
     <aiiso:code>EC779</aiiso:code>
     <aiiso:name>nova economia e nova sociedade</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -4895,7 +4802,7 @@
     <portal:name>segmentação de imagens</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="oiii">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/vt">
     <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/10" />
     <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/180" />
     <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/388" />
@@ -4929,12 +4836,12 @@
     <portal:name>otimização combinatória e grafos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/381">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF098">
     <aiiso:code>IF098</aiiso:code>
     <aiiso:name>linguagens de programacao 2</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="oiii">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/jmi">
     <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/2" />
     <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/52" />
     <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/55" />
@@ -4963,7 +4870,7 @@
     <portal:name>aprendizagem de máquina</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/84">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF789">
     <aiiso:code>IF789</aiiso:code>
     <aiiso:name>iniciacao cientifica 2</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5164,7 +5071,7 @@
     <portal:name>sistemas de computação</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/188">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/LE716">
     <aiiso:code>LE716</aiiso:code>
     <aiiso:name>INTRODUÇÃO A LIBRAS</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5205,12 +5112,12 @@
     <portal:name>implementação de linguagens funcionais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/386">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF132">
     <aiiso:code>IF132</aiiso:code>
     <aiiso:name>prototipacao circuitos integrados</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/309">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF799">
     <aiiso:code>IF799</aiiso:code>
     <aiiso:name>prog.declarativa b.d.inteligentes</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5271,7 +5178,7 @@
     <portal:name>sistemas operacionais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/187">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF120">
     <aiiso:code>IF120</aiiso:code>
     <aiiso:name>compiladores</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5280,7 +5187,7 @@
     <portal:name>inovação e empreendedorismo</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/348">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF361">
     <aiiso:code>IF361</aiiso:code>
     <aiiso:name>introducao ao computador 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5289,7 +5196,7 @@
     <portal:name>análise estática</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/387">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF137">
     <aiiso:code>IF137</aiiso:code>
     <aiiso:name>semantica de linguagens</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5302,7 +5209,7 @@
     <portal:name>teoria da prova</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/308">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF796">
     <aiiso:code>IF796</aiiso:code>
     <aiiso:name>mineracao da web</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5315,7 +5222,7 @@
     <portal:name>computer networking</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/291">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF754">
     <aiiso:code>IF754</aiiso:code>
     <aiiso:name>computacao musical processam.som</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5355,7 +5262,7 @@
     <portal:name>hardware para processamento de imagens</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/186">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF126">
     <aiiso:code>IF126</aiiso:code>
     <aiiso:name>fundamentos de inteligência artificial</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5368,7 +5275,7 @@
     <portal:name>recuperação inteligente de informação na web</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/349">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF279">
     <aiiso:code>IF279</aiiso:code>
     <aiiso:name>linguag de prog algoritmica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5385,7 +5292,7 @@
     <portal:name>natural deduction</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/388">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF123">
     <aiiso:code>IF123</aiiso:code>
     <aiiso:name>redes de computadores 2</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5398,7 +5305,7 @@
     <portal:name>mineração de dados e textos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/307">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF794">
     <aiiso:code>IF794</aiiso:code>
     <aiiso:name>jogos avancados</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5407,7 +5314,7 @@
     <portal:name>vida artificial</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/346">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF095">
     <aiiso:code>IF095</aiiso:code>
     <aiiso:name>iniciacao a ciencia da computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5424,7 +5331,7 @@
     <portal:name>projeto e análise de algoritmos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/185">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES256">
     <aiiso:code>ES256</aiiso:code>
     <aiiso:name>servomecanismo</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5453,12 +5360,12 @@
     <portal:name>modelos analíticos e de simulação</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/389">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF574">
     <aiiso:code>IF574</aiiso:code>
     <aiiso:name>redes de computadores 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/184">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/LE732">
     <aiiso:code>LE732</aiiso:code>
     <aiiso:name>inglês para computação</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5475,7 +5382,7 @@
     <portal:name>engenharia de linhas de produtos de software</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/306">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF803">
     <aiiso:code>IF803</aiiso:code>
     <aiiso:name>introducao a biologia molecular</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5546,7 +5453,7 @@
     <portal:name>execução simbólica</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/347">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF280">
     <aiiso:code>IF280</aiiso:code>
     <aiiso:name>algoritmos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5555,12 +5462,12 @@
     <portal:name>emoção</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/297">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF755">
     <aiiso:code>IF755</aiiso:code>
     <aiiso:name>realidade virtual</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/144">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF814">
     <aiiso:code>IF814</aiiso:code>
     <aiiso:name>metodol. hard/sorftware co</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5601,12 +5508,12 @@
     <portal:name>reconhecimento de padrões</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/258">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF779">
     <aiiso:code>IF779</aiiso:code>
     <aiiso:name>nova economia e nova sociedade</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/45">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF843">
     <aiiso:code>IF843</aiiso:code>
     <aiiso:name>projeto e planejamento de redes</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5639,12 +5546,12 @@
     <portal:name>códigos corretores de erros</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/145">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF726">
     <aiiso:code>IF726</aiiso:code>
     <aiiso:name>organiz. tecnologia computadores</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/298">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF761">
     <aiiso:code>IF761</aiiso:code>
     <aiiso:name>seminario em midias e interfaces</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5677,12 +5584,12 @@
     <portal:name>integração de dados</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/44">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF844">
     <aiiso:code>IF844</aiiso:code>
     <aiiso:name>projeto de sistemas sem fio</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/257">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF782">
     <aiiso:code>IF782</aiiso:code>
     <aiiso:name>negocios on line</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5750,7 +5657,7 @@
     <portal:name>refactoring</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/146">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF727">
     <aiiso:code>IF727</aiiso:code>
     <aiiso:name>processadores aplicac. especifica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5759,12 +5666,12 @@
     <portal:name>contexto computacional</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/299">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF762">
     <aiiso:code>IF762</aiiso:code>
     <aiiso:name>topicos avancados em interface</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/218">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF731">
     <aiiso:code>IF731</aiiso:code>
     <aiiso:name>ambientes projetos sist.embutidos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5773,7 +5680,7 @@
     <portal:name>lógica computacional</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/48">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF743">
     <aiiso:code>IF743</aiiso:code>
     <aiiso:name>seguranca de sistemas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5786,7 +5693,7 @@
     <portal:name>programação orientada a aspectos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/47">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF846">
     <aiiso:code>IF846</aiiso:code>
     <aiiso:name>seguranca de redes</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5827,7 +5734,7 @@
     <portal:name>circuitos integrados</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/147">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF725">
     <aiiso:code>IF725</aiiso:code>
     <aiiso:name>projeto de cpu</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5852,7 +5759,7 @@
     <portal:name>análise de sistemas críticos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/217">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF691">
     <aiiso:code>IF691</aiiso:code>
     <aiiso:name>trabalho de graduação</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5861,7 +5768,7 @@
     <portal:name>projeto e implementação de sistemas concorrentes, paralelos e distribuídos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/46">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF847">
     <aiiso:code>IF847</aiiso:code>
     <aiiso:name>seguranca de aplicacoes</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5886,25 +5793,6 @@
     <portal:name>antenas</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="oiii">
-    <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/13" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/222" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/223" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/224" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/225" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/226" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/227" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/228" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/229" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/230" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/231" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/232" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/233" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/234" />
-    <portal:name>daniel carvalho da cunha</portal:name>
-    <opCIn:siape>1919027</opCIn:siape>
-    <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
-  </rdf:Description>
   <rdf:Description rdf:about="#Area-of-interest/374">
     <portal:name>qualidade de serviço</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
@@ -5921,7 +5809,7 @@
     <portal:name>sistemas cooperativos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/148">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF732">
     <aiiso:code>IF732</aiiso:code>
     <aiiso:name>projetos de sistemas embutidos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5942,12 +5830,12 @@
     <portal:name>sistemas de apoio a decisão</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/293">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF865">
     <aiiso:code>IF865</aiiso:code>
     <aiiso:name>interfaces gráficas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/331">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF740">
     <aiiso:code>IF740</aiiso:code>
     <aiiso:name>sistemas de comunicacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5956,7 +5844,7 @@
     <portal:name>qualidade de serviço</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/254">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF783">
     <aiiso:code>IF783</aiiso:code>
     <aiiso:name>gestao de negocios</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5965,7 +5853,7 @@
     <portal:name>mineração de dados espaciais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/41">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF848">
     <aiiso:code>IF848</aiiso:code>
     <aiiso:name>deteccao de intrusao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -5994,7 +5882,7 @@
     <portal:name>fundamentos teóricos da computação</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/149">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF729">
     <aiiso:code>IF729</aiiso:code>
     <aiiso:name>prototip. de circuitos integrados</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6015,7 +5903,7 @@
     <portal:name>modelagem e implementação de banco de dados geográficos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/294">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF753">
     <aiiso:code>IF753</aiiso:code>
     <aiiso:name>processamento de sinais</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6028,7 +5916,7 @@
     <portal:name>optimization of telecommunications networks</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/330">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF748">
     <aiiso:code>IF748</aiiso:code>
     <aiiso:name>seminario redes sist.distribuidos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6037,7 +5925,7 @@
     <portal:name>desenvolvimento de sistemas confiáveis</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/40">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF744">
     <aiiso:code>IF744</aiiso:code>
     <aiiso:name>adm. de sistemas heterogeneos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6050,7 +5938,7 @@
     <portal:name>sistemas de banco de dados não convencionais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/253">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/MA036">
     <aiiso:code>MA036</aiiso:code>
     <aiiso:name>geometria analitica 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6079,7 +5967,7 @@
     <portal:name>desenvolvimento de software orientado a aspectos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/295">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF759">
     <aiiso:code>IF759</aiiso:code>
     <aiiso:name>processamento de voz</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6124,7 +6012,7 @@
     <portal:name>banco de dados geográficos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/43">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF845">
     <aiiso:code>IF845</aiiso:code>
     <aiiso:name>modelagem e avaliacao de sistemas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6177,7 +6065,7 @@
     <portal:name>projeto e implementação de sistemas concorrentes, paralelos e distribuídos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/213">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF683">
     <aiiso:code>IF683</aiiso:code>
     <aiiso:name>projeto de desenvolvimento</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6218,7 +6106,7 @@
     <portal:name>planejamento e gestão de projetos / planejamento de soluções de tecnologia da informação - plano de e-business</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/42">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF741">
     <aiiso:code>IF741</aiiso:code>
     <aiiso:name>gerenciamento de redes</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6529,7 +6417,7 @@
     <portal:name>computação móvel</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/140">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF728">
     <aiiso:code>IF728</aiiso:code>
     <aiiso:name>engenharia de sistemas embutidos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6550,7 +6438,7 @@
     <portal:name>web semântica</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/101">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF768">
     <aiiso:code>IF768</aiiso:code>
     <aiiso:name>teoria de grafos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6587,7 +6475,7 @@
     <portal:name>processos estocásticos e teoria das filas</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/88">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF787">
     <aiiso:code>IF787</aiiso:code>
     <aiiso:name>proficiencia em ingles 3</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6665,7 +6553,7 @@
     <portal:name>interfaces avançadas</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/100">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF778">
     <aiiso:code>IF778</aiiso:code>
     <aiiso:name>seminario em informatica teorica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6703,7 +6591,7 @@
     <portal:name>gestão de processos de negócio para o setor público</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/49">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF857">
     <aiiso:code>IF857</aiiso:code>
     <aiiso:name>seminarios em redes</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6712,12 +6600,12 @@
     <portal:name>teoria dos grafos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/89">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF790">
     <aiiso:code>IF790</aiiso:code>
     <aiiso:name>projeto de monitoria 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/141">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF709">
     <aiiso:code>IF709</aiiso:code>
     <aiiso:name>implementacao sist. operacionais</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6776,7 +6664,7 @@
     <opCIn:siape>1277234</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/103">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF775">
     <aiiso:code>IF775</aiiso:code>
     <aiiso:name>topicos avancados em algoritmos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6793,7 +6681,7 @@
     <portal:name>redes reguladora de gene</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/142">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF833">
     <aiiso:code>IF833</aiiso:code>
     <aiiso:name>instrumentacao eletronica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6860,7 +6748,7 @@
     <portal:name>sistemas de telecomunicações</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/102">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF777">
     <aiiso:code>IF777</aiiso:code>
     <aiiso:name>top.avanc. matemat.</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6881,7 +6769,7 @@
     <portal:name>processamento de imagens</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/143">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF832">
     <aiiso:code>IF832</aiiso:code>
     <aiiso:name>medidas de radio</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6913,12 +6801,12 @@
     <portal:name>multimídia</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/97">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/MA533">
     <aiiso:code>MA533</aiiso:code>
     <aiiso:name>algebra linear avanc.p/computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/12">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES238">
     <aiiso:code>ES238</aiiso:code>
     <aiiso:name>eletronica 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6939,7 +6827,7 @@
     <portal:name>aprendizagem de máquina</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/104">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF852">
     <aiiso:code>IF852</aiiso:code>
     <aiiso:name>analise de voz e video</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6960,12 +6848,12 @@
     <portal:name>software básico</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/96">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF697">
     <aiiso:code>IF697</aiiso:code>
     <aiiso:name>top.avanc.gerenc.dados informacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/13">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF682">
     <aiiso:code>IF682</aiiso:code>
     <aiiso:name>engenharia software e sistemas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -6982,7 +6870,7 @@
     <portal:name>optimization of test intervals in nuclear engineering</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/105">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF752">
     <aiiso:code>IF752</aiiso:code>
     <aiiso:name>analise imag. visao computacional</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7003,7 +6891,7 @@
     <portal:name>realidade virtual</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/99">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF765">
     <aiiso:code>IF765</aiiso:code>
     <aiiso:name>analise numerica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7012,7 +6900,7 @@
     <portal:name>desenvolvimento e testes de software</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/14">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF819">
     <aiiso:code>IF819</aiiso:code>
     <aiiso:name>estagio</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7097,7 +6985,7 @@
     <opCIn:siape>1650867</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/15">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ET586">
     <aiiso:code>ET586</aiiso:code>
     <aiiso:name>estatist probabilidade computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7106,7 +6994,7 @@
     <portal:name>técnicas de verificação de modelos (model checking)</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/106">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF750">
     <aiiso:code>IF750</aiiso:code>
     <aiiso:name>computacao grafica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7123,7 +7011,7 @@
     <portal:name>linhas de produto de software</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/98">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF766">
     <aiiso:code>IF766</aiiso:code>
     <aiiso:name>algoritmos de aproximacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7172,7 +7060,7 @@
     <portal:name>biológica</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/16">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF685">
     <aiiso:code>IF685</aiiso:code>
     <aiiso:name>gerenciamento dados e informacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7181,17 +7069,17 @@
     <portal:name>modelos e programas concorrentes e orientados a objetos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/107">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF854">
     <aiiso:code>IF854</aiiso:code>
     <aiiso:name>dispositivos multimidia</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/372">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF578">
     <aiiso:code>IF578</aiiso:code>
     <aiiso:name>projeto de sistemas operacionais</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/93">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF696">
     <aiiso:code>IF696</aiiso:code>
     <aiiso:name>integ. dados web e warehouse</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7208,7 +7096,7 @@
     <portal:name>algoritmos e estruturas de dados</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="oiii">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/dcunha">
     <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/13" />
     <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1139" />
     <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1140" />
@@ -7227,7 +7115,7 @@
     <opCIn:siape>9999999</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/108">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF758">
     <aiiso:code>IF758</aiiso:code>
     <aiiso:name>interfaces adapt. sistemas moveis</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7248,7 +7136,7 @@
     <opCIn:siape>9999999</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/17">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF690">
     <aiiso:code>IF690</aiiso:code>
     <aiiso:name>historia e futuro da computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7277,7 +7165,7 @@
     <portal:name>evolução e transformação de programas e modelos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/373">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF564">
     <aiiso:code>IF564</aiiso:code>
     <aiiso:name>topicos de banco de dados 2</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7316,7 +7204,7 @@
     <opCIn:siape>9999999</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/92">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF694">
     <aiiso:code>IF694</aiiso:code>
     <aiiso:name>banco de dados distrib. e moveis</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7333,7 +7221,7 @@
     <portal:name>análise de algoritmos e complexidade de computação</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/18">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF679">
     <aiiso:code>IF679</aiiso:code>
     <aiiso:name>informatica e sociedade</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7342,7 +7230,7 @@
     <portal:name>integração entre métodos formais e semi-formais (como uml)</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/109">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF851">
     <aiiso:code>IF851</aiiso:code>
     <aiiso:name>interfaces usuario-maquina</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7363,12 +7251,12 @@
     <portal:name>máquinas sociais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/95">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF693">
     <aiiso:code>IF693</aiiso:code>
     <aiiso:name>sist.gerenc. de banco de dados</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/19">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF689">
     <aiiso:code>IF689</aiiso:code>
     <aiiso:name>informatica teorica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7385,7 +7273,7 @@
     <portal:name>confiabilidade e segurança em software crítico embarcado</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/370">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF119">
     <aiiso:code>IF119</aiiso:code>
     <aiiso:name>analise e especific de requisitos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7394,7 +7282,7 @@
     <portal:name>integração de sistemas</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/94">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF698">
     <aiiso:code>IF698</aiiso:code>
     <aiiso:name>semin. gerenc. dados e informacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7415,7 +7303,7 @@
     <portal:name>genética molecular e de microorganismos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/371">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF145">
     <aiiso:code>IF145</aiiso:code>
     <aiiso:name>gerenciamento de redes</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7477,7 +7365,7 @@
     <portal:name>design interação</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/334">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF749">
     <aiiso:code>IF749</aiiso:code>
     <aiiso:name>topicos avanc.sist.distribuidos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7534,7 +7422,7 @@
     <opCIn:siape>9999999</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/376">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/EC200">
     <aiiso:code>EC200</aiiso:code>
     <aiiso:name>economia</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7624,7 +7512,7 @@
     <portal:name>orientação a agentes</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/212">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF680">
     <aiiso:code>IF680</aiiso:code>
     <aiiso:name>processamento grafico</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7659,7 +7547,7 @@
     <portal:name>projetos de sistemas embarcados low power</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/377">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF136">
     <aiiso:code>IF136</aiiso:code>
     <aiiso:name>adm de projeto de sistemas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7688,7 +7576,7 @@
     <rdfs:label>academic</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/50">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF815">
     <aiiso:code>IF815</aiiso:code>
     <aiiso:name>simulacao estocast.  p/comunicacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7729,12 +7617,12 @@
     <portal:name>desenvolvimento de jogos digitais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/91">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF823">
     <aiiso:code>IF823</aiiso:code>
     <aiiso:name>armazenamento de dados</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/374">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF134">
     <aiiso:code>IF134</aiiso:code>
     <aiiso:name>interface homem-maquina</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7766,7 +7654,7 @@
     <portal:name>delineadores experimentais ótimos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/51">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF745">
     <aiiso:code>IF745</aiiso:code>
     <aiiso:name>sistemas multimidia distribuidos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7810,12 +7698,12 @@
     <portal:name>sistemas reconfiguráveis (fpgas)</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/90">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF791">
     <aiiso:code>IF791</aiiso:code>
     <aiiso:name>projeto de monitoria 2</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/375">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF130">
     <aiiso:code>IF130</aiiso:code>
     <aiiso:name>teoria dos modelos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -7995,7 +7883,7 @@
     <opCIn:siape>9999999</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/339">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF797">
     <aiiso:code>IF797</aiiso:code>
     <aiiso:name>otimizacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8111,7 +7999,7 @@
     <portal:name>matemática discreta e combinatória</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/378">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF144">
     <aiiso:code>IF144</aiiso:code>
     <aiiso:name>processamento de ling natural</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8159,7 +8047,7 @@
     <portal:name>desenvolvimento de aplicativos móveis</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/10">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/EL215">
     <aiiso:code>EL215</aiiso:code>
     <aiiso:name>circuitos eletricos 1a</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8251,7 +8139,7 @@
     <portal:name>arquiteturas reconfiguráveis</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/379">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF278">
     <aiiso:code>IF278</aiiso:code>
     <aiiso:name>programacao em logica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8284,7 +8172,7 @@
     <portal:name>informática na educação</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/11">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES203">
     <aiiso:code>ES203</aiiso:code>
     <aiiso:name>eletromagnetismo 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8331,7 +8219,7 @@
     <portal:name>implementação de linguagem</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/158">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF703">
     <aiiso:code>IF703</aiiso:code>
     <aiiso:name>agentes autonomos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8380,7 +8268,7 @@
     <portal:name>dcom</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/59">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES341">
     <aiiso:code>ES341</aiiso:code>
     <aiiso:name>comunicacao digital</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8405,7 +8293,7 @@
     <portal:name>orientação a objetos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/159">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF699">
     <aiiso:code>IF699</aiiso:code>
     <aiiso:name>aprendizagem de maquina</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8458,7 +8346,7 @@
     <portal:name>sistemas críticos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/58">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES249">
     <aiiso:code>ES249</aiiso:code>
     <aiiso:name>circuitos de comunicacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8475,7 +8363,7 @@
     <portal:name>algoritmos de decodificação iterativa</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/156">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF733">
     <aiiso:code>IF733</aiiso:code>
     <aiiso:name>transdutores</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8528,7 +8416,7 @@
     <portal:name>internet das coisas</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/57">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF839">
     <aiiso:code>IF839</aiiso:code>
     <aiiso:name>redes moveis 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8569,7 +8457,7 @@
     <portal:name>reengenharia de software usando transformações</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/157">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF828">
     <aiiso:code>IF828</aiiso:code>
     <aiiso:name>validacao de sistemas embutidos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8618,7 +8506,7 @@
     <portal:name>visão computacional</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/56">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES291">
     <aiiso:code>ES291</aiiso:code>
     <aiiso:name>processamento de voz</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8655,7 +8543,7 @@
     <portal:name>transmissão digital via rede de distribuição elétrica</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/4">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/FI021">
     <aiiso:code>FI021</aiiso:code>
     <aiiso:name>fisica experimental 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8672,7 +8560,7 @@
     <portal:name>teoria dos grafos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/55">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES235">
     <aiiso:code>ES235</aiiso:code>
     <aiiso:name>processamento de imagem</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8693,12 +8581,12 @@
     <portal:name>sistemas de geoprocessamento</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/321">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF806">
     <aiiso:code>IF806</aiiso:code>
     <aiiso:name>topicos avanc.em bio informatica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/401">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF149">
     <aiiso:code>IF149</aiiso:code>
     <aiiso:name>trabalho de graduacao em bd</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8735,12 +8623,12 @@
     <portal:name>sistemas de bd autonômicos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/402">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF150">
     <aiiso:code>IF150</aiiso:code>
     <aiiso:name>trabalho de graduacao em ci</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/54">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES265">
     <aiiso:code>ES265</aiiso:code>
     <aiiso:name>processamento digital de sinais</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8749,12 +8637,12 @@
     <portal:name>governança em tecnologia da informação</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/3">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/MA026">
     <aiiso:code>MA026</aiiso:code>
     <aiiso:name>calculo diferencial e integral 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/267">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF692">
     <aiiso:code>IF692</aiiso:code>
     <aiiso:name>projeto de banco de dados+</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8775,7 +8663,7 @@
     <portal:name>convergência multimídia</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/320">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF809">
     <aiiso:code>IF809</aiiso:code>
     <aiiso:name>top.avanc.robot.autom.inteligente</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8812,7 +8700,7 @@
     <portal:name>reconhecimento de padrões</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/2">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/MA532">
     <aiiso:code>MA532</aiiso:code>
     <aiiso:name>calculo 3a</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8825,7 +8713,7 @@
     <portal:name>modelagem e avaliação de sistemas de manufatura</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/53">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES268">
     <aiiso:code>ES268</aiiso:code>
     <aiiso:name>criptografia</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8874,7 +8762,7 @@
     <portal:name>sistemas de comunicação cooperativa</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/1">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/MA531">
     <aiiso:code>MA531</aiiso:code>
     <aiiso:name>algebra vet linear p/computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8891,7 +8779,7 @@
     <portal:name>projeto de supervisão local: harware e software</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/52">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF747">
     <aiiso:code>IF747</aiiso:code>
     <aiiso:name>top. avanc. redes de</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8900,7 +8788,7 @@
     <portal:name>sistemas de sistema de posição geográfica e de objetos móveis</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/400">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF148">
     <aiiso:code>IF148</aiiso:code>
     <aiiso:name>trabalho de graduacao em sd</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8929,12 +8817,12 @@
     <portal:name>análise simbólica de dados</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/150">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF736">
     <aiiso:code>IF736</aiiso:code>
     <aiiso:name>semin.arquit. sistemas embutidos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/8">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF668">
     <aiiso:code>IF668</aiiso:code>
     <aiiso:name>introducao a computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8943,12 +8831,12 @@
     <portal:name>grafos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/405">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF153">
     <aiiso:code>IF153</aiiso:code>
     <aiiso:name>trabalho de graduacao em tc</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/111">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF850">
     <aiiso:code>IF850</aiiso:code>
     <aiiso:name>processamento grafico</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -8957,7 +8845,7 @@
     <portal:name>estimativa de desempenho</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/264">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF695">
     <aiiso:code>IF695</aiiso:code>
     <aiiso:name>banco de dados avançados+</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9021,7 +8909,7 @@
     <portal:name>mineração de dados</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/7">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/FI108">
     <aiiso:code>FI108</aiiso:code>
     <aiiso:name>fisica geral 3</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9030,7 +8918,7 @@
     <portal:name>combinatória</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/151">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF730">
     <aiiso:code>IF730</aiiso:code>
     <aiiso:name>sistema de tempo real</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9039,7 +8927,7 @@
     <portal:name>projeto de software embarcado com restrições de energia</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/110">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF849">
     <aiiso:code>IF849</aiiso:code>
     <aiiso:name>introducao a multimidia</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9057,7 +8945,7 @@
     <portal:name>engenharia de requisitos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/406">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF154">
     <aiiso:code>IF154</aiiso:code>
     <aiiso:name>trabalho de graduacao em cv</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9082,7 +8970,7 @@
     <portal:name>data streams</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="oiii">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/gdcc">
     <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/4" />
     <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1235" />
     <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1236" />
@@ -9096,7 +8984,7 @@
     <opCIn:siape>9999999</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/6">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/FI007">
     <aiiso:code>FI007</aiiso:code>
     <aiiso:name>fisica geral 2</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9121,7 +9009,7 @@
     <portal:name>orientação a agentes</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/403">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF151">
     <aiiso:code>IF151</aiiso:code>
     <aiiso:name>trabalho de graduacao em ia</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9210,7 +9098,7 @@
     <portal:name>computação na nuvem</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/5">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/FI006">
     <aiiso:code>FI006</aiiso:code>
     <aiiso:name>fisica geral 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9219,7 +9107,7 @@
     <portal:name>estimativa de consumo de energia</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/404">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF152">
     <aiiso:code>IF152</aiiso:code>
     <aiiso:name>trabalho de graduacao em ac</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9259,18 +9147,6 @@
     <portal:name>visão computacional embarcada</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="oiii">
-    <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/6" />
-    <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/7" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/186" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/192" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/200" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/239" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/283" />
-    <portal:name>fernando trinta</portal:name>
-    <opCIn:siape>9999999</opCIn:siape>
-    <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
-  </rdf:Description>
   <rdf:Description rdf:about="#Area-of-interest/193">
     <portal:name>educação à distância</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
@@ -9279,7 +9155,7 @@
     <portal:name>software básico</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/115">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF861">
     <aiiso:code>IF861</aiiso:code>
     <aiiso:name>aquisic.process.sinais biologicos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9312,7 +9188,7 @@
     <portal:name>agrupamento conceitual</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/154">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF737">
     <aiiso:code>IF737</aiiso:code>
     <aiiso:name>top.avanc. em sistemas embutidos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9400,7 +9276,7 @@
     <portal:name>geoprocessamento</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/114">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF856">
     <aiiso:code>IF856</aiiso:code>
     <aiiso:name>top.avanc.processamento de sinais</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9441,7 +9317,7 @@
     <portal:name>modelos analíticos e de simulação</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/155">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF735">
     <aiiso:code>IF735</aiiso:code>
     <aiiso:name>top.avanc.arquit.de computadores</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9483,7 +9359,7 @@
     <portal:name>dependabilidade de sistemas</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/113">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF855">
     <aiiso:code>IF855</aiiso:code>
     <aiiso:name>seminario processamento de</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9540,7 +9416,7 @@
     <portal:name>redes sociais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/152">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF830">
     <aiiso:code>IF830</aiiso:code>
     <aiiso:name>sistemas assincronos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9553,7 +9429,7 @@
     <portal:name>redes de sensores</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/112">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF751">
     <aiiso:code>IF751</aiiso:code>
     <aiiso:name>processamento linear de imagens</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9603,7 +9479,7 @@
     <portal:name>qualidade/fidelidade de imagens</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/9">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF672">
     <aiiso:code>IF672</aiiso:code>
     <aiiso:name>algoritmos e estruturas de dados</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9624,7 +9500,7 @@
     <portal:name>software básico</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/153">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF829">
     <aiiso:code>IF829</aiiso:code>
     <aiiso:name>tolerancia a falhas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9685,7 +9561,7 @@
     <portal:name>especificações gráficas</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/118">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF862">
     <aiiso:code>IF862</aiiso:code>
     <aiiso:name>biosensores e nanotecnologia</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9722,7 +9598,7 @@
     <portal:name>engenharia de tráfego</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/119">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ME434">
     <aiiso:code>ME434</aiiso:code>
     <aiiso:name>mecanica din.manipulacao robotica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9759,7 +9635,7 @@
     <portal:name>xml</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/116">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/BQ307">
     <aiiso:code>BQ307</aiiso:code>
     <aiiso:name>automacao hospitalar e home care</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9796,7 +9672,7 @@
     <portal:name>modelagem e avaliação de sistemas  dinâmicos  de eventos discretos</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/117">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/BQ308">
     <aiiso:code>BQ308</aiiso:code>
     <aiiso:name>bioq.biologia molec. sist. vivos</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -9869,18 +9745,6 @@
   <rdf:Description rdf:about="#Area-of-interest/1603">
     <portal:name>datawarehouse</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
-  </rdf:Description>
-  <rdf:Description rdf:about="oiii">
-    <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/6" />
-    <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/7" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1198" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1199" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1200" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1201" />
-    <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1202" />
-    <portal:name>fernando trinta</portal:name>
-    <opCIn:siape>9999999</opCIn:siape>
-    <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
   <rdf:Description rdf:about="#Area-of-interest/1209">
     <portal:name>informática na educação</portal:name>
@@ -10010,7 +9874,7 @@
     <portal:name>gestão de processos de negócio</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/360">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF127">
     <aiiso:code>IF127</aiiso:code>
     <aiiso:name>analise numerica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -10080,7 +9944,7 @@
     <opCIn:siape>9999999</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/361">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF121">
     <aiiso:code>IF121</aiiso:code>
     <aiiso:name>avaliac de desempenho de sistemas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -10132,7 +9996,7 @@
     <opCIn:siape>1896454</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/324">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF742">
     <aiiso:code>IF742</aiiso:code>
     <aiiso:name>avaliacao desempenho de sistemas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -10165,7 +10029,7 @@
     <portal:name>modelagem matemática</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/62">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES269">
     <aiiso:code>ES269</aiiso:code>
     <aiiso:name>comutacao telefonica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -10200,7 +10064,7 @@
     <opCIn:siape>9999999</opCIn:siape>
     <rdf:type rdf:resource="http://www.portalors.org/ontology/portal#Academic" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/362">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF558">
     <aiiso:code>IF558</aiiso:code>
     <aiiso:name>topicos de banco de dados 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -10262,12 +10126,12 @@
     <portal:name>sistemas de banco de dados</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/325">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF739">
     <aiiso:code>IF739</aiiso:code>
     <aiiso:name>comunica½¿o sem fio</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/63">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES292">
     <aiiso:code>ES292</aiiso:code>
     <aiiso:name>fotonica 1</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -10297,7 +10161,7 @@
     <portal:name>prototipação de circuitos digitais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/363">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF112">
     <aiiso:code>IF112</aiiso:code>
     <aiiso:name>calculo de programas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -10306,7 +10170,7 @@
     <portal:name>hardware-software co-design</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/222">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF734">
     <aiiso:code>IF734</aiiso:code>
     <aiiso:name>projeto de compiladores</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -10331,12 +10195,12 @@
     <portal:name>manufacturing planning and control</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/60">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES416">
     <aiiso:code>ES416</aiiso:code>
     <aiiso:name>comunicacao opticas</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/322">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF808">
     <aiiso:code>IF808</aiiso:code>
     <aiiso:name>topicos avanc.tecnologia ensino</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -10385,7 +10249,7 @@
     <portal:name>sistemas de informações financeiras</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/364">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF124">
     <aiiso:code>IF124</aiiso:code>
     <aiiso:name>computacao grafica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -10505,7 +10369,7 @@
     <portal:name>mineração de dados</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/61">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/ES290">
     <aiiso:code>ES290</aiiso:code>
     <aiiso:name>comunicacoes moveis</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -10514,7 +10378,7 @@
     <portal:name>programação matemática</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="oiii">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/scs">
     <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/2" />
     <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/10" />
     <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/11" />
@@ -10556,7 +10420,7 @@
     <portal:name>sistemas digitais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/365">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF666">
     <aiiso:code>IF666</aiiso:code>
     <aiiso:name>computacao musical</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -10677,7 +10541,7 @@
     <portal:name>arquiteturas de sistemas de computação</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/366">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/AD300">
     <aiiso:code>AD300</aiiso:code>
     <aiiso:name>nocoes de adm. p/ informatica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -10702,7 +10566,7 @@
     <portal:name>qualidade de dados</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="oiii">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/docentes/sostenes">
     <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/5" />
     <opCIn:has-area-of-expertise rdf:resource="#Area-of-expertise/8" />
     <opCIn:has-area-of-interest rdf:resource="#Area-of-interest/1739" />
@@ -10776,7 +10640,7 @@
     <portal:name>redes neurais</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/367">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF140">
     <aiiso:code>IF140</aiiso:code>
     <aiiso:name>categorias para computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -10849,7 +10713,7 @@
     <portal:name>otimização combinatória</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/368">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF275">
     <aiiso:code>IF275</aiiso:code>
     <aiiso:name>empreendimentos em informatica</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -10870,7 +10734,7 @@
     <portal:name>modelagem</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/327">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF746">
     <aiiso:code>IF746</aiiso:code>
     <aiiso:name>proc.simul.estocast.computacao</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />
@@ -10903,7 +10767,7 @@
     <portal:name>antenas refletoras</portal:name>
     <rdf:type rdf:resource="vocab/Area-of-interest" />
   </rdf:Description>
-  <rdf:Description rdf:about="#Course/369">
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/disciplina/IF131">
     <aiiso:code>IF131</aiiso:code>
     <aiiso:name>processamento do conhecimento</aiiso:name>
     <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course" />

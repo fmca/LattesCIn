@@ -139,5 +139,39 @@ public class ListaProfessor {
 		  return str;
 		 
 		}
+	
+	public static void thaisParaJonatasDisciplinas(File f)
+			throws IOException, JDOMException{
+		
+		SAXBuilder sb = new SAXBuilder();
+		FileInputStream fs = new FileInputStream(f);
+		Document doc = sb.build(new InputStreamReader(fs, "UTF8"));
+		
+		Namespace ns = Namespace.getNamespace("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
+		Namespace portal = Namespace.getNamespace("portal", "http://www.portalors.org/ontology/portal#");
+		Namespace aiiso = Namespace.getNamespace("aiiso", "http://purl.org/vocab/aiiso/schema#");
+		
+		Element root = (Element) doc.getRootElement();
+		List filhos = root.getChildren();
+
+		Iterator i = filhos.iterator();
+		
+		while(i.hasNext()){
+			
+			Element elemento = (Element) i.next();
+			//String t = elemento.getAttributeValue("about", ns);
+			if(elemento.getAttributeValue("about", ns).startsWith("#Course/")){
+				elemento.getAttribute("about", ns).setValue("http://www.cin.ufpe.br/disciplina/"+elemento.getChildText("code", aiiso));
+			}
+			
+		}
+		
+		//document is processed and edited successfully, lets save it in new file
+        XMLOutputter xmlOutputter = new XMLOutputter(Format.getPrettyFormat());
+        //output xml to console for debugging
+        //xmlOutputter.output(doc, System.out);
+        xmlOutputter.output(doc, new FileOutputStream("professoresAreaRDF.xml"));
+		
+	}
 
 }

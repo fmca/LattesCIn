@@ -24,7 +24,7 @@ import br.ufpe.cin.entidades.Professor;
 public class LeitorXML {
 
 
-	public static Professor lerXML(File f)
+	public static Professor lerXML(File f, List<Professor> professoresID)
 			throws IOException, JDOMException{
 
 		List<Capitulo> listaCapitulos = new ArrayList<Capitulo>();
@@ -280,7 +280,8 @@ public class LeitorXML {
 			}
 
 		}
-
+		
+		professor.setHomepage(LeitorXML.verURL(professor.getNomeCompleto(), professoresID));
 		//Finaliza professor com artigos
 		professor.setArtigos(listaArtigos);
 		professor.setLivros(listaLivros);
@@ -294,6 +295,20 @@ public class LeitorXML {
 		 */
 		return professor;
 
+	}
+	
+	public static String verURL(String name, List<Professor> professoresID){
+		
+		for(Professor p:professoresID){
+			
+			if(p.getNomeCompleto().equals(name)){
+				return p.getHomepage();
+			}
+			
+		}
+		
+		System.out.println(name);
+		return "";
 	}
 
 }

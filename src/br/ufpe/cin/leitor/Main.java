@@ -24,11 +24,13 @@ public class Main {
 		
 		List<Professor> professores = new ArrayList<Professor>();
 		
-		/*
+		//Pegar lista de professor e respectivo login
+		List<Professor> professorID = ListaProfessor.lerXML(new File("professoresRDF.xml"));
+		
 		for(int i = 0; i < 78; i++){
-			professores.add(LeitorXML.lerXML(new File("curriculo-"+i+".xml")));
+			professores.add(LeitorXML.lerXML(new File("curriculo-"+i+".xml"), professorID));
 		}
-		*/
+		
 		
 		//gerar JSON
 		//JSON.transformarJSON(professores);
@@ -36,14 +38,15 @@ public class Main {
 		//gerar RDF Professor
 		//RDF.transformarRDFProfessor(professores);
 		
+		
+		
+	
+		
 		//Gerar RDF publicacao
-		//RDFPublicacao.transformarRDFPublicacao(professores);
+		RDFPublicacao.transformarRDFPublicacao(professores);
 		
-		//Pegar lista de professor e respectivo login
-		//ListaProfessor.lerXML(new File("professoresRDF.xml"));
-		
-		//Transaformar RDF de Thais
-		ListaProfessor.thaisParaJonatas(new File("thais.xml"));
+		//Transaformar RDF de Thais (Disciplinas)
+		//ListaProfessor.thaisParaJonatasDisciplinas(new File("thais.xml"));
 
 	}
 
