@@ -12,6 +12,7 @@ public class Professor {
 	private String email;
 	private String gender;
 	private String homepage;
+	private String professorID;
 	private String lattes;
 	private String office;
 	private String phone;
@@ -199,6 +200,16 @@ public class Professor {
 	}
 	public void setCidadeNascimento(String cidadeNascimento) {
 		this.cidadeNascimento = cidadeNascimento;
+	}
+
+
+	public String getProfessorID() {
+		return professorID;
+	}
+
+
+	public void setProfessorID(String professorID) {
+		this.professorID = professorID;
 	}
 	
 }

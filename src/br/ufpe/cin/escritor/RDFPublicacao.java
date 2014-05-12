@@ -15,8 +15,8 @@ public class RDFPublicacao {
 
 	public static void transformarRDFProfessor(List<Professor> professores) throws FileNotFoundException{
 
-		String recurso = "http://www.cin.ufpe.br/docentes/";
-		String propriedade = "http://www.cin.ufpe.br/propriedades/";
+		//String recurso = "http://www.cin.ufpe.br/docentes/";
+		String propriedade = "http://www.cin.ufpe.br/opencin/";
 
 		Model model = ModelFactory.createDefaultModel();
 
@@ -35,18 +35,20 @@ public class RDFPublicacao {
 		//Iterator i = professores.iterator();
 		int doc = professores.size()-1;
 		while(doc > 0){
+			Resource rc = model.createResource("http://www.cin.ufpe.br/opencin/academic");
 
-			Resource docente = model.createResource(recurso+professores.get(doc).getNomeCompleto())
+			Resource docente = model.createResource(professores.get(doc).getProfessorID())
 					.addProperty(nomeCompleto, professores.get(doc).getNomeCompleto())
 					.addProperty(academicDegree, "")
 					.addProperty(birthDate, "")
-					.addProperty(gender, "")
-					.addProperty(homepage, "www.cin.ufpe.br/~")
-					.addProperty(lattes, "lattes.cnpq.br/")
-					.addProperty(office, "")
-					.addProperty(phone, "")
-					.addProperty(email, "")
-					.addProperty(nameCitation, professores.get(doc).getNomeCitacoes());
+					.addProperty(gender, professores.get(doc).getGender())
+					.addProperty(homepage, professores.get(doc).getHomepage())
+					.addProperty(lattes, professores.get(doc).getLattes())
+					.addProperty(office, professores.get(doc).getOffice())
+					.addProperty(phone, professores.get(doc).getPhone())
+					.addProperty(email, professores.get(doc).getEmail())
+					.addProperty(nameCitation, professores.get(doc).getNomeCitacoes())
+					.addProperty(RDF.type, rc);
 
 			//System.out.println(doc);
 			doc--;
@@ -59,15 +61,15 @@ public class RDFPublicacao {
 	}
 
 	public static void transformarRDFPublicacao(List<Professor> professores) throws FileNotFoundException{
-		
-		
-		
+
+
+
 		Model model = ModelFactory.createDefaultModel();
 
 		//String dcterms = "http://purl.org/dc/terms/";
 		//String bibo = "http://purl.org/ontology/bibo/";
 		String rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
-		String cin = "http://www.cin.ufpe.br/publicacao/";
+		String cin = "http://www.cin.ufpe.br/opencin/";
 
 		Property rdfType = model.createProperty(rdf,"type");
 		Property title = model.createProperty(cin,"title");
@@ -114,85 +116,104 @@ public class RDFPublicacao {
 		Property edition = model.createProperty(bibo,"edition");
 		 */
 
-		int doc = professores.size()-1;
+		int doc = professores.size()-32;
+		int v = 0;
+
+		Resource rcArtigo = model.createResource("http://www.cin.ufpe.br/opencin/article/");
+		Resource rcLivro = model.createResource("http://www.cin.ufpe.br/opencin/book/");
+		Resource rcCapitulo = model.createResource("http://www.cin.ufpe.br/opencin/chapter/");
+
 		while(doc > 0){
 
 			Professor p = professores.get(doc);
-			
-			//artigo
-			for (int i = 0; i < p.getArtigos().size(); i++) {
-				//System.out.println(p.getArtigos().get(i).getTitulo());
-				Resource publicacao = model.createResource(cin+"artigo/"+p.getArtigos().get(i).getIssn())
-						.addProperty(nomeProfessor, p.getNomeCompleto())
-						.addProperty(idprofessor, p.getHomepage())
-						.addProperty(title, p.getArtigos().get(i).getTitulo())
-						.addProperty(language, p.getArtigos().get(i).getIdioma())
-						.addProperty(issued, String.valueOf(p.getArtigos().get(i).getAno()))
-						.addProperty(uri, "")
-						.addProperty(subject, "")
-						.addProperty(areasDoConhecimento, "")
-						.addProperty(meioDeDivulgacao, p.getArtigos().get(i).getMeioDeDivulgacao())
-						.addProperty(natureza, "")
-						.addProperty(palavraChave, p.getArtigos().get(i).getPalavrasChave().getPalavraChave1())
-						.addProperty(palavraChave, p.getArtigos().get(i).getPalavrasChave().getPalavraChave2())
-						.addProperty(palavraChave, p.getArtigos().get(i).getPalavrasChave().getPalavraChave3())
-						.addProperty(palavraChave, p.getArtigos().get(i).getPalavrasChave().getPalavraChave4())
-						.addProperty(palavraChave, p.getArtigos().get(i).getPalavrasChave().getPalavraChave5())
-						.addProperty(palavraChave, p.getArtigos().get(i).getPalavrasChave().getPalavraChave6())
-						.addProperty(pageStart, p.getArtigos().get(i).getPagInicial())
-						.addProperty(pageEnd, p.getArtigos().get(i).getPagFinal())
-						.addProperty(status, "");
+			Resource rcAtual = model.createResource(p.getProfessorID());
+			if(!p.getProfessorID().equals("")){//professor sérgio ainda não está
+				//artigo
+				for (int i = 0; i < p.getArtigos().size(); i++) {
 
+
+					//System.out.println(p.getProfessorID());
+					//System.out.println(p.getArtigos().get(i).getTitulo());
+					//Resource publicacao = model.createResource(cin+"article/"+p.getArtigos().get(i).getIssn())
+					Resource publicacao = model.createResource(cin+"article/"+v)
+							.addProperty(nomeProfessor, p.getNomeCompleto())
+							.addProperty(idprofessor, rcAtual)
+							.addProperty(title, p.getArtigos().get(i).getTitulo())
+							.addProperty(language, p.getArtigos().get(i).getIdioma())
+							.addProperty(issued, String.valueOf(p.getArtigos().get(i).getAno()))
+							.addProperty(uri, "")
+							.addProperty(subject, "")
+							.addProperty(areasDoConhecimento, "")
+							.addProperty(meioDeDivulgacao, p.getArtigos().get(i).getMeioDeDivulgacao())
+							.addProperty(natureza, "")
+							.addProperty(palavraChave, p.getArtigos().get(i).getPalavrasChave().getPalavraChave1())
+							.addProperty(palavraChave, p.getArtigos().get(i).getPalavrasChave().getPalavraChave2())
+							.addProperty(palavraChave, p.getArtigos().get(i).getPalavrasChave().getPalavraChave3())
+							.addProperty(palavraChave, p.getArtigos().get(i).getPalavrasChave().getPalavraChave4())
+							.addProperty(palavraChave, p.getArtigos().get(i).getPalavrasChave().getPalavraChave5())
+							.addProperty(palavraChave, p.getArtigos().get(i).getPalavrasChave().getPalavraChave6())
+							.addProperty(pageStart, p.getArtigos().get(i).getPagInicial())
+							.addProperty(pageEnd, p.getArtigos().get(i).getPagFinal())
+							.addProperty(status, "")
+							.addProperty(RDF.type, rcArtigo);
+					v++;
+
+				}
+
+				//livro
+				for (int i = 0; i < p.getLivros().size(); i++) {
+					//System.out.println(p.getArtigos().get(i).getTitulo());
+					//Resource publicacao = model.createResource(cin+"book/"+p.getLivros().get(i).getIsbn())
+					Resource publicacao = model.createResource(cin+"book/"+v)
+							//.addProperty(rdfType, "rdf:resource='http://www.cin.ufpe.br/publicacao/Artigo'")
+							.addProperty(nomeProfessor, p.getNomeCompleto())
+							.addProperty(idprofessor, rcAtual)
+							.addProperty(title, p.getLivros().get(i).getTitulo())
+							.addProperty(language, p.getLivros().get(i).getIdioma())
+							.addProperty(issued, String.valueOf(p.getLivros().get(i).getAno()))
+							.addProperty(uri, "")
+							.addProperty(subject, "")
+							.addProperty(areasDoConhecimento, "")
+							.addProperty(meioDeDivulgacao, "")
+							.addProperty(natureza, p.getLivros().get(i).getNatureza())
+							.addProperty(palavraChave,"")
+							.addProperty(isbn, p.getLivros().get(i).getIsbn())
+							.addProperty(numPages, p.getLivros().get(i).getNumeroPaginas())
+							.addProperty(edition, "")
+							.addProperty(RDF.type, rcLivro);
+					v++;
+
+				}
+
+				//capitulo
+				for (int i = 0; i < p.getCapitulos().size(); i++) {
+					//System.out.println(p.getArtigos().get(i).getTitulo());
+					//Resource publicacao = model.createResource(cin+"chapter/"+p.getCapitulos().get(i).getIsbn())
+					Resource publicacao = model.createResource(cin+"chapter/"+v)
+							//.addProperty(rdfType, "rdf:resource='http://www.cin.ufpe.br/publicacao/Artigo'")
+							.addProperty(nomeProfessor, p.getNomeCompleto())
+							.addProperty(idprofessor, rcAtual)
+							.addProperty(title, p.getCapitulos().get(i).getTituloCapitulo())
+							.addProperty(language, p.getCapitulos().get(i).getIdioma())
+							.addProperty(issued, String.valueOf(p.getCapitulos().get(i).getAno()))
+							.addProperty(uri, "")
+							.addProperty(subject, "")
+							.addProperty(areasDoConhecimento, "")
+							.addProperty(meioDeDivulgacao, "")
+							.addProperty(natureza, "")
+							.addProperty(palavraChave,"")
+							.addProperty(isbn, p.getCapitulos().get(i).getIsbn())
+							.addProperty(pageStart, p.getCapitulos().get(i).getPagInicial())
+							.addProperty(pageEnd, p.getCapitulos().get(i).getPagFinal())
+							.addProperty(RDF.type, rcCapitulo);
+					v++;
+
+				}
 			}
-			
-			//livro
-			for (int i = 0; i < p.getLivros().size(); i++) {
-				//System.out.println(p.getArtigos().get(i).getTitulo());
-				Resource publicacao = model.createResource(cin+"livro/"+p.getLivros().get(i).getIsbn())
-						//.addProperty(rdfType, "rdf:resource='http://www.cin.ufpe.br/publicacao/Artigo'")
-						.addProperty(nomeProfessor, p.getNomeCompleto())
-						.addProperty(idprofessor, p.getHomepage())
-						.addProperty(title, p.getLivros().get(i).getTitulo())
-						.addProperty(language, p.getLivros().get(i).getIdioma())
-						.addProperty(issued, String.valueOf(p.getLivros().get(i).getAno()))
-						.addProperty(uri, "")
-						.addProperty(subject, "")
-						.addProperty(areasDoConhecimento, "")
-						.addProperty(meioDeDivulgacao, "")
-						.addProperty(natureza, p.getLivros().get(i).getNatureza())
-						.addProperty(palavraChave,"")
-						.addProperty(isbn, p.getLivros().get(i).getIsbn())
-						.addProperty(numPages, p.getLivros().get(i).getNumeroPaginas())
-						.addProperty(edition, "");
-
-			}
-			
-			//capitulo
-			for (int i = 0; i < p.getCapitulos().size(); i++) {
-				//System.out.println(p.getArtigos().get(i).getTitulo());
-				Resource publicacao = model.createResource(cin+"capitulo/"+p.getCapitulos().get(i).getIsbn())
-						//.addProperty(rdfType, "rdf:resource='http://www.cin.ufpe.br/publicacao/Artigo'")
-						.addProperty(nomeProfessor, p.getNomeCompleto())
-						.addProperty(idprofessor, p.getHomepage())
-						.addProperty(title, p.getCapitulos().get(i).getTituloCapitulo())
-						.addProperty(language, p.getCapitulos().get(i).getIdioma())
-						.addProperty(issued, String.valueOf(p.getCapitulos().get(i).getAno()))
-						.addProperty(uri, "")
-						.addProperty(subject, "")
-						.addProperty(areasDoConhecimento, "")
-						.addProperty(meioDeDivulgacao, "")
-						.addProperty(natureza, "")
-						.addProperty(palavraChave,"")
-						.addProperty(isbn, p.getCapitulos().get(i).getIsbn())
-						.addProperty(pageStart, p.getCapitulos().get(i).getPagInicial())
-						.addProperty(pageEnd, p.getCapitulos().get(i).getPagFinal());
-
-			}
-
 			doc--;
 
-		}
 
+		}
 		model.setNsPrefix("cin", cin);
 		//model.setNsPrefix("dcterms", dcterms);
 		//model.setNsPrefix("bibo", bibo);
@@ -203,5 +224,5 @@ public class RDFPublicacao {
 
 
 	}
-	
+
 }

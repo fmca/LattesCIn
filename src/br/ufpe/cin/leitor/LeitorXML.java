@@ -281,7 +281,7 @@ public class LeitorXML {
 
 		}
 		
-		professor.setHomepage(LeitorXML.verURL(professor.getNomeCompleto(), professoresID));
+		professor.setProfessorID(LeitorXML.verURL(professor.getNomeCompleto(), professoresID));
 		//Finaliza professor com artigos
 		professor.setArtigos(listaArtigos);
 		professor.setLivros(listaLivros);
@@ -302,7 +302,7 @@ public class LeitorXML {
 		for(Professor p:professoresID){
 			
 			if(p.getNomeCompleto().equals(name)){
-				return p.getHomepage();
+				return p.getProfessorID();
 			}
 			
 		}

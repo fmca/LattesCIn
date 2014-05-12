@@ -30,7 +30,8 @@ import br.ufpe.cin.entidades.Professor;
 
 
 public class ListaProfessor {
-
+	
+	//ler RDF do professor. O RDF que montei manualmente
 	public static List<Professor> lerXML(File f)
 			throws IOException, JDOMException{
 		
@@ -52,7 +53,7 @@ public class ListaProfessor {
 			Professor p = new Professor();
 			
 			Element elemento = (Element) i.next();
-			p.setHomepage(elemento.getAttributeValue("about", ns));
+			p.setProfessorID(elemento.getAttributeValue("about", ns));
 			
 			List filhos2 = elemento.getChildren();
 			Iterator i2 = filhos2.iterator();
@@ -65,10 +66,39 @@ public class ListaProfessor {
 				
 					p.setNomeCompleto(elemento2.getText());
 					
+				}else if(elemento2.getName().equals("lattes")){
+				
+					p.setLattes(elemento2.getText());
+					
+				}else if(elemento2.getName().equals("nameCitation")){
+				
+					p.setNameCitation(elemento2.getText());
+					
+				}else if(elemento2.getName().equals("homepage")){
+				
+					p.setHomepage(elemento2.getText());
+					
+				}else if(elemento2.getName().equals("email")){
+				
+					p.setEmail(elemento2.getText());
+					
+				}else if(elemento2.getName().equals("gender")){
+				
+					p.setGender(elemento2.getText());
+					
+				}else if(elemento2.getName().equals("office")){
+				
+					p.setOffice(elemento2.getText());
+					
+				}else if(elemento2.getName().equals("phone")){
+				
+					p.setPhone(elemento2.getText());
+					
 				}
 				
+				
 			}
-			
+		
 			lista.add(p);
 
 
@@ -120,7 +150,7 @@ public class ListaProfessor {
 			
 			if(ListaProfessor.removeAcentos(p.getNomeCompleto()).equalsIgnoreCase(nome)){
 				//System.out.println(p.getHomepage());
-				return p.getHomepage();
+				return p.getProfessorID();
 			}
 			
 		}
