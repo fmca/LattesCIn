@@ -27,7 +27,7 @@ import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.vocabulary.RDF;
 
 import br.ufpe.cin.escritor.JSON;
-import br.ufpe.cin.escritor.RDFPublicacao;
+import br.ufpe.cin.escritor.EscritorRDF;
 import br.ufpe.cin.entidades.Professor;
 
 
@@ -41,15 +41,15 @@ public class Main {
 	public static void main(String[] args) throws IOException, JDOMException {
 		// TODO Auto-generated method stub
 
-		//List<Professor> professores = new ArrayList<Professor>();
+		List<Professor> professores = new ArrayList<Professor>();
 
 		//Pegar lista de professor e respectivo login
-		//List<Professor> professorID = ListaProfessor.lerXML(new File("professoresRDF.xml"));
+		List<Professor> professorID = ListaProfessor.lerXML(new File("professoresRDF.xml"));
 
 
-		//for(int i = 0; i < 78; i++){
-		//	professores.add(LeitorXML.lerXML(new File("curriculo-"+i+".xml"), professorID));
-		//}
+		for(int i = 0; i < 78; i++){
+			professores.add(LeitorXML.lerXML(new File("curriculo-"+i+".xml"), professorID));
+		}
 
 
 		//gerar JSON
@@ -59,14 +59,14 @@ public class Main {
 		//RDFPublicacao.transformarRDFProfessor(professorID);
 
 		//Gerar RDF publicacao
-		//RDFPublicacao.transformarRDFPublicacao(professores);
+		EscritorRDF.transformarRDFPublicacao(professores);
 
 		//Transaformar RDF de Thais (Disciplinas)
 		//ListaProfessor.thaisParaJonatasDisciplinas(new File("thais.xml"));
 
 		//Main.separaRDFAreaInterest(new File("professoresAreaRDF.xml"));
 
-		Main.associaAreaProfessor(new File("professoresAreaRDF.xml"));
+		//Main.associaAreaProfessor(new File("professoresAreaRDF.xml"));
 
 	}
 
@@ -146,7 +146,7 @@ public class Main {
 		Model model2 = ModelFactory.createDefaultModel();
 
 		//criando propriedades
-		Property name = model.createProperty(cin, "name");
+		//Property name = model.createProperty(cin, "name");
 		Property hasExpertise = model.createProperty(cin, "hasAreaExpertise");
 		Property hasInterest = model.createProperty(cin, "hasAreaInterest");
 		Property siape = model.createProperty(cin, "siape");
@@ -196,7 +196,7 @@ public class Main {
 
 					}else if(elemento2.getName().equals("name")){
 
-						professor.addProperty(name, elemento2.getText());
+						//professor.addProperty(name, elemento2.getText());
 
 					}else if(elemento2.getName().equals("siape")){
 
@@ -220,7 +220,7 @@ public class Main {
 
 					if(elemento2.getName().equals("name")){
 
-						areaInteresse.addProperty(name, elemento2.getText());
+						//areaInteresse.addProperty(name, elemento2.getText());
 
 					}
 

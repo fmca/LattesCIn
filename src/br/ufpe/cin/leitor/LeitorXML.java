@@ -45,7 +45,7 @@ public class LeitorXML {
 			Element partes = (Element) i.next();
 
 			if(partes.getName().equals("DADOS-GERAIS")){
-				
+
 				professor = new Professor(partes.getAttributeValue("NOME-COMPLETO"), partes.getAttributeValue("NOME-EM-CITACOES-BIBLIOGRAFICAS"), partes.getAttributeValue("NACIONALIDADE"), 
 						partes.getAttributeValue("PAIS-DE-NASCIMENTO"), partes.getAttributeValue("UF-NASCIMENTO"), partes.getAttributeValue("CIDADE-NASCIMENTO"));
 
@@ -96,14 +96,6 @@ public class LeitorXML {
 												novoLivro.setPais(livro.getAttributeValue("PAIS-DE-PUBLICACAO"));
 												novoLivro.setIdioma(livro.getAttributeValue("IDIOMA"));
 
-												/*
-												System.out.println(livro.getAttributeValue("TIPO"));
-												System.out.println(livro.getAttributeValue("NATUREZA"));
-												System.out.println(livro.getAttributeValue("TITULO-DO-LIVRO"));
-												System.out.println(livro.getAttributeValue("ANO"));
-												System.out.println(livro.getAttributeValue("PAIS-DE-PUBLICACAO"));
-												System.out.println(livro.getAttributeValue("IDIOMA"));
-												 */
 
 											}else if(livro.getName().equals("DETALHAMENTO-DO-LIVRO")){
 
@@ -111,19 +103,9 @@ public class LeitorXML {
 												novoLivro.setIsbn(livro.getAttributeValue("ISBN"));
 												novoLivro.setNomeEditora(livro.getAttributeValue("NOME-DA-EDITORA"));
 
-												/*
-												System.out.println(livro.getAttributeValue("NUMERO-DE-PAGINAS"));
-												System.out.println(livro.getAttributeValue("ISBN"));
-												System.out.println(livro.getAttributeValue("NOME-DA-EDITORA"));
-												 */
-
 											}else if(livro.getName().equals("AUTORES")){
 
 												autores.add(new Autor(livro.getAttributeValue("NOME-COMPLETO-DO-AUTOR"),livro.getAttributeValue("NOME-PARA-CITACAO")));
-												/*
-												System.out.println(livro.getAttributeValue("NOME-COMPLETO-DO-AUTOR"));
-												System.out.println(livro.getAttributeValue("NOME-PARA-CITACAO"));
-												 */
 											}
 
 										}
@@ -216,18 +198,14 @@ public class LeitorXML {
 									Element artigo = (Element) iArtigo.next();
 
 									if(artigo.getName().equals("DADOS-BASICOS-DO-ARTIGO")){
-										/*
-										System.out.println("Titulo: " + artigo.getAttributeValue("TITULO-DO-ARTIGO"));
-										System.out.println("Pa�s: " + artigo.getAttributeValue("PAIS-DE-PUBLICACAO"));
-										System.out.println("Idioma: " + artigo.getAttributeValue("IDIOMA"));
-										System.out.println("Meio de Divulga��o: " + artigo.getAttributeValue("MEIO-DE-DIVULGACAO"));
-										 */
+
 
 										//colocando no objeto Artigo
 										novoArtigo.setTitulo(artigo.getAttributeValue("TITULO-DO-ARTIGO"));
 										novoArtigo.setPais(artigo.getAttributeValue("PAIS-DE-PUBLICACAO"));
 										novoArtigo.setIdioma(artigo.getAttributeValue("IDIOMA"));
 										novoArtigo.setMeioDeDivulgacao(artigo.getAttributeValue("MEIO-DE-DIVULGACAO"));
+										novoArtigo.setAno(Integer.parseInt(artigo.getAttributeValue("ANO-DO-ARTIGO")));
 
 									}else if(artigo.getName().equals("DETALHAMENTO-DO-ARTIGO")){
 
@@ -239,33 +217,71 @@ public class LeitorXML {
 										novoArtigo.setPagFinal(artigo.getAttributeValue("PAGINA-FINAL"));
 										novoArtigo.setLocalPublicacao(artigo.getAttributeValue("LOCAL-DE-PUBLICACAO"));
 
-										/*
-										System.out.println("Peri�dico ou Revista: " + artigo.getAttributeValue("TITULO-DO-PERIODICO-OU-REVISTA"));
-										System.out.println("ISSN: " + artigo.getAttributeValue("ISSN"));
-										System.out.println("Volume: " + artigo.getAttributeValue("VOLUME"));
-										System.out.println("Fasciculo: " + artigo.getAttributeValue("FASCICULO"));
-										System.out.println("Pagina Inicial: " + artigo.getAttributeValue("PAGINA-INICIAL"));
-										System.out.println("P�gina Final: " + artigo.getAttributeValue("PAGINA-FINAL"));
-										System.out.println("Local de Publica��o: " + artigo.getAttributeValue("LOCAL-DE-PUBLICACAO"));
-										 */
+
 									}else if(artigo.getName().equals("AUTORES")){
 										autores.add(new Autor(artigo.getAttributeValue("NOME-COMPLETO-DO-AUTOR"),artigo.getAttributeValue("NOME-PARA-CITACAO")));
-										//System.out.println("Nome Completo: " + artigo.getAttributeValue("NOME-COMPLETO-DO-AUTOR"));
-										//System.out.println("Nome para cita��o: " + artigo.getAttributeValue("NOME-PARA-CITACAO"));
+
 									}else if(artigo.getName().equals("PALAVRAS-CHAVE")){
 
 										novoArtigo.setPalavrasChave(new PalavrasChave(artigo.getAttributeValue("PALAVRA-CHAVE-1"), artigo.getAttributeValue("PALAVRA-CHAVE-2"), 
 												artigo.getAttributeValue("PALAVRA-CHAVE-3"), artigo.getAttributeValue("PALAVRA-CHAVE-4"), artigo.getAttributeValue("PALAVRA-CHAVE-5"), 
 												artigo.getAttributeValue("PALAVRA-CHAVE-6")));
 
-										/*
-										System.out.println("Palavra Chave 1: " + artigo.getAttributeValue("PALAVRA-CHAVE-1"));
-										System.out.println("Palavra Chave 2: " + artigo.getAttributeValue("PALAVRA-CHAVE-2"));
-										System.out.println("Palavra Chave 3: " + artigo.getAttributeValue("PALAVRA-CHAVE-3"));
-										System.out.println("Palavra Chave 4: " + artigo.getAttributeValue("PALAVRA-CHAVE-4"));
-										System.out.println("Palavra Chave 5: " + artigo.getAttributeValue("PALAVRA-CHAVE-5"));
-										System.out.println("Palavra Chave 6: " + artigo.getAttributeValue("PALAVRA-CHAVE-6"));
-										 */
+
+									}
+
+								}
+								novoArtigo.setAutores(autores);
+								listaArtigos.add(novoArtigo);
+							}
+						}
+					}
+
+					//Pega a parte de artigos publicados
+					if(producaoBibliografica.getName().equals("TRABALHOS-EM-EVENTOS")){
+						List artigosPublicados = producaoBibliografica.getChildren();
+
+						Iterator iAP = artigosPublicados.iterator();
+
+						while(iAP.hasNext()){
+							Element artigoPublicado = (Element) iAP.next();
+
+							//pega os atributos do artigo
+							if(artigoPublicado.getName().equals("TRABALHO-EM-EVENTOS")){
+								List artigos = artigoPublicado.getChildren();
+
+								Iterator iArtigo = artigos.iterator();
+
+								//Cria lista de Autores
+								List<Autor> autores = new ArrayList<Autor>();
+								Artigo novoArtigo = new Artigo();
+
+								//enqaunto houver atributos dentro de artigo
+								while(iArtigo.hasNext()){
+									Element artigo = (Element) iArtigo.next();
+
+									if(artigo.getName().equals("DADOS-BASICOS-DO-TRABALHO")){
+
+
+										//colocando no objeto Artigo
+										novoArtigo.setTitulo(artigo.getAttributeValue("TITULO-DO-TRABALHO"));
+										novoArtigo.setPais(artigo.getAttributeValue("PAIS-DO-EVENTO"));
+										novoArtigo.setIdioma(artigo.getAttributeValue("IDIOMA"));
+										novoArtigo.setMeioDeDivulgacao(artigo.getAttributeValue("MEIO-DE-DIVULGACAO"));
+										novoArtigo.setAno(Integer.parseInt(artigo.getAttributeValue("ANO-DO-TRABALHO")));
+
+									}else if(artigo.getName().equals("DETALHAMENTO-DO-TRABALHO")){
+
+										novoArtigo.setTituloPeriodicoRevista(artigo.getAttributeValue("NOME-DO-EVENTO"));
+
+										novoArtigo.setPagInicial(artigo.getAttributeValue("PAGINA-INICIAL"));
+										novoArtigo.setPagFinal(artigo.getAttributeValue("PAGINA-FINAL"));
+										novoArtigo.setLocalPublicacao(artigo.getAttributeValue("CIDADE-DO-EVENTO"));
+
+
+									}else if(artigo.getName().equals("AUTORES")){
+										autores.add(new Autor(artigo.getAttributeValue("NOME-COMPLETO-DO-AUTOR"),artigo.getAttributeValue("NOME-PARA-CITACAO")));
+
 									}
 
 								}
@@ -277,37 +293,70 @@ public class LeitorXML {
 				}
 
 
+			}else if(partes.getName().equals("OUTRA-PRODUCAO")){
+
+				List outrasProducoes = partes.getChildren();
+
+				Iterator iOP = outrasProducoes.iterator();
+
+				while(iOP.hasNext()){
+					Element outraProducao = (Element) iOP.next();
+
+
+					if(outraProducao.getName().equals("ORIENTACOES-CONCLUIDAS")){
+						
+						List orientacoesConcluidas = outraProducao.getChildren();
+
+						Iterator iOC = orientacoesConcluidas.iterator();
+						
+						while(iOC.hasNext()){
+							
+							Element orientacaoConcluida = (Element) iOC.next();
+							
+							if(orientacaoConcluida.getName().equals("ORIENTACOES-CONCLUIDAS-PARA-MESTRADO")){
+								
+								
+								
+							}else if(orientacaoConcluida.getName().equals("ORIENTACOES-CONCLUIDAS-PARA-DOUTORADO")){
+								
+								
+								
+							}else if(orientacaoConcluida.getName().equals("OUTRAS-ORIENTACOES-CONCLUIDAS")){
+								
+								
+								
+							}
+							
+						}
+					}
+
+
+				}
 			}
 
 		}
-		
+
 		professor.setProfessorID(LeitorXML.verURL(professor.getNomeCompleto(), professoresID));
 		//Finaliza professor com artigos
 		professor.setArtigos(listaArtigos);
 		professor.setLivros(listaLivros);
 		professor.setCapitulos(listaCapitulos);
-		/*
-		System.out.println(professor.getNomeCompleto());
-		System.out.println(professor.getArtigos().get(0).getTitulo());
-		System.out.println(professor.getArtigos().get(0).getTituloPeriodicoRevista());
-		System.out.println(professor.getArtigos().get(1).getTitulo());
-		System.out.println(professor.getArtigos().get(1).getTituloPeriodicoRevista());
-		 */
+
 		return professor;
 
 	}
-	
+
 	public static String verURL(String name, List<Professor> professoresID){
-		
+
 		for(Professor p:professoresID){
-			
+			//System.out.println(name);
 			if(p.getNomeCompleto().equals(name)){
 				return p.getProfessorID();
 			}
-			
+
 		}
-		
-		System.out.println(name);
+
+		//System.out.println(name);
 		return "";
 	}
 

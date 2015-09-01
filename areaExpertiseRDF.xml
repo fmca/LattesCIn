@@ -3,58 +3,44 @@
     xmlns:cin="http://www.cin.ufpe.br/opencin/" > 
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/expertiseArea/12">
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea"/>
-    <cin:name>Servomecanismo</cin:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/expertiseArea/14">
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea"/>
-    <cin:name>Processamento de sinais</cin:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/expertiseArea/13">
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea"/>
-    <cin:name>Sistemas de Comunicações</cin:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/expertiseArea/9">
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea"/>
-    <cin:name>Sistemas Computacionais Embarcados</cin:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/expertiseArea/3">
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea"/>
-    <cin:name>Linguagens de Programação</cin:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/expertiseArea/2">
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea"/>
-    <cin:name>Engenharia de Software</cin:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/expertiseArea/1">
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea"/>
-    <cin:name>Banco de Dados</cin:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/expertiseArea/11">
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea"/>
-    <cin:name>Sistemas de Informação</cin:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/expertiseArea/5">
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea"/>
-    <cin:name>Matemática Computacional</cin:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/expertiseArea/6">
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea"/>
-    <cin:name>Redes de Computadores</cin:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/expertiseArea/7">
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea"/>
-    <cin:name>Sistemas Distribuídos</cin:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/expertiseArea/4">
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea"/>
-    <cin:name>Inteligência Artificial</cin:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/expertiseArea/8">
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea"/>
-    <cin:name>Teoria da Computação</cin:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/expertiseArea/10">
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea"/>
-    <cin:name>Mídia e Interação</cin:name>
   </rdf:Description>
 </rdf:RDF>

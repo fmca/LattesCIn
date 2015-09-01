@@ -4,7 +4,6 @@
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/svc">
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1663"/>
     <cin:siape>9999999</cin:siape>
-    <cin:name>sérgio vanderlei cavalcante</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1664"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1665"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1666"/>
@@ -15,15 +14,14 @@
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/9"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/243"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/29"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1661"/>
     <cin:siape>1285608</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/747"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1661"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1662"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/748"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/alms">
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/2"/>
-    <cin:name>andré luis de medeiros santos</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1038"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/120"/>
     <cin:siape>9999999</cin:siape>
@@ -49,8 +47,8 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1043"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/gdcc">
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1236"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/34"/>
-    <cin:name>george darmiton da cunha cavalcanti</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1237"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/40"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1238"/>
@@ -62,13 +60,12 @@
     <cin:siape>1512321</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1240"/>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/300"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/318"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/300"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1241"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1235"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/33"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1242"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1236"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/jamel">
     <cin:siape>2208785</cin:siape>
@@ -76,7 +73,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/238"/>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
     <cin:siape>9999999</cin:siape>
-    <cin:name>djamel fawzi hadj sadok</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1156"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1155"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/6"/>
@@ -104,7 +100,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1375"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/456"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1379"/>
-    <cin:name>manoel eusebio de lima</cin:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/ago">
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
@@ -121,7 +116,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1048"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/133"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1052"/>
-    <cin:name>anjolina grisi de oliveira</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/131"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1050"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/135"/>
@@ -138,7 +132,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/42"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1457"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/33"/>
-    <cin:name>paulo gustavo soares fonseca</cin:name>
     <cin:siape>9999999</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1456"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/403"/>
@@ -168,7 +161,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1615"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/693"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/698"/>
-    <cin:name>robson do nascimento fidalgo</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1603"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/692"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1612"/>
@@ -216,11 +208,10 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1727"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1724"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/13"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1734"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/807"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/375"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/6"/>
-    <cin:name>stênio flávio de lacerda fernandes</cin:name>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1734"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1729"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1726"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1723"/>
@@ -256,7 +247,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1291"/>
     <cin:siape>1131524</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1294"/>
-    <cin:name>josé augusto suruagy monteiro</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1292"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1289"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/373"/>
@@ -268,8 +258,8 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1290"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/fab">
-    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/267"/>
+    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/286"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1203"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/287"/>
@@ -279,7 +269,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1207"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/4"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/291"/>
-    <cin:name>flávia de almeida barros</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1205"/>
     <cin:siape>1193006</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1209"/>
@@ -289,16 +278,15 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/288"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/lma3">
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/40"/>
-    <cin:siape>2886196</cin:siape>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/34"/>
-    <cin:name>leandro maciel almeida</cin:name>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
+    <cin:siape>2886196</cin:siape>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/447"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/445"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/300"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/40"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/34"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/33"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/4"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/300"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/447"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/vt">
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/877"/>
@@ -307,7 +295,6 @@
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/10"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/180"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/874"/>
-    <cin:name>veronica teichrieb</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/879"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/875"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/389"/>
@@ -371,7 +358,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1824"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1810"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/308"/>
-    <cin:name>vinicius cardoso garcia</cin:name>
     <cin:siape>9999999</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/906"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/11"/>
@@ -402,7 +388,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1157"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1161"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/243"/>
-    <cin:name>edna natividade da silva barros</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1160"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/242"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/10"/>
@@ -427,14 +412,12 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1284"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/369"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/371"/>
-    <cin:name>josé antônio monteiro de queiroz</cin:name>
     <cin:siape>9999999</cin:siape>
     <cin:siape>2129551</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/30"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1287"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/liliane">
-    <cin:name>liliane rose benning salgado</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/452"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1365"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/450"/>
@@ -466,9 +449,8 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/42"/>
     <cin:siape>1131212</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/401"/>
-    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/8"/>
-    <cin:name>katia silva guimarães</cin:name>
+    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1317"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1328"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/406"/>
@@ -505,7 +487,6 @@
     <cin:siape>1277035</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/314"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/124"/>
-    <cin:name>geber lisboa ramalho</cin:name>
     <cin:siape>9999999</cin:siape>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/4"/>
   </rdf:Description>
@@ -517,7 +498,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/42"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/39"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/11"/>
-    <cin:name>adriano lorena inácio de oliveira</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/959"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/35"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/956"/>
@@ -555,11 +535,10 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/380"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/10"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/6"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/381"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/30"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/374"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/381"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1305"/>
-    <cin:name>judith kelner</cin:name>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/374"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1297"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1299"/>
     <cin:siape>1130844</cin:siape>
@@ -591,53 +570,51 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/32"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/29"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/940"/>
-    <cin:name>adriano augusto de moraes sarmento</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/946"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/947"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/939"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/941"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/acas">
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1054"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1056"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/147"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/149"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1060"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/51"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/138"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1061"/>
-    <cin:siape>9999999</cin:siape>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1063"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/141"/>
-    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/151"/>
-    <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/2"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/154"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/153"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1057"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1055"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1058"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1070"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/50"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/52"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1062"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1069"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1066"/>
+    <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/2"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1054"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/138"/>
+    <cin:siape>9999999</cin:siape>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/137"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/149"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1063"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/54"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1067"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1064"/>
     <cin:siape>1174650</cin:siape>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1067"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/137"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/139"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1065"/>
-    <cin:name>augusto cezar alves sampaio</cin:name>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/145"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1059"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/51"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/154"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/52"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1071"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/150"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/54"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/141"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/152"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1066"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/146"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1069"/>
+    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/151"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/147"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/139"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1058"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1055"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1061"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1059"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1062"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/145"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1068"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1056"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1070"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/50"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/146"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1057"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1060"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1065"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/150"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/ruy">
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/714"/>
@@ -654,7 +631,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1626"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1635"/>
     <cin:siape>1134038</cin:siape>
-    <cin:name>ruy josé guerra barretto de queiroz</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/715"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1623"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/707"/>
@@ -699,7 +675,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/439"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1348"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/437"/>
-    <cin:name>kiev santos da gama</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1354"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/fred">
@@ -725,10 +700,9 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1228"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/7"/>
     <cin:siape>9999999</cin:siape>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1222"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/107"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1222"/>
     <cin:siape>0479992</cin:siape>
-    <cin:name>frederico luiz gonçalves de freitas</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/291"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/1"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1224"/>
@@ -737,7 +711,6 @@
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/acs">
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/112"/>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
-    <cin:name>ana carolina brandão salgado</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/111"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/115"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1020"/>
@@ -802,7 +775,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/177"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1100"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/176"/>
-    <cin:name>carlos alexandre barros de mello</cin:name>
     <cin:siape>1736873</cin:siape>
     <cin:siape>9999999</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1091"/>
@@ -856,11 +828,9 @@
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/9"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/18"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/19"/>
-    <cin:name>abel guilhermino da silva filho</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/935"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/ctlls">
-    <cin:name>carla taciana lima lourenço silva schuenemann</cin:name>
     <cin:siape>2420094</cin:siape>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/11"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1088"/>
@@ -891,7 +861,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1346"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1338"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/413"/>
-    <cin:name>kelvin lopes dias</cin:name>
     <cin:siape>2298793</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/430"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/419"/>
@@ -930,7 +899,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1595"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1594"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/300"/>
-    <cin:name>roberto souto maior de barros</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/678"/>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/2"/>
@@ -959,7 +927,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/753"/>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1674"/>
-    <cin:name>silvio romero de lemos meira</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/755"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1676"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/760"/>
@@ -980,7 +947,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1701"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1714"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1720"/>
-    <cin:name>simone cristiane dos santos</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1713"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1709"/>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
@@ -1014,7 +980,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/138"/>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/55"/>
-    <cin:name>juliano manabu iyoda</cin:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/dcunha">
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1140"/>
@@ -1026,7 +991,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1139"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1147"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1146"/>
-    <cin:name>daniel carvalho da cunha</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1145"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1143"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/13"/>
@@ -1050,7 +1014,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1398"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/250"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/476"/>
-    <cin:name>marcília andrade campos</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1394"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/477"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1392"/>
@@ -1080,7 +1043,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/865"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1771"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1784"/>
-    <cin:name>valéria cesário times</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1783"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/11"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1773"/>
@@ -1113,7 +1075,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/299"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1215"/>
     <cin:siape>0383924</cin:siape>
-    <cin:name>francisco de assis tenório de carvalho</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1213"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1216"/>
     <cin:siape>9999999</cin:siape>
@@ -1140,7 +1101,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/267"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/262"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1180"/>
-    <cin:name>fernando da fonseca de souza</cin:name>
     <cin:siape>1130534</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1181"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/43"/>
@@ -1161,7 +1121,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/174"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1165"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/72"/>
-    <cin:name>edson costa de barros carvalho filho</cin:name>
     <cin:siape>9999999</cin:siape>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/fjclf">
@@ -1178,7 +1137,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/137"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/279"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/2"/>
-    <cin:name>fernando josé castor de lima filho</cin:name>
     <cin:siape>9999999</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1197"/>
     <cin:siape>1668064</cin:siape>
@@ -1218,7 +1176,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1655"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/58"/>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
-    <cin:name>sérgio castelo branco soares</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1654"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1651"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/64"/>
@@ -1237,7 +1194,6 @@
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/4"/>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1244"/>
-    <cin:name>germano crispim vasconcelos</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1249"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/175"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/11"/>
@@ -1258,7 +1214,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1404"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/126"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/2"/>
-    <cin:name>márcio lopes cornélio</cin:name>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/3"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/486"/>
@@ -1273,7 +1228,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/214"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/216"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1135"/>
-    <cin:name>cristiano coelho de araújo</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1137"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/219"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/175"/>
@@ -1328,7 +1282,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/991"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/993"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/71"/>
-    <cin:name>aluízio fausto ribeiro araújo</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/996"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/90"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/92"/>
@@ -1369,7 +1322,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/344"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1260"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/340"/>
-    <cin:name>hermano perrelli de moura</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1257"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/349"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/346"/>
@@ -1411,7 +1363,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1381"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/465"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1384"/>
-    <cin:name>marcelo bezerra d'amorim</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1385"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/3"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/468"/>
@@ -1421,7 +1372,6 @@
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/11"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/981"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/68"/>
-    <cin:name>alexandre marcos lins de vasconcelos</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/984"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/66"/>
     <cin:siape>9999999</cin:siape>
@@ -1455,12 +1405,11 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1637"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/727"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/726"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1649"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/732"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1642"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1649"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1647"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1636"/>
-    <cin:name>sergio ricardo de melo queiroz</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/725"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/8"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1641"/>
@@ -1510,7 +1459,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/598"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/772"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1700"/>
-    <cin:name>silvio de barros melo</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1688"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/779"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1685"/>
@@ -1546,7 +1494,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/555"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/271"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1462"/>
-    <cin:name>paulo henrique monteiro borba</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1463"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1468"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/545"/>
@@ -1559,7 +1506,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1743"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1746"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1745"/>
-    <cin:name>sóstenes luiz soares lins</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1744"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1739"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1742"/>
@@ -1583,7 +1529,6 @@
     <cin:siape>1766476</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1153"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/236"/>
-    <cin:name>divanilson rodrigo de sousa campelo</cin:name>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/6"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1152"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1154"/>
@@ -1593,7 +1538,6 @@
     <cin:siape>9999999</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1267"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1268"/>
-    <cin:name>ivan gesteira da costa filho</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/353"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/359"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1275"/>
@@ -1628,7 +1572,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1281"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/68"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/366"/>
-    <cin:name>jaelson freire brelaz de castro</cin:name>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
     <cin:siape>1134013</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/61"/>
@@ -1640,7 +1583,6 @@
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/tbl">
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1758"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1760"/>
-    <cin:name>teresa bernarda ludermir</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/72"/>
     <cin:siape>9999999</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1754"/>
@@ -1677,7 +1619,6 @@
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/2"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1166"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/249"/>
-    <cin:name>eduardo antônio guimarães tavares</cin:name>
     <cin:siape>2743538</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1167"/>
     <cin:siape>9999999</cin:siape>
@@ -1690,8 +1631,8 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1173"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/fabio">
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/258"/>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/258"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/259"/>
     <cin:siape>9999999</cin:siape>
     <cin:siape>1170990</cin:siape>
@@ -1703,7 +1644,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1178"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/260"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1177"/>
-    <cin:name>fabio queda bueno da silva</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1176"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/rbcp">
@@ -1714,9 +1654,8 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/630"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1539"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1541"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/305"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/4"/>
-    <cin:name>ricardo bastos cavalcante prudêncio</cin:name>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/305"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1540"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1538"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/332"/>
@@ -1753,7 +1692,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/34"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1127"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1122"/>
-    <cin:name>cleber zanchettin</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1124"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/205"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/40"/>
@@ -1764,7 +1702,6 @@
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/tir">
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/40"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/174"/>
-    <cin:name>tsang ing ren</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1762"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/14"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/849"/>
@@ -1790,9 +1727,8 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/48"/>
     <cin:siape>2330497</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/961"/>
-    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/966"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/46"/>
-    <cin:name>alex sandro gomes</cin:name>
+    <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/966"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/43"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/964"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/10"/>
@@ -1807,7 +1743,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/973"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/977"/>
     <cin:siape>2133438</cin:siape>
-    <cin:name>alexandre cabral mota</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/970"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/969"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/968"/>
@@ -1835,7 +1770,6 @@
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/rdl">
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/29"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1523"/>
-    <cin:name>rafael dueire lins</cin:name>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/4"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1527"/>
@@ -1863,7 +1797,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1406"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1410"/>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
-    <cin:name>nelson souto rosa</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/493"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/192"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/491"/>
@@ -1888,7 +1821,6 @@
     <cin:siape>9999999</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/533"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1450"/>
-    <cin:name>paulo andré da silva gonçalves</cin:name>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/6"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/534"/>
     <cin:siape>1511079</cin:siape>
@@ -1897,7 +1829,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/pmmc">
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/597"/>
-    <cin:name>pedro machado manhães de castro</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/604"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1514"/>
     <cin:siape>1896454</cin:siape>
@@ -1922,9 +1853,8 @@
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/ghuiban">
     <cin:siape>1982874</cin:siape>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
-    <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/5"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/41"/>
-    <cin:name>gurvan nicolas huiban</cin:name>
+    <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/5"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/338"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1256"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1253"/>
@@ -1938,7 +1868,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/cfa">
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/10"/>
-    <cin:name>carina frota alves</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/168"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/11"/>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
@@ -1977,7 +1906,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/291"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1445"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1435"/>
-    <cin:name>patrícia cabral de azevedo restelli tedesco</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1443"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/520"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1446"/>
@@ -2058,9 +1986,8 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1556"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/450"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/662"/>
-    <cin:siape>2227903</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1581"/>
-    <cin:name>ricardo martins de abreu silva</cin:name>
+    <cin:siape>2227903</cin:siape>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/643"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/638"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1550"/>
@@ -2093,7 +2020,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/563"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1480"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1478"/>
-    <cin:name>paulo jorge leitão adeodato</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1481"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/565"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1485"/>
@@ -2121,7 +2047,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/574"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1489"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/137"/>
-    <cin:name>paulo roberto freire cunha</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1490"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/6"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1491"/>
@@ -2153,7 +2078,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/577"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1504"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/590"/>
-    <cin:name>paulo romero martins maciel</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1511"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/587"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1503"/>
@@ -2188,7 +2112,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1075"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/158"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/114"/>
-    <cin:name>bernadette farias lóscio</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/107"/>
     <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1073"/>
@@ -2210,7 +2133,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/502"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/512"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/505"/>
-    <cin:name>odilon maroja da costa pereira filho</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/500"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/510"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1417"/>
@@ -2253,7 +2175,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1529"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/614"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/618"/>
-    <cin:name>renata maria cardoso rodrigues de souza</cin:name>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/5"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1530"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1531"/>
@@ -2298,7 +2219,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/198"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1106"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1113"/>
-    <cin:name>carlos andré guimarães ferraz</cin:name>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/195"/>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/10"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1103"/>
@@ -2334,7 +2254,6 @@
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1590"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1593"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/41"/>
-    <cin:name>ricardo massa ferreira de lima</cin:name>
     <cin:hasAreaExpertise rdf:resource="http://www.cin.ufpe.br/opencin/expertiseArea/7"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/250"/>
     <cin:hasAreaInterest rdf:resource="http://www.cin.ufpe.br/opencin/interestArea/1589"/>

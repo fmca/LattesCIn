@@ -23,7 +23,40 @@ public class Professor {
 	private List<Artigo> artigos;
 	private List<Livro> livros;
 	private List<Capitulo> capitulos;
+	private List<Doutorado> doutorado;
+	private List<Mestrado> mestrado;
+	private List<TG> tg;
 	
+	public List<Doutorado> getDoutorado() {
+		return doutorado;
+	}
+
+
+	public void setDoutorado(List<Doutorado> doutorado) {
+		this.doutorado = doutorado;
+	}
+
+
+	public List<Mestrado> getMestrado() {
+		return mestrado;
+	}
+
+
+	public void setMestrado(List<Mestrado> mestrado) {
+		this.mestrado = mestrado;
+	}
+
+
+	public List<TG> getTg() {
+		return tg;
+	}
+
+
+	public void setTg(List<TG> tg) {
+		this.tg = tg;
+	}
+
+
 	public String getNameCitation() {
 		return nameCitation;
 	}
