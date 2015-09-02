@@ -59,7 +59,10 @@ public class Main {
 		//RDFPublicacao.transformarRDFProfessor(professorID);
 
 		//Gerar RDF publicacao
-		EscritorRDF.transformarRDFPublicacao(professores);
+		//EscritorRDF.transformarRDFPublicacao(professores);
+		
+		//Gerar RDF Orientações
+		EscritorRDF.transformarRDFOrientacoes(professores);
 
 		//Transaformar RDF de Thais (Disciplinas)
 		//ListaProfessor.thaisParaJonatasDisciplinas(new File("thais.xml"));

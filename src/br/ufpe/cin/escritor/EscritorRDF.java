@@ -206,9 +206,6 @@ public class EscritorRDF {
 
 		Model model = ModelFactory.createDefaultModel();
 
-		Property rdfType = model.createProperty(rdf,"type");
-		Property nomeCompleto = model.createProperty(cin, "name");
-
 		//TG
 		Property title = model.createProperty(cin,"title");
 		Property idprofessor = model.createProperty(cin, "idProfessor");
@@ -234,58 +231,58 @@ public class EscritorRDF {
 
 			Professor p = professores.get(doc);
 			Resource rcAtual = model.createResource(p.getProfessorID());
+			if(!p.getProfessorID().equals("")){
+				//doutorado
+				for (int i = 0; i < p.getDoutorado().size() ; i++) {
 
-			//doutorado
-			for (int i = 0; i < p.getDoutorado().size() ; i++) {
+					Resource orientacao = model.createResource(cin+"PhDThesis/"+v)
+							.addProperty(idprofessor, rcAtual)
+							.addProperty(title, p.getDoutorado().get(i).getTitulo())
+							.addProperty(year, p.getDoutorado().get(i).getAno())
+							.addProperty(language, p.getDoutorado().get(i).getIdioma())
+							.addProperty(student, p.getDoutorado().get(i).getNome_orientado())
+							.addProperty(course, p.getDoutorado().get(i).getCurso())
+							.addProperty(supervisionType, p.getMestrado().get(i).getTipo_orientacao())
+							.addProperty(fundingAgency, p.getMestrado().get(i).getAgencia_financiadora())
+							.addProperty(university, p.getDoutorado().get(i).getInstituicao())
+							.addProperty(RDF.type, rcDoutorado);
+					v++;
+				}
 
-				Resource orientacao = model.createResource(cin+"/PhDThesis"+i)
-						.addProperty(idprofessor, rcAtual)
-						.addProperty(title, p.getDoutorado().get(i).getTitulo())
-						.addProperty(year, p.getDoutorado().get(i).getAno())
-						.addProperty(language, p.getDoutorado().get(i).getIdioma())
-						.addProperty(student, p.getDoutorado().get(i).getNome_orientado())
-						.addProperty(course, p.getDoutorado().get(i).getCurso())
-						.addProperty(supervisionType, p.getMestrado().get(i).getTipo_orientacao())
-						.addProperty(fundingAgency, p.getMestrado().get(i).getAgencia_financiadora())
-						.addProperty(university, p.getDoutorado().get(i).getInstituicao())
-						.addProperty(RDF.type, rcDoutorado);
+				//Mestrado
+				for (int i = 0; i < p.getMestrado().size() ; i++) {
+
+					Resource orientacao = model.createResource(cin+"MastersThesis/"+v)
+							.addProperty(idprofessor, rcAtual)
+							.addProperty(title, p.getMestrado().get(i).getTitulo())
+							.addProperty(year, p.getMestrado().get(i).getAno())
+							.addProperty(language, p.getMestrado().get(i).getIdioma())
+							.addProperty(student, p.getMestrado().get(i).getNome_orientado())
+							.addProperty(course, p.getMestrado().get(i).getCurso())
+							.addProperty(masterType, p.getMestrado().get(i).getTipo_mestrado())
+							.addProperty(supervisionType, p.getMestrado().get(i).getTipo_orientacao())
+							.addProperty(fundingAgency, p.getMestrado().get(i).getAgencia_financiadora())
+							.addProperty(university, p.getMestrado().get(i).getInstituicao())
+							.addProperty(RDF.type, rcMestrado);
+					v++;
+				}
+
+				//TG
+				for (int i = 0; i < p.getTg().size() ; i++) {
+
+					Resource orientacao = model.createResource(cin+"DiplomaThesis/"+v)
+							.addProperty(idprofessor, rcAtual)
+							.addProperty(title, p.getTg().get(i).getTitulo())
+							.addProperty(year, p.getTg().get(i).getAno())
+							.addProperty(language, p.getTg().get(i).getIdioma())
+							.addProperty(student, p.getTg().get(i).getNome_orientado())
+							.addProperty(course, p.getTg().get(i).getCurso())
+							.addProperty(university, p.getTg().get(i).getInstituicao())
+							.addProperty(RDF.type, rcTg);
+					v++;
+				}
 
 			}
-
-			//Mestrado
-			for (int i = 0; i < p.getMestrado().size() ; i++) {
-
-				Resource orientacao = model.createResource(cin+"/MastersThesis"+i)
-						.addProperty(idprofessor, rcAtual)
-						.addProperty(title, p.getMestrado().get(i).getTitulo())
-						.addProperty(year, p.getMestrado().get(i).getAno())
-						.addProperty(language, p.getMestrado().get(i).getIdioma())
-						.addProperty(student, p.getMestrado().get(i).getNome_orientado())
-						.addProperty(course, p.getMestrado().get(i).getCurso())
-						.addProperty(masterType, p.getMestrado().get(i).getTipo_mestrado())
-						.addProperty(supervisionType, p.getMestrado().get(i).getTipo_orientacao())
-						.addProperty(fundingAgency, p.getMestrado().get(i).getAgencia_financiadora())
-						.addProperty(university, p.getMestrado().get(i).getInstituicao())
-						.addProperty(RDF.type, rcMestrado);;
-
-			}
-			
-			//TG
-			for (int i = 0; i < p.getTg().size() ; i++) {
-
-				Resource orientacao = model.createResource(cin+"/DiplomaThesis"+i)
-						.addProperty(idprofessor, rcAtual)
-						.addProperty(title, p.getTg().get(i).getTitulo())
-						.addProperty(year, p.getTg().get(i).getAno())
-						.addProperty(language, p.getTg().get(i).getIdioma())
-						.addProperty(student, p.getTg().get(i).getNome_orientado())
-						.addProperty(course, p.getTg().get(i).getCurso())
-						.addProperty(university, p.getTg().get(i).getInstituicao())
-						.addProperty(RDF.type, rcTg);
-
-			}
-
-
 			doc--;
 		}
 

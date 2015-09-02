@@ -414,6 +414,7 @@ public class LeitorXML {
 		professor.setMestrado(listaMestrado);
 		professor.setDoutorado(listaDoutorado);
 		professor.setTg(listaTg);
+		
 
 		return professor;
 
