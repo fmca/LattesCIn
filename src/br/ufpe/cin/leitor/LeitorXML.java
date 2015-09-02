@@ -14,12 +14,7 @@ import org.jdom2.Element;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
 
-import br.ufpe.cin.entidades.Artigo;
-import br.ufpe.cin.entidades.Autor;
-import br.ufpe.cin.entidades.Capitulo;
-import br.ufpe.cin.entidades.Livro;
-import br.ufpe.cin.entidades.PalavrasChave;
-import br.ufpe.cin.entidades.Professor;
+import br.ufpe.cin.entidades.*;
 
 public class LeitorXML {
 
@@ -30,6 +25,9 @@ public class LeitorXML {
 		List<Capitulo> listaCapitulos = new ArrayList<Capitulo>();
 		List<Livro> listaLivros = new ArrayList<Livro>(); //Lista com livros
 		List<Artigo> listaArtigos = new ArrayList<Artigo>(); //lista com os artigos
+		List<Doutorado> listaDoutorado = new ArrayList<Doutorado>();
+		List<Mestrado> listaMestrado = new ArrayList<Mestrado>();
+		List<TG> listaTg = new ArrayList<TG>();
 		Professor professor = new Professor();
 
 		SAXBuilder sb = new SAXBuilder();
@@ -315,14 +313,86 @@ public class LeitorXML {
 							
 							if(orientacaoConcluida.getName().equals("ORIENTACOES-CONCLUIDAS-PARA-MESTRADO")){
 								
+								Mestrado novoMestrado = new Mestrado();
+								List orientacoesMestrado = orientacaoConcluida.getChildren();
+								Iterator iOM = orientacoesMestrado.iterator();
 								
+								while(iOM.hasNext()){
+									
+									Element orientacaoMestrado = (Element) iOM.next();
+									
+									if(orientacaoMestrado.getName().equals("DADOS-BASICOS-DE-ORIENTACOES-CONCLUIDAS-PARA-MESTRADO")){
+										novoMestrado.setTitulo(orientacaoMestrado.getAttributeValue("TITULO"));
+										novoMestrado.setTipo_mestrado(orientacaoMestrado.getAttributeValue("TIPO"));
+										novoMestrado.setAno(orientacaoMestrado.getAttributeValue("ANO"));
+										novoMestrado.setIdioma(orientacaoMestrado.getAttributeValue("IDIOMA"));
+									}
+									if(orientacaoMestrado.getName().equals("DETALHAMENTO-DE-ORIENTACOES-CONCLUIDAS-PARA-MESTRADO")){
+										novoMestrado.setTipo_orientacao(orientacaoMestrado.getAttributeValue("TIPO-DE-ORIENTACAO"));
+										novoMestrado.setInstituicao(orientacaoMestrado.getAttributeValue("NOME-DA-INSTITUICAO"));
+										novoMestrado.setNome_orientado(orientacaoMestrado.getAttributeValue("NOME-DO-ORIENTADO"));
+										novoMestrado.setAgencia_financiadora(orientacaoMestrado.getAttributeValue("NOME-DA-AGENCIA"));
+										novoMestrado.setCurso(orientacaoMestrado.getAttributeValue("NOME-DO-CURSO"));
+									}
+								}
+								
+								listaMestrado.add(novoMestrado);
 								
 							}else if(orientacaoConcluida.getName().equals("ORIENTACOES-CONCLUIDAS-PARA-DOUTORADO")){
 								
+								Doutorado novoDoutorado = new Doutorado();
+								List orientacoesDoutorado = orientacaoConcluida.getChildren();
+								Iterator iOD = orientacoesDoutorado.iterator();
 								
+								while(iOD.hasNext()){
+									
+									Element orientacaoDoutorado = (Element) iOD.next();
+									
+									if(orientacaoDoutorado.getName().equals("DADOS-BASICOS-DE-ORIENTACOES-CONCLUIDAS-PARA-DOUTORADO")){
+										novoDoutorado.setTitulo(orientacaoDoutorado.getAttributeValue("TITULO"));
+										novoDoutorado.setAno(orientacaoDoutorado.getAttributeValue("ANO"));
+										novoDoutorado.setIdioma(orientacaoDoutorado.getAttributeValue("IDIOMA"));
+									}
+									if(orientacaoDoutorado.getName().equals("DETALHAMENTO-DE-ORIENTACOES-CONCLUIDAS-PARA-DOUTORADO")){
+										novoDoutorado.setTipo_orientacao(orientacaoDoutorado.getAttributeValue("TIPO-DE-ORIENTACAO"));
+										novoDoutorado.setInstituicao(orientacaoDoutorado.getAttributeValue("NOME-DA-INSTITUICAO"));
+										novoDoutorado.setNome_orientado(orientacaoDoutorado.getAttributeValue("NOME-DO-ORIENTADO"));
+										novoDoutorado.setAgencia_financiadora(orientacaoDoutorado.getAttributeValue("NOME-DA-AGENCIA"));
+										novoDoutorado.setCurso(orientacaoDoutorado.getAttributeValue("NOME-DO-CURSO"));
+									}
+								}
+								listaDoutorado.add(novoDoutorado);
 								
 							}else if(orientacaoConcluida.getName().equals("OUTRAS-ORIENTACOES-CONCLUIDAS")){
 								
+								TG novoTg = new TG();
+								List orientacoesTg = orientacaoConcluida.getChildren();
+								Iterator iTG = orientacoesTg.iterator();
+								boolean eTG = false;
+								
+								while(iTG.hasNext()){
+									
+									Element orientacaoTg = (Element) iTG.next();
+									
+									if(orientacaoTg.getName().equals("DADOS-BASICOS-DE-OUTRAS-ORIENTACOES-CONCLUIDAS")){
+										
+										if(orientacaoTg.getAttributeValue("NATUREZA").equals("TRABALHO_DE_CONCLUSAO_DE_CURSO_GRADUACAO")){
+											eTG = true;
+											novoTg.setTitulo(orientacaoTg.getAttributeValue("TITULO"));
+											novoTg.setAno(orientacaoTg.getAttributeValue("ANO"));
+											novoTg.setIdioma(orientacaoTg.getAttributeValue("IDIOMA"));
+										}else{
+											eTG = false;
+										}
+										
+									}
+									if(orientacaoTg.getName().equals("DETALHAMENTO-DE-OUTRAS-ORIENTACOES-CONCLUIDAS") && eTG == true){
+										novoTg.setInstituicao(orientacaoTg.getAttributeValue("NOME-DA-INSTITUICAO"));
+										novoTg.setNome_orientado(orientacaoTg.getAttributeValue("NOME-DO-ORIENTADO"));
+										novoTg.setCurso(orientacaoTg.getAttributeValue("NOME-DO-CURSO"));
+										listaTg.add(novoTg);
+									}
+								}
 								
 								
 							}
@@ -341,6 +411,9 @@ public class LeitorXML {
 		professor.setArtigos(listaArtigos);
 		professor.setLivros(listaLivros);
 		professor.setCapitulos(listaCapitulos);
+		professor.setMestrado(listaMestrado);
+		professor.setDoutorado(listaDoutorado);
+		professor.setTg(listaTg);
 
 		return professor;
 
