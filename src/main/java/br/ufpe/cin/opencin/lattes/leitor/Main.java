@@ -39,16 +39,16 @@ public class Main {
 		List<Professor> professores = new ArrayList<Professor>();
 
 		//Pegar lista de professor e respectivo login
-		List<Professor> professorID = LeitorRDFSiteCIn.lerXML(new File("professoresRDF.xml"));
+		List<Professor> professorID = LeitorRDFSiteCIn.lerXML(new File("input/professoresRDF.xml"));
 
 
-		for(int i = 1; i < 2; i++){
-			professores.add(LeitorXMLLattes.lerXML(new File("curriculo-"+i+".xml"), professorID));
+		for(int i = 2; i < 3; i++){
+			professores.add(LeitorXMLLattes.lerXML(new File("input/lattes/curriculo-"+i+".xml"), professorID));
 		}
 
 
-		EscritorRDF.transformarEmRDFProfessor(professores, "professoresLattesRDF.xml");
-		EscritorRDF.transformarRDFPublicacao(professores, "publicacoesLattesRDF.xml");
+		EscritorRDF.transformarEmRDFProfessor(professores, "output/professoresLattesRDF.xml");
+		EscritorRDF.transformarRDFPublicacao(professores, "output/publicacoesLattesRDF.xml");
 		//gerar JSON
 		//JSON.transformarJSON(professores);
 

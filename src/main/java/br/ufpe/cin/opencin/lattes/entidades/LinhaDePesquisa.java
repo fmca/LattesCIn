@@ -1,9 +1,13 @@
 package br.ufpe.cin.opencin.lattes.entidades;
 
-public class InterestArea {
+public class LinhaDePesquisa {
 
 	private String uri;
 	private String name;
+	public LinhaDePesquisa(String name) {
+		this.name = name;
+		
+	}
 
 	public String getUri() {
 		return uri;

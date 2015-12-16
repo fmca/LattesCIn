@@ -2,6 +2,7 @@ package br.ufpe.cin.opencin.lattes.escritor;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.OutputStream;
 import java.util.List;
 
@@ -15,7 +16,7 @@ import br.ufpe.cin.opencin.lattes.entidades.Professor;
 
 public class EscritorRDF {
 
-	public static void transformarEmRDFProfessor(List<Professor> professores, String fileName) throws FileNotFoundException{
+	public static void transformarEmRDFProfessor(List<Professor> professores, String fileName) throws IOException{
 
 		String propriedade = "http://www.cin.ufpe.br/opencin/";
 

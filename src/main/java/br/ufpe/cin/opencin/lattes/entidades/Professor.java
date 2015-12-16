@@ -20,6 +20,7 @@ public class Professor {
 	private String paisNascimento;
 	private String UFNascimento;
 	private String cidadeNascimento;
+	private List<LinhaDePesquisa> linhasDePesquisas;
 	private List<Artigo> artigos;
 	private List<Livro> livros;
 	private List<Capitulo> capitulos;
@@ -259,6 +260,16 @@ public class Professor {
 
 	public void setProfessorID(String professorID) {
 		this.professorID = professorID;
+	}
+
+
+	public List<LinhaDePesquisa> getLinhasDePesquisas() {
+		return linhasDePesquisas;
+	}
+
+
+	public void setLinhasDePesquisas(List<LinhaDePesquisa> linhasDePesquisas) {
+		this.linhasDePesquisas = linhasDePesquisas;
 	}
 	
 

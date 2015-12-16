@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -95,31 +94,6 @@ public class LeitorRDFSiteCIn {
 		return lista;
 	}
 
-	public static String procurarLogin(List<Professor> listaP, String nome){
-
-		nome = LeitorRDFSiteCIn.removeAcentos(nome);
-		for(Professor p:listaP){
-
-			if(LeitorRDFSiteCIn.removeAcentos(p.getNomeCompleto()).equalsIgnoreCase(nome)){
-				//System.out.println(p.getHomepage());
-				return p.getProfessorID();
-			}
-
-		}
-
-		System.out.println(nome);
-		return nome;
-	}
-
-	public static String removeAcentos(String str) {
-
-		  str = Normalizer.normalize(str, Normalizer.Form.NFD);
-		  str = str.replaceAll("[^\\p{ASCII}]", "");
-		  str = str.replaceAll("de", "");
-		  str = str.replaceAll("da", "");
-		  str = str.replaceAll("  ", " ");
-		  return str;
-
-		}
+	
 
 }

@@ -9,4 +9,5 @@ dependencies{
   compile 'com.hp.hpl.jena:jena:2.6.4'
   compile 'org.jdom:jdom2:2.0.6'
   compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.13'
+  compile 'info.debatty:java-string-similarity:0.4'
 }
