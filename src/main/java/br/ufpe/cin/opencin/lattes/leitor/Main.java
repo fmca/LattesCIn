@@ -42,27 +42,16 @@ public class Main {
 		List<Professor> professorID = LeitorRDFSiteCIn.lerXML(new File("input/professoresRDF.xml"));
 
 
-		for(int i = 2; i < 3; i++){
-			professores.add(LeitorXMLLattes.lerXML(new File("input/lattes/curriculo-"+i+".xml"), professorID));
+		File folder = new File("input/lattes");
+		for(File file : folder.listFiles()){
+			professores.add(LeitorXMLLattes.lerXML(file, professorID));
 		}
 
 
 		EscritorRDF.transformarEmRDFProfessor(professores, "output/professoresLattesRDF.xml");
-		EscritorRDF.transformarRDFPublicacao(professores, "output/publicacoesLattesRDF.xml");
-		//gerar JSON
-		//JSON.transformarJSON(professores);
+		EscritorRDF.transformarEmRDFPublicacao(professores, "output/publicacoesLattesRDF.xml");
+		EscritorRDF.transformarRDFOrientacoes(professores, "output/orientacoesLattesRDF.xml");
 
-		//gerar RDF Professor
-		//RDFPublicacao.transformarRDFProfessor(professorID);
-
-		//Gerar RDF publicacao
-		//EscritorRDF.transformarRDFPublicacao(professores);
-
-		//Gerar RDF Orientações
-		//EscritorRDF.transformarRDFOrientacoes(professores);
-
-		//Transaformar RDF de Thais (Disciplinas)
-		//ListaProfessor.thaisParaJonatasDisciplinas(new File("thais.xml"));
 
 		//Main.separaRDFAreaInterest(new File("professoresAreaRDF.xml"));
 
@@ -98,13 +87,13 @@ public class Main {
 		Document doc = sb.build(new InputStreamReader(fs, "UTF8"));
 
 		Namespace ns = Namespace.getNamespace("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
-		Namespace portal = Namespace.getNamespace("portal", "http://www.portalors.org/ontology/portal#");
-		Namespace cinNs = Namespace.getNamespace("cin", "http://www.cin.ufpe.br/propriedades/");
+		//Namespace portal = Namespace.getNamespace("portal", "http://www.portalors.org/ontology/portal#");
+		//Namespace cinNs = Namespace.getNamespace("cin", "http://www.cin.ufpe.br/propriedades/");
 
 		Element root = (Element) doc.getRootElement();
-		List filhos = root.getChildren();
+		List<Element> filhos = root.getChildren();
 
-		Iterator i = filhos.iterator();
+		Iterator<Element> i = filhos.iterator();
 
 		while(i.hasNext()){
 
@@ -112,8 +101,8 @@ public class Main {
 			//String t = elemento.getAttributeValue("about", ns);
 			if(elemento.getAttributeValue("about", ns).startsWith("http://www.cin.ufpe.br/docentes/")){
 
-				List root2 = elemento.getChildren();
-				Iterator i2 = root2.iterator();
+				List<Element> root2 = elemento.getChildren();
+				Iterator<Element> i2 = root2.iterator();
 
 				Resource professor = model.createResource("http://www.cin.ufpe.br/opencin/academic/"+elemento.getAttributeValue("about", ns).substring(32));
 
@@ -145,8 +134,8 @@ public class Main {
 
 			}else if(elemento.getAttributeValue("about", ns).startsWith("#Area-of-expertise/")){
 
-				List root2 = elemento.getChildren();
-				Iterator i2 = root2.iterator();
+				List<Element> root2 = elemento.getChildren();
+				Iterator<Element> i2 = root2.iterator();
 
 				Resource areaInteresse = model2.createResource("http://www.cin.ufpe.br/opencin/expertiseArea/"+elemento.getAttributeValue("about", ns).substring(19));
 

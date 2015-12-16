@@ -2,9 +2,8 @@ package br.ufpe.cin.opencin.lattes.entidades;
 
 import java.util.List;
 
-public class Artigo {
+public class Artigo extends Publicacao{
 
-	private String titulo;
 	private int ano;
 	private String pais;
 	private String idioma;
@@ -17,14 +16,14 @@ public class Artigo {
 	private String pagInicial;
 	private String pagFinal;
 	private String localPublicacao;
-	private List<Autor> autores;
+	
 	private PalavrasChave palavrasChave;
 	private List<AreaConhecimento> areasConhecimento;
 
 
 	public Artigo() {
 		super();
-		this.titulo = "";
+		this.setTitulo("");
 		this.ano = 0;
 		this.pais = "";
 		this.idioma = "";
@@ -37,17 +36,11 @@ public class Artigo {
 		this.pagInicial = "";
 		this.pagFinal = "";
 		this.localPublicacao = "";
-		this.autores = null;
+		this.setAutores(null);
 		this.palavrasChave = new PalavrasChave("", "", "", "", "", "");
 		this.areasConhecimento = null;
 	}
 
-	public String getTitulo() {
-		return titulo;
-	}
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
-	}
 	public int getAno() {
 		return ano;
 	}
@@ -119,12 +112,6 @@ public class Artigo {
 	}
 	public void setLocalPublicacao(String localPublicacao) {
 		this.localPublicacao = localPublicacao;
-	}
-	public List<Autor> getAutores() {
-		return autores;
-	}
-	public void setAutores(List<Autor> autores) {
-		this.autores = autores;
 	}
 	public PalavrasChave getPalavrasChave() {
 		return palavrasChave;

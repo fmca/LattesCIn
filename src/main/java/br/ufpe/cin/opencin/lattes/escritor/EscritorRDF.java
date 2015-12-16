@@ -12,7 +12,9 @@ import com.hp.hpl.jena.rdf.model.Property;
 import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.vocabulary.RDF;
 
+import br.ufpe.cin.opencin.lattes.entidades.Autor;
 import br.ufpe.cin.opencin.lattes.entidades.Professor;
+import br.ufpe.cin.opencin.lattes.util.Utils;
 
 public class EscritorRDF {
 
@@ -49,7 +51,7 @@ public class EscritorRDF {
 					.addProperty(office, professores.get(doc).getOffice())
 					.addProperty(phone, professores.get(doc).getPhone())
 					.addProperty(email, professores.get(doc).getEmail())
-					.addProperty(nameCitation, professores.get(doc).getNomeCitacoes())
+					.addProperty(nameCitation, professores.get(doc).getNomeCitacao())
 					.addProperty(RDF.type, rc);
 
 			//System.out.println(doc);
@@ -62,7 +64,7 @@ public class EscritorRDF {
 
 	}
 
-	public static void transformarRDFPublicacao(List<Professor> professores, String fileName) throws FileNotFoundException{
+	public static void transformarEmRDFPublicacao(List<Professor> professores, String fileName) throws FileNotFoundException{
 
 
 
@@ -79,6 +81,7 @@ public class EscritorRDF {
 		Property issued = model.createProperty(cin,"issued");
 		Property uri = model.createProperty(cin,"uri");
 		Property subject = model.createProperty(cin,"subject");
+		Property author = model.createProperty(cin, "author");
 		Property areasDoConhecimento = model.createProperty(cin,"knowledgeArea");
 		Property meioDeDivulgacao = model.createProperty(cin,"release");
 		Property natureza = model.createProperty(cin,"nature");
@@ -115,8 +118,9 @@ public class EscritorRDF {
 			Resource rcAtual = model.createResource(p.getProfessorID());
 			if(!p.getProfessorID().equals("")){//professor sérgio ainda não está
 				//artigo
+				
 				for (int i = 0; i < p.getArtigos().size(); i++) {
-					model.createResource(cin+"article/"+v)
+					Resource article = model.createResource(cin+"article/"+v)
 							//.addProperty(nomeProfessor, p.getNomeCompleto())
 							.addProperty(idprofessor, rcAtual)
 							.addProperty(title, p.getArtigos().get(i).getTitulo())
@@ -139,6 +143,8 @@ public class EscritorRDF {
 							.addProperty(local, p.getArtigos().get(i).getTituloPeriodicoRevista())
 							.addProperty(RDF.type, rcArtigo);
 					v++;
+					
+					adicionarAutores(author, article, p.getArtigos().get(i).getAutores(), professores);
 
 
 				}
@@ -146,7 +152,7 @@ public class EscritorRDF {
 				//livro
 				for (int i = 0; i < p.getLivros().size(); i++) {
 
-					model.createResource(cin+"book/"+v)
+					Resource livro = model.createResource(cin+"book/"+v)
 							.addProperty(idprofessor, rcAtual)
 							.addProperty(title, p.getLivros().get(i).getTitulo())
 							.addProperty(language, p.getLivros().get(i).getIdioma())
@@ -162,13 +168,15 @@ public class EscritorRDF {
 							.addProperty(edition, "")
 							.addProperty(RDF.type, rcLivro);
 					v++;
+					
+					adicionarAutores(author, livro, p.getLivros().get(i).getAutores(), professores);
 
 				}
 
 				//capitulo
 				for (int i = 0; i < p.getCapitulos().size(); i++) {
 
-					model.createResource(cin+"chapter/"+v)
+					Resource capitulo = model.createResource(cin+"chapter/"+v)
 							.addProperty(idprofessor, rcAtual)
 							.addProperty(title, p.getCapitulos().get(i).getTituloCapitulo())
 							.addProperty(language, p.getCapitulos().get(i).getIdioma())
@@ -184,6 +192,8 @@ public class EscritorRDF {
 							.addProperty(pageEnd, p.getCapitulos().get(i).getPagFinal())
 							.addProperty(RDF.type, rcCapitulo);
 					v++;
+					
+					adicionarAutores(author, capitulo, p.getCapitulos().get(i).getAutores(), professores);
 
 				}
 			}
@@ -291,5 +301,17 @@ public class EscritorRDF {
 		OutputStream output = new FileOutputStream(fileName);
 		model.write(output);
 
+	}
+	
+	
+	private static void adicionarAutores(Property authorProperty, Resource resource, List<Autor> autores, List<Professor> professoresID){
+		for(Autor autor : autores){
+			Professor p = Utils.procurarProfessorPorNome(autor.getNomeCompleto(), professoresID);
+			if(p==null){
+				resource.addProperty(authorProperty, autor.getNomeCompleto());
+			}else{
+				resource.addProperty(authorProperty, resource.getModel().createResource(p.getProfessorID()));
+			}
+		}
 	}
 }
