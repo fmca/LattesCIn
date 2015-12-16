@@ -50,7 +50,6 @@ public class Main {
 
 		EscritorRDF.transformarEmRDFProfessor(professores, "output/professoresLattesRDF.xml");
 		EscritorRDF.transformarEmRDFPublicacao(professores, "output/publicacoesLattesRDF.xml");
-		EscritorRDF.transformarRDFOrientacoes(professores, "output/orientacoesLattesRDF.xml");
 
 
 		//Main.separaRDFAreaInterest(new File("professoresAreaRDF.xml"));

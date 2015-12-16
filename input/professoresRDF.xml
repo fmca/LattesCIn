@@ -66,6 +66,175 @@
     <cin:homepage>www.cin.ufpe.br/~phmb</cin:homepage>
     <cin:phone>+55 81 2126-8430 r: 4323</cin:phone>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/cca2">
+    <cin:academicDegree></cin:academicDegree>
+    <cin:name>Cristiano Coelho de Araújo</cin:name>
+    <cin:email>cca2@cin.ufpe.br</cin:email>
+    <cin:lattes>http://lattes.cnpq.br/9638500605562489</cin:lattes>
+    <cin:office>A011</cin:office>
+    <cin:birthDate></cin:birthDate>
+    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
+    <cin:gender>male</cin:gender>
+    <cin:nameCitation>ARAÚJO, Cristiano Coelho; Araújo, C. C.;</cin:nameCitation>
+    <cin:homepage>www.cin.ufpe.br/~cca2</cin:homepage>
+    <cin:phone>+55 81 2126-8430 r: 4094</cin:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/grec">
+    <cin:academicDegree></cin:academicDegree>
+    <cin:name>Giordano Ribeiro Eulalio Cabral</cin:name>
+    <cin:email>grec@cin.ufpe.br</cin:email>
+    <cin:lattes>http://lattes.cnpq.br/6045470959652684</cin:lattes>
+    <cin:office>C120</cin:office>
+    <cin:birthDate></cin:birthDate>
+    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
+    <cin:gender>male</cin:gender>
+    <cin:nameCitation>CABRAL, G. R. E.;CABRAL, GIORDANO;Cabral, Giordano</cin:nameCitation>
+    <cin:homepage>www.cin.ufpe.br/~grec</cin:homepage>
+    <cin:phone>+55 81 2126-8430 r: 4333</cin:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/hfb">
+    <cin:academicDegree></cin:academicDegree>
+    <cin:name>Hansenclever de França Bassani</cin:name>
+    <cin:email>hfb@cin.ufpe.br</cin:email>
+    <cin:lattes>http://lattes.cnpq.br/1931667959910637</cin:lattes>
+    <cin:office>C110</cin:office>
+    <cin:birthDate></cin:birthDate>
+    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
+    <cin:gender>male</cin:gender>
+    <cin:nameCitation>BASSANI, H. F.;BASSANI, HANSENCLEVER F.;BASSANI, HANSENCLEVER;BASSANI, HANSENCLEVER F;BASSANI, H.F.</cin:nameCitation>
+    <cin:homepage>www.cin.ufpe.br/~hfb</cin:homepage>
+    <cin:phone>+55 81 2126-8430 </cin:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/hemr">
+    <cin:academicDegree></cin:academicDegree>
+    <cin:name>Henrique Emanuel Mostaert Rebêlo</cin:name>
+    <cin:email>hemr@cin.ufpe.br</cin:email>
+    <cin:lattes>http://lattes.cnpq.br/2340616806258461</cin:lattes>
+    <cin:office>A007</cin:office>
+    <cin:birthDate></cin:birthDate>
+    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
+    <cin:gender>male</cin:gender>
+    <cin:nameCitation>REBÊLO, Henrique;REBELO, HENRIQUE</cin:nameCitation>
+    <cin:homepage>www.cin.ufpe.br/~hemr</cin:homepage>
+    <cin:phone>+55 81 2126-8430</cin:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/jmi">
+    <cin:academicDegree></cin:academicDegree>
+    <cin:name>Juliano Manabu Iyoda</cin:name>
+    <cin:email>jmi@cin.ufpe.br</cin:email>
+    <cin:lattes>http://lattes.cnpq.br/0005349558315095</cin:lattes>
+    <cin:office>A113</cin:office>
+    <cin:birthDate></cin:birthDate>
+    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
+    <cin:gender>male</cin:gender>
+    <cin:nameCitation>IYODA, J. M.;IYODA, J;Iyoda, Juliano;IYODA, JULIANO MANABU;IYODA, JULIANO M.</cin:nameCitation>
+    <cin:homepage>www.cin.ufpe.br/~jmi</cin:homepage>
+    <cin:phone>+55 81 2126-8430 r: 4378</cin:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/lma3">
+    <cin:academicDegree></cin:academicDegree>
+    <cin:name>Leandro Maciel Almeida</cin:name>
+    <cin:email>lma3@cin.ufpe.br</cin:email>
+    <cin:lattes>http://lattes.cnpq.br/8513145553846486</cin:lattes>
+    <cin:office>C128</cin:office>
+    <cin:birthDate></cin:birthDate>
+    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
+    <cin:gender>male</cin:gender>
+    <cin:nameCitation>ALMEIDA, Leandro Maciel;ALMEIDA, LEANDRO MACIEL</cin:nameCitation>
+    <cin:homepage>www.cin.ufpe.br/~lma3</cin:homepage>
+    <cin:phone>+55 81 2126-8430 r: 4781</cin:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/lmt">
+    <cin:academicDegree></cin:academicDegree>
+    <cin:name>Leopoldo Motta Teixeira</cin:name>
+    <cin:email>lmt@cin.ufpe.br</cin:email>
+    <cin:lattes>http://lattes.cnpq.br/2117651910340729</cin:lattes>
+    <cin:office>C012</cin:office>
+    <cin:birthDate></cin:birthDate>
+    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
+    <cin:gender>male</cin:gender>
+    <cin:nameCitation>TEIXEIRA, Leopoldo;TEIXEIRA, LEOPOLDO</cin:nameCitation>
+    <cin:homepage>http://www.cin.ufpe.br/~lmt</cin:homepage>
+    <cin:phone>+55 81 2126-8430 r: 4358</cin:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/renatomdm">
+    <cin:academicDegree></cin:academicDegree>
+    <cin:name>Renato Mariz de Moraes</cin:name>
+    <cin:email>renatomdm@cin.ufpe.br</cin:email>
+    <cin:lattes>http://lattes.cnpq.br/7284320756124645</cin:lattes>
+    <cin:office>C004</cin:office>
+    <cin:birthDate></cin:birthDate>
+    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
+    <cin:gender>male</cin:gender>
+    <cin:nameCitation>R. M. de Moraes;De Moraes, R. M.;De Moraes, Renato;DE MORAES, RENATO MARIZ;DE MORAES, R.M.</cin:nameCitation>
+    <cin:homepage>http://www.cin.ufpe.br/~renatomdm</cin:homepage>
+    <cin:phone>+55 81 2126-8430 r: 4348</cin:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/rv2">
+    <cin:academicDegree></cin:academicDegree>
+    <cin:name>Renato Vimieiro</cin:name>
+    <cin:email>rv2@cin.ufpe.br</cin:email>
+    <cin:lattes>http://lattes.cnpq.br/5736183954752317</cin:lattes>
+    <cin:office>B001</cin:office>
+    <cin:birthDate></cin:birthDate>
+    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
+    <cin:gender>male</cin:gender>
+    <cin:nameCitation>VIMIEIRO, R.;VIMIEIRO, RENATO;Vimieiro, Renato</cin:nameCitation>
+    <cin:homepage>http://www.cin.ufpe.br/~rv2</cin:homepage>
+    <cin:phone>+55 81 2126-8430</cin:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/scbs">
+    <cin:academicDegree></cin:academicDegree>
+    <cin:name>Sérgio Castelo Branco Soares</cin:name>
+    <cin:email>scbs@cin.ufpe.br</cin:email>
+    <cin:lattes>http://lattes.cnpq.br/6456667887502521</cin:lattes>
+    <cin:office>A013</cin:office>
+    <cin:birthDate></cin:birthDate>
+    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
+    <cin:gender>male</cin:gender>
+    <cin:nameCitation>Sérgio Soares;Soares, Sérgio;S. C. B Soares;SOARES S. C. B.;Sérgio C. B. Soares;Sergio Soares;Soares, Sergio</cin:nameCitation>
+    <cin:homepage>http://www.cin.ufpe.br/~scbs</cin:homepage>
+    <cin:phone>+55 81 2126-8430 r: 4229</cin:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/sostenes">
+    <cin:academicDegree></cin:academicDegree>
+    <cin:name>Sóstenes Luiz Soares Lins</cin:name>
+    <cin:email>sostenes@cin.ufpe.br</cin:email>
+    <cin:lattes>http://lattes.cnpq.br/1018418114348974</cin:lattes>
+    <cin:office>A009</cin:office>
+    <cin:birthDate></cin:birthDate>
+    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
+    <cin:gender>male</cin:gender>
+    <cin:nameCitation>LINS, S.;LINS, S. L.;Sóstenes L. Lins;LINS, S'STENES;LINS, S;LINS, SÓSTENES;KAUFFMAN, L</cin:nameCitation>
+    <cin:homepage>http://www.cin.ufpe.br/~sostenes</cin:homepage>
+    <cin:phone>+55 81 2126-8430 r:4370</cin:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/vt">
+    <cin:academicDegree></cin:academicDegree>
+    <cin:name>Veronica Teichrieb</cin:name>
+    <cin:email>vt@cin.ufpe.br</cin:email>
+    <cin:lattes>http://lattes.cnpq.br/3355338790654065</cin:lattes>
+    <cin:office>A105</cin:office>
+    <cin:birthDate></cin:birthDate>
+    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
+    <cin:gender>female</cin:gender>
+    <cin:nameCitation>TEICHRIEB, Veronica;Teichrieb, Veronica;Teichrieb, V</cin:nameCitation>
+    <cin:homepage>http://www.cin.ufpe.br/~vt</cin:homepage>
+    <cin:phone>+55 81 2126-8430 r: 4374</cin:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/psgmn">
+    <cin:academicDegree></cin:academicDegree>
+    <cin:name>Paulo Salgado Gomes de Mattos Neto</cin:name>
+    <cin:email>psgmn@cin.ufpe.br</cin:email>
+    <cin:lattes>http://lattes.cnpq.br/4610098557429398</cin:lattes>
+    <cin:office>C106</cin:office>
+    <cin:birthDate></cin:birthDate>
+    <rdf:type rdf:resource="http://www.cin.ufpe.br/opencin/academic"/>
+    <cin:gender>male</cin:gender>
+    <cin:nameCitation>MATTOS, P. S. G.;de Mattos Neto, Paulo S.G.;de M Neto, P.S.G.;de Mattos Neto, P.S.G.;de M. Neto, Paulo S. G.;De Neto, P.S.G.M.;Mattos Neto, P.S.G.;Neto, P.S.G.M.;DE MATTOS NETO, PAULO S. G.;MATTOS NETO, PAULO S. G. DE;NETO, PAULO S. G. DE MATTOSO</cin:nameCitation>
+    <cin:homepage>http://www.cin.ufpe.br/~psgmn</cin:homepage>
+    <cin:phone>+55 81 2126-8430 </cin:phone>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.cin.ufpe.br/opencin/academic/cabm">
     <cin:phone>+55 81 2126-8430 r: 4377</cin:phone>
     <cin:office>A111</cin:office>
