@@ -60,7 +60,7 @@ public class LeitorRDFSiteCIn {
 
 				}else if(elemento2.getName().equals("nameCitation")){
 
-					p.setNameCitation(elemento2.getText());
+					p.setNomeCitacao(elemento2.getText());
 
 				}else if(elemento2.getName().equals("homepage")){
 

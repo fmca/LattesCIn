@@ -3,10 +3,8 @@ package br.ufpe.cin.opencin.lattes.entidades;
 import java.util.List;
 
 
-public class Professor {
+public class Professor extends Autor{
 
-	private String nomeCompleto;
-	private String nameCitation;
 	private String academicDegree;
 	private String birthDate;
 	private String email;
@@ -56,17 +54,6 @@ public class Professor {
 	public void setTg(List<TG> tg) {
 		this.tg = tg;
 	}
-
-
-	public String getNameCitation() {
-		return nameCitation;
-	}
-
-
-	public void setNameCitation(String nameCitation) {
-		this.nameCitation = nameCitation;
-	}
-
 
 	public String getAcademicDegree() {
 		return academicDegree;
@@ -186,9 +173,7 @@ public class Professor {
 	public Professor(String nomeCompleto, String nomeCitacoes,
 			String nacionalidade, String paisNascimento, String uFNascimento,
 			String cidadeNascimento) {
-		super();
-		this.nomeCompleto = nomeCompleto;
-		this.nameCitation = nomeCitacoes;
+		super(nomeCompleto, nomeCitacoes);
 		this.nacionalidade = nacionalidade;
 		this.paisNascimento = paisNascimento;
 		UFNascimento = uFNascimento;
@@ -205,7 +190,7 @@ public class Professor {
 
 	@Override
 	public String toString() {
-		return "Professor [nomeCompleto=" + nomeCompleto + ", nameCitation=" + nameCitation + ", academicDegree="
+		return "Professor [nomeCompleto=" + getNomeCompleto() + ", nameCitation=" + getNomeCitacao() + ", academicDegree="
 				+ academicDegree + ", birthDate=" + birthDate + ", email=" + email + ", gender=" + gender
 				+ ", homepage=" + homepage + ", professorID=" + professorID + ", lattes=" + lattes + ", office="
 				+ office + ", phone=" + phone + ", nacionalidade=" + nacionalidade + ", paisNascimento="
@@ -215,18 +200,6 @@ public class Professor {
 	}
 
 
-	public String getNomeCompleto() {
-		return nomeCompleto;
-	}
-	public void setNomeCompleto(String nomeCompleto) {
-		this.nomeCompleto = nomeCompleto;
-	}
-	public String getNomeCitacoes() {
-		return nameCitation;
-	}
-	public void setNomeCitacoes(String nomeCitacoes) {
-		this.nameCitation = nomeCitacoes;
-	}
 	public String getNacionalidade() {
 		return nacionalidade;
 	}

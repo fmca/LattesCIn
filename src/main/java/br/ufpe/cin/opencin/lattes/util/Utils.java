@@ -21,6 +21,10 @@ public class Utils {
 			}
 
 		}
+		if(melhorSimilaridade < 0.9){
+			melhorMatch = null;
+		}
+		
 		return melhorMatch;
 	}
 }

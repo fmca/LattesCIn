@@ -54,8 +54,7 @@ public class LeitorXMLLattes {
 			if (parte.getName().equals("DADOS-GERAIS")) {
 				String nomeProfessor = parte.getAttributeValue("NOME-COMPLETO");
 				professor = Utils.procurarProfessorPorNome(nomeProfessor, professoresID);
-				System.out.println(professor);
-				professor.setNomeCitacoes(parte.getAttributeValue("NOME-EM-CITACOES-BIBLIOGRAFICAS"));
+				professor.setNomeCitacao(parte.getAttributeValue("NOME-EM-CITACOES-BIBLIOGRAFICAS"));
 				professor.setBirthDate(parte.getAttributeValue("PAIS-DE-NASCIMENTO"));
 				professor.setNacionalidade(parte.getAttributeValue("NACIONALIDADE"));
 				professor.setPaisNascimento(parte.getAttributeValue("PAIS-DE-NASCIMENTO"));
@@ -211,18 +210,18 @@ public class LeitorXMLLattes {
 
 					// Pega a parte de artigos publicados
 					if (producaoBibliografica.getName().equals("ARTIGOS-PUBLICADOS")) {
-						List artigosPublicados = producaoBibliografica.getChildren();
+						List<Element> artigosPublicados = producaoBibliografica.getChildren();
 
-						Iterator iAP = artigosPublicados.iterator();
+						Iterator<Element> iAP = artigosPublicados.iterator();
 
 						while (iAP.hasNext()) {
 							Element artigoPublicado = (Element) iAP.next();
 
 							// pega os atributos do artigo
 							if (artigoPublicado.getName().equals("ARTIGO-PUBLICADO")) {
-								List artigos = artigoPublicado.getChildren();
+								List<Element> artigos = artigoPublicado.getChildren();
 
-								Iterator iArtigo = artigos.iterator();
+								Iterator<Element> iArtigo = artigos.iterator();
 
 								// Cria lista de Autores
 								List<Autor> autores = new ArrayList<Autor>();
@@ -277,18 +276,18 @@ public class LeitorXMLLattes {
 
 					// Pega a parte de artigos publicados
 					if (producaoBibliografica.getName().equals("TRABALHOS-EM-EVENTOS")) {
-						List artigosPublicados = producaoBibliografica.getChildren();
+						List<Element> artigosPublicados = producaoBibliografica.getChildren();
 
-						Iterator iAP = artigosPublicados.iterator();
+						Iterator<Element> iAP = artigosPublicados.iterator();
 
 						while (iAP.hasNext()) {
 							Element artigoPublicado = (Element) iAP.next();
 
 							// pega os atributos do artigo
 							if (artigoPublicado.getName().equals("TRABALHO-EM-EVENTOS")) {
-								List artigos = artigoPublicado.getChildren();
+								List<Element> artigos = artigoPublicado.getChildren();
 
-								Iterator iArtigo = artigos.iterator();
+								Iterator<Element> iArtigo = artigos.iterator();
 
 								// Cria lista de Autores
 								List<Autor> autores = new ArrayList<Autor>();
@@ -333,18 +332,18 @@ public class LeitorXMLLattes {
 
 			} else if (parte.getName().equals("OUTRA-PRODUCAO")) {
 
-				List outrasProducoes = parte.getChildren();
+				List<Element> outrasProducoes = parte.getChildren();
 
-				Iterator iOP = outrasProducoes.iterator();
+				Iterator<Element> iOP = outrasProducoes.iterator();
 
 				while (iOP.hasNext()) {
 					Element outraProducao = (Element) iOP.next();
 
 					if (outraProducao.getName().equals("ORIENTACOES-CONCLUIDAS")) {
 
-						List orientacoesConcluidas = outraProducao.getChildren();
+						List<Element> orientacoesConcluidas = outraProducao.getChildren();
 
-						Iterator iOC = orientacoesConcluidas.iterator();
+						Iterator<Element> iOC = orientacoesConcluidas.iterator();
 
 						while (iOC.hasNext()) {
 
@@ -353,8 +352,8 @@ public class LeitorXMLLattes {
 							if (orientacaoConcluida.getName().equals("ORIENTACOES-CONCLUIDAS-PARA-MESTRADO")) {
 
 								Mestrado novoMestrado = new Mestrado();
-								List orientacoesMestrado = orientacaoConcluida.getChildren();
-								Iterator iOM = orientacoesMestrado.iterator();
+								List<Element> orientacoesMestrado = orientacaoConcluida.getChildren();
+								Iterator<Element> iOM = orientacoesMestrado.iterator();
 
 								while (iOM.hasNext()) {
 
@@ -386,8 +385,8 @@ public class LeitorXMLLattes {
 							} else if (orientacaoConcluida.getName().equals("ORIENTACOES-CONCLUIDAS-PARA-DOUTORADO")) {
 
 								Doutorado novoDoutorado = new Doutorado();
-								List orientacoesDoutorado = orientacaoConcluida.getChildren();
-								Iterator iOD = orientacoesDoutorado.iterator();
+								List<Element> orientacoesDoutorado = orientacaoConcluida.getChildren();
+								Iterator<Element> iOD = orientacoesDoutorado.iterator();
 
 								while (iOD.hasNext()) {
 
@@ -417,8 +416,8 @@ public class LeitorXMLLattes {
 							} else if (orientacaoConcluida.getName().equals("OUTRAS-ORIENTACOES-CONCLUIDAS")) {
 
 								TG novoTg = new TG();
-								List orientacoesTg = orientacaoConcluida.getChildren();
-								Iterator iTG = orientacoesTg.iterator();
+								List<Element> orientacoesTg = orientacaoConcluida.getChildren();
+								Iterator<Element> iTG = orientacoesTg.iterator();
 								boolean eTG = false;
 
 								while (iTG.hasNext()) {
@@ -464,9 +463,7 @@ public class LeitorXMLLattes {
 		professor.setMestrado(listaMestrado);
 		professor.setDoutorado(listaDoutorado);
 		professor.setTg(listaTg);
-
-		System.out.println(professor);
-
+		
 		return professor;
 
 	}

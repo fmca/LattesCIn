@@ -1,8 +1,6 @@
 package br.ufpe.cin.opencin.lattes.entidades;
 
-import java.util.List;
-
-public class Capitulo {
+public class Capitulo extends Publicacao{
 
 	private String tipo;
 	private String tituloCapitulo;
@@ -15,7 +13,6 @@ public class Capitulo {
 	private String isbn;
 	private String organizadores;
 	private String nomeEditora;
-	private List<Autor> autores;
 
 
 	public Capitulo() {
@@ -31,7 +28,7 @@ public class Capitulo {
 		this.isbn = "";
 		this.organizadores = "";
 		this.nomeEditora = "";
-		this.autores = null;
+		this.setAutores(null);
 	}
 
 	public String getTipo() {
@@ -100,13 +97,6 @@ public class Capitulo {
 	public void setNomeEditora(String nomeEditora) {
 		this.nomeEditora = nomeEditora;
 	}
-	public List<Autor> getAutores() {
-		return autores;
-	}
-	public void setAutores(List<Autor> autores) {
-		this.autores = autores;
-	}
-
 
 
 }

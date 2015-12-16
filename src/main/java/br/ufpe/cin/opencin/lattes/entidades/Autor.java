@@ -10,6 +10,10 @@ public class Autor {
 		this.nomeCompleto = nomeCompleto;
 		NomeCitacao = nomeCitacao;
 	}
+	
+	public Autor(){
+		
+	}
 
 	public String getNomeCompleto() {
 		return nomeCompleto;
